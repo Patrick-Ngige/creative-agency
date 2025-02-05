@@ -1,0 +1,21 @@
+.infolio-mailchimp {
+    position: relative;
+
+    &.button-inside {
+        button {
+            color: #000;
+            padding: 15px 0;
+            position: absolute;
+            top: 5px;
+            right: 30px;
+            background: transparent;
+            border: 0;
+
+            svg {
+                fill: #FFFFFF;
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}

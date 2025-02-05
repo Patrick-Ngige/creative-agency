@@ -1,0 +1,299 @@
+.infolio-testimonials-rating {
+    span {
+        display: inline-block;
+    }
+
+    .ml-auto {
+        margin-left: auto;
+    }
+
+    .swiper-container {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+    }
+
+    .infolio-testim-rate-swiper {
+        position: relative;
+        padding: 60px 80px 60px 0;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: -2px;
+            width: 100vw;
+            background: #FFFFFF;
+        }
+    }
+
+    .swiper-slide {
+        padding-top: 50px;
+    }
+
+    .item {
+        .cont {
+            margin-left: 100px;
+        }
+
+        .text {
+            position: relative;
+
+            .quote {
+                color: #1a1a1a;
+            }
+
+            .qout-svg {
+                position: absolute;
+                left: -40px;
+                top: -70px;
+                width: 160px;
+
+                path {
+                    stroke: #1a1a1a;
+                }
+            }
+        }
+
+        .circle {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .rate {
+            color: #14cf93;
+            font-size: 14px;
+
+            i,
+            svg {
+                fill: #14cf93;
+                width: 14px;
+                height: 14px;
+                margin-right: 4px;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .info {
+            border-top: 1px solid rgba(0, 0, 0, 0.14);
+
+            .name {
+                color: #1a1a1a;
+            }
+
+            .position {
+                color: #14CF93;
+            }
+        }
+    }
+
+    .swiper-arrow-control {
+        position: absolute;
+        top: 50%;
+        right: -15px;
+        display: block;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+
+            i,
+            svg {
+                font-size: 14px;
+                fill: #FFFFFF;
+                color: #FFFFFF;
+
+                path {
+                    fill: #FFFFFF;
+                }
+            }
+
+            position: static;
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.01);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            color: inherit;
+
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    .control-abslout {
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        display: block;
+
+        .swiper-button-next {
+            margin: 15px 0 0;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            background: transparent;
+            border: 1px solid rgba(0, 0, 0, .1);
+            backdrop-filter: blur(7px);
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .infolio-testimonials-rating .item .circle {
+        display: none;
+    }
+
+    .infolio-testimonials-rating .item .text .qout-svg {
+        top: -100px;
+        width: 100px;
+        left: 0;
+    }
+    .infolio-testimonials-rating .control-abslout {
+        right: -15px;
+    }
+}
+
+body.tcg-dark-mode {
+    .infolio-testimonials-rating {
+        .infolio-testim-rate-swiper {
+            &:after {
+                background: #1a1a1a;
+            }
+        }
+
+        .item {
+            .text {
+                .quote {
+                    color: #FFFFFF;
+                }
+
+                .qout-svg {
+                    path {
+                        stroke: #FFFFFF;
+                    }
+                }
+            }
+
+            .info {
+                border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+                .name {
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .swiper-arrow-control {
+
+            .swiper-button-prev,
+            .swiper-button-next {
+
+                i,
+                svg {
+                    fill: #FFFFFF;
+                    color: #FFFFFF;
+
+                    path {
+                        fill: #FFFFFF;
+                    }
+                }
+
+                background: rgba(255, 255, 255, 0.01);
+                border-color: rgba(255, 255, 255, 0.05);
+            }
+        }
+
+        .control-abslout {
+
+            .swiper-button-prev,
+            .swiper-button-next {
+                background: transparent;
+                border: 1px solid rgba(255, 255, 255, .1);
+                backdrop-filter: blur(7px);
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-testimonials-rating {
+            .infolio-testim-rate-swiper {
+                &:after {
+                    background: #1a1a1a;
+                }
+            }
+
+            .item {
+                .text {
+                    .quote {
+                        color: #FFFFFF;
+                    }
+
+                    .qout-svg {
+                        path {
+                            stroke: #FFFFFF;
+                        }
+                    }
+                }
+
+                .info {
+                    border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+                    .name {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .swiper-arrow-control {
+
+                .swiper-button-prev,
+                .swiper-button-next {
+
+                    i,
+                    svg {
+                        fill: #FFFFFF;
+                        color: #FFFFFF;
+
+                        path {
+                            fill: #FFFFFF;
+                        }
+                    }
+
+                    background: rgba(255, 255, 255, 0.01);
+                    border-color: rgba(255, 255, 255, 0.05);
+                }
+            }
+
+            .control-abslout {
+
+                .swiper-button-prev,
+                .swiper-button-next {
+                    background: transparent;
+                    border: 1px solid rgba(255, 255, 255, .1);
+                    backdrop-filter: blur(7px);
+                }
+            }
+        }
+    }
+}

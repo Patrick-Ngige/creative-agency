@@ -1,0 +1,220 @@
+.infolio-toggle-tabs {
+    a {
+        display: inline-block;
+    }
+
+    .row.lg-marg {
+        margin-left: -40px !important;
+        margin-right: -40px !important;
+
+        >* {
+            padding-left: 40px !important;
+            padding-right: 40px !important;
+        }
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5) !important;
+        margin-left: calc(var(--bs-gutter-x) * -.5) !important;
+    }
+
+    .rest {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+        }
+    }
+
+    .serv-tab-cont {
+
+        .tab-content {
+            display: none;
+
+            &.current {
+                display: block;
+            }
+        }
+
+        .item {
+            position: relative;
+
+            .img {
+                width: 70%;
+                height: 540px;
+            }
+
+            .cont {
+                background: #f5f7f9;
+                position: absolute;
+                bottom: -80px;
+                left: 20%;
+                right: 0;
+                padding: 80px 40px;
+
+                .text {
+                    color: #777777;
+                }
+
+                .button {
+                    color: #1a1a1a;
+
+                    i,
+                    svg {
+                        color: #1a1a1a;
+                        fill: #1a1a1a;
+                    }
+                }
+            }
+        }
+    }
+
+    .serv-tab-link {
+        .sec-head {
+            .heading {
+                color: #14CF93;
+            }
+
+            .main-heading {
+                color: #1a1a1a;
+            }
+        }
+
+        .desc {
+            color: #777777;
+        }
+
+        padding-top: 40px;
+        width: 100%;
+
+        .item-link {
+            cursor: pointer;
+            color: #1a1a1a;
+
+            span {
+                margin-right: 30px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .infolio-toggle-tabs .serv-tab-cont .item .cont {
+        left: 15px;
+    }
+
+    .infolio-toggle-tabs .serv-tab-cont .item .img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .infolio-toggle-tabs {
+        .row.lg-marg {
+            margin-left: -12px !important;
+            margin-right: -12px !important;
+
+            >* {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+        }
+
+        .serv-tab-cont {
+            margin-bottom: 80px;
+        }
+    }
+}
+
+body.tcg-dark-mode {
+    .infolio-toggle-tabs {
+        .serv-tab-cont {
+            .item {
+                .cont {
+                    background: #1d1d1d;
+
+                    .text {
+                        color: #c6c8c9;
+                    }
+
+                    .button {
+                        color: #FFFFFF;
+
+                        i,
+                        svg {
+                            color: #FFFFFF;
+                            fill: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+
+        .serv-tab-link {
+            .sec-head {
+                .main-heading {
+                    color: #FFFFFF;
+                }
+            }
+
+            .desc {
+                color: #c6c8c9;
+            }
+
+            .item-link {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-toggle-tabs {
+            .serv-tab-cont {
+                .item {
+                    .cont {
+                        background: #1d1d1d;
+
+                        .text {
+                            color: #c6c8c9;
+                        }
+
+                        .button {
+                            color: #FFFFFF;
+
+                            i,
+                            svg {
+                                color: #FFFFFF;
+                                fill: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .serv-tab-link {
+                .sec-head {
+                    .main-heading {
+                        color: #FFFFFF;
+                    }
+                }
+
+                .desc {
+                    color: #c6c8c9;
+                }
+
+                .item-link {
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

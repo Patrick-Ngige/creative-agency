@@ -1,0 +1,239 @@
+.infolio-work-carsouel{
+  .container{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  position: relative;
+  a,span{
+    display: inline-block;
+  }
+  a,a:hover{
+    color: inherit;
+  }
+  .sec-head{
+    margin-bottom: 80px;
+
+    .sub-title{
+      margin-bottom: 25px;
+      color: #14cf93;
+    }
+    h2{
+      color: #1a1a1a;
+      margin: 0;
+      .light-title{
+        font-weight: 200;
+      }
+    }
+    .buttons{
+      margin-left: auto;
+    }
+    .bord {
+      position: relative;
+      padding-right: 30px;
+      padding-top: 25px;
+      border-top: 1px solid rgba(0, 0, 0, 0.14);
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+  .infolio-work-crus{
+
+    &.out{
+      width: 120%;
+      margin-left: -10%;
+    }
+
+    .swiper-slide{
+
+      &:hover{
+
+        .img{
+          img{
+            height: 100%;
+            width: 100%;
+          }
+          .cont{
+
+            span,
+            h5{
+              opacity: 1;
+              transform: translate(0);
+            }
+          }
+        }
+      }
+    }
+
+    .img{
+      position: relative;
+
+      .cont{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+
+        span,
+        h5{
+          background: #FFFFFF;
+          color: #1a1a1a;
+          font-weight: 500;
+          padding: 5px 15px;
+          transform: translateY(10px);
+          opacity: 0;
+          transition: all .4s;
+        }
+
+        h5{
+          transition-delay: .2s;
+        }
+      }
+
+      .plink{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+  }
+
+  .work-controls{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+
+    .swiper-pagination{
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 44;
+
+      span{
+        cursor: pointer;
+      }
+    }
+  }
+  .swiper-arrow-control {
+    display: flex;
+    padding-top: 25px;
+    .swiper-button-next {
+      margin-left: 15px;
+    }
+  }
+  .swiper-arrow-control .swiper-button-prev , .swiper-arrow-control .swiper-button-next {
+    i,svg{
+      font-size: 14px;
+      fill: #1a1a1a;
+      color: #1a1a1a;
+      path{
+        fill: #1a1a1a;
+      }
+    }
+    position: static;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    color: inherit;
+    &::after{
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .infolio-work-carsouel .sec-head .bord{
+    display: block !important;
+    .buttons{
+      margin-top: 15px;
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-work-carsouel{
+    .sec-head{
+      h2{
+        color: #FFFFFF;
+      }
+      .bord {
+        border-color: rgba(255, 255, 255, 0.14);
+        &:after {
+          border-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+    .infolio-work-crus{
+      .img{
+        .cont{
+          span,
+          h5{
+            background: #1a1a1a;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    .swiper-arrow-control .swiper-button-prev , .swiper-arrow-control .swiper-button-next {
+      i,svg{
+        fill: white;
+        color: white;
+        path{
+          fill: white;
+        }
+      }
+      background: rgba(255, 255, 255, 0.01);
+      border-color: rgba(255, 255, 255, 0.05);
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-work-carsouel{
+      .sec-head{
+        h2{
+          color: #FFFFFF;
+        }
+        .bord {
+          border-color: rgba(255, 255, 255, 0.14);
+          &:after {
+            border-color: rgba(255, 255, 255, 0.1);
+          }
+        }
+      }
+      .infolio-work-crus{
+        .img{
+          .cont{
+            span,
+            h5{
+              background: #1a1a1a;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+      .swiper-arrow-control .swiper-button-prev , .swiper-arrow-control .swiper-button-next {
+        i,svg{
+          fill: white;
+          color: white;
+          path{
+            fill: white;
+          }
+        }
+        background: rgba(255, 255, 255, 0.01);
+        border-color: rgba(255, 255, 255, 0.05);
+      }
+    }
+  }
+}

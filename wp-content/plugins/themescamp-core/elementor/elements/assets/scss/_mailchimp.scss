@@ -1,0 +1,84 @@
+.tcg-newsletter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .tcg-position-relative{
+        position: relative;
+    }
+    .tcg-mailchimp {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .tcg-newsletter-input-wrapper {
+        width: 100%;
+    }
+
+    .tcg-newsletter-before-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .tcg-newsletter-before-text {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .tcg-newsletter-after-text {
+        font-size: 16px;
+        color: #333;
+        margin-top: 10px;
+    }
+
+    .tcg-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tcg-button {
+        &.tcg-button-primary {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #005bb5;
+            }
+        }
+
+        .tcg-newsletter-btn-icon {
+            margin-right: 8px;
+        }
+    }
+
+    .tcg-newsletter-checkbox-wrapper input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        border-color: #fff3;
+        border-radius: 0;
+        box-shadow: unset;
+    }
+
+    .tcg-newsletter-checkbox-wrapper label {
+        color: #666;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}

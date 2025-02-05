@@ -1,0 +1,169 @@
+.infolio-blog-classic {
+    .item {
+        .cont {
+            background: #fff;
+            width: 95%;
+            position: relative;
+            z-index: 3;
+
+            a,
+            span {
+                display: inline-block;
+            }
+
+            a,
+            a:hover {
+                color: inherit;
+            }
+
+            .title {
+                color: #1a1a1a;
+            }
+
+            .date-comment {
+                margin-bottom: 15px;
+
+                .post-date {
+                    padding: 7px 15px;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    border-radius: 30px;
+                    font-size: 12px;
+                    color: #1d1d1d;
+                    text-transform: uppercase;
+                    margin-right: 15px;
+                }
+
+                .comment {
+                    color: #1a1a1a;
+
+                    svg {
+                        fill: #1a1a1a;
+                    }
+                }
+            }
+
+            .excerpt {
+                color: #777777;
+                margin: 0;
+            }
+
+            .r-more {
+                color: #1a1a1a;
+
+                svg {
+                    fill: #1a1a1a;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        margin: 0px;
+        margin-top: 30px;
+
+        a {
+            padding: 6px 20px;
+            border-radius: 50px;
+            margin: 3px;
+            background-color: #f5f5f5;
+            color: #181C20;
+            font-weight: 400;
+            display: inline-block;
+
+            &.current-page,
+            &:hover {
+                background-color: var(--color-main);
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+// Dark Mode
+body.tcg-dark-mode {
+    .infolio-blog-classic {
+        .item {
+            .cont {
+                background: #1a1a1a;
+
+                .title {
+                    color: #FFFFFF;
+                }
+
+                .date-comment {
+                    .post-date {
+                        border: 1px solid rgba(255, 255, 255, 0.2);
+                        color: #ddd;
+                    }
+
+                    .comment {
+                        color: #FFFFFF;
+
+                        svg {
+                            fill: #ffffff;
+                        }
+                    }
+                }
+
+                .excerpt {
+                    color: #c6c8c9;
+                    margin: 0;
+                }
+
+                .r-more {
+                    color: #fff;
+
+                    svg {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-blog-classic {
+            .item {
+                .cont {
+                    background: #1a1a1a;
+
+                    .title {
+                        color: #FFFFFF;
+                    }
+
+                    .date-comment {
+                        .post-date {
+                            border: 1px solid rgba(255, 255, 255, 0.2);
+                            color: #ddd;
+                        }
+
+                        .comment {
+                            color: #FFFFFF;
+
+                            svg {
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+
+                    .excerpt {
+                        color: #c6c8c9;
+                        margin: 0;
+                    }
+
+                    .r-more {
+                        color: #fff;
+
+                        svg {
+                            fill: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

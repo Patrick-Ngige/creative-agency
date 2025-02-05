@@ -1,0 +1,260 @@
+.infolio-portfolio-carsouel {
+
+    .swiper-container:not(.swiper-container-initialized)>.swiper-wrapper, .swiper:not(.swiper-initialized)>.swiper-wrapper {
+        overflow: unset;
+    }
+    
+    &.clip-path {
+        clip-path: inset(-100vw -100vw -100vw 0);
+    }
+
+    .sec-head {
+        margin-bottom: 80px;
+
+        .sub-title {
+            margin-bottom: 25px;
+            color: #14cf93;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            margin: 0 0 0.2rem;
+
+            .light-title {
+                font-weight: 200;
+            }
+        }
+
+        .bord {
+            position: relative;
+            padding-right: 30px;
+            border-top: 1px solid rgba(0, 0, 0, 0.14);
+            padding-top: 25px;
+
+            .buttons {
+                margin-left: auto;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 40px;
+                border-right: 1px solid rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        .swiper-arrow-control {
+            display: flex;
+            padding-top: 25px;
+        }
+
+        .swiper-arrow-control .swiper-button-prev,
+        .swiper-arrow-control .swiper-button-next {
+
+            i,
+            svg {
+                font-size: 14px;
+                fill: #1a1a1a;
+                color: #1a1a1a;
+
+                path {
+                    fill: #1a1a1a;
+                }
+            }
+
+            position: static;
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.01);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            color: inherit;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .swiper-button-next {
+            margin-left: 15px;
+        }
+    }
+
+    .different-width {
+        .swiper-slide {
+            width: 45%;
+        }
+
+        .swiper-slide:nth-child(2n) {
+            width: 30%;
+        }
+
+        .swiper-slide:nth-child(3n) {
+            width: 40%;
+        }
+    }
+
+    .swiper-container {
+        overflow: visible;
+    }
+
+    .button {
+        margin-left: auto;
+    }
+
+    .item {
+        .img {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .cont {
+            margin-top: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+
+            h5 {
+                color: #1a1a1a;
+            }
+
+            p {
+                color: #777;
+            }
+        }
+    }
+
+    .infolio-work-swiper-center {
+
+        .item {
+
+            .img {
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .infolio-portfolio-carsouel .sec-head .bord .buttons {
+        margin-top: 15px;
+    }
+
+    .infolio-portfolio-carsouel .sec-head .bord.d-flex {
+        display: block !important;
+    }
+}
+
+body.tcg-dark-mode {
+    .infolio-portfolio-carsouel {
+        .sec-head {
+            h2 {
+                color: #fff;
+            }
+
+            .bord {
+                border-color: rgba(255, 255, 255, 0.14);
+
+                .buttons {
+                    margin-left: auto;
+                }
+
+                &::after {
+                    border-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+
+            .swiper-arrow-control .swiper-button-prev,
+            .swiper-arrow-control .swiper-button-next {
+
+                i,
+                svg {
+                    fill: white;
+                    color: white;
+
+                    path {
+                        fill: white;
+                    }
+                }
+
+                background: rgba(255, 255, 255, 0.01);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+        }
+
+        .item {
+            .cont {
+                border-color: rgba(255, 255, 255, 0.14);
+
+                h5 {
+                    color: #ffffff;
+                }
+
+                p {
+                    color: #c6c8c9;
+                }
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-portfolio-carsouel {
+            .sec-head {
+                h2 {
+                    color: #fff;
+                }
+
+                .bord {
+                    border-color: rgba(255, 255, 255, 0.14);
+
+                    .buttons {
+                        margin-left: auto;
+                    }
+
+                    &::after {
+                        border-color: rgba(255, 255, 255, 0.1);
+                    }
+                }
+
+                .swiper-arrow-control .swiper-button-prev,
+                .swiper-arrow-control .swiper-button-next {
+
+                    i,
+                    svg {
+                        fill: white;
+                        color: white;
+
+                        path {
+                            fill: white;
+                        }
+                    }
+
+                    background: rgba(255, 255, 255, 0.01);
+                    border: 1px solid rgba(255, 255, 255, 0.05);
+                }
+            }
+
+            .item {
+                .cont {
+                    border-color: rgba(255, 255, 255, 0.14);
+
+                    h5 {
+                        color: #ffffff;
+                    }
+
+                    p {
+                        color: #c6c8c9;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.infolio-height-100{
+  height: 100%;
+}
+.infolio-height-400{
+  height: 400px;
+}
+.infolio-relative{
+  position: relative;
+}
+.infolio-index-minus{
+  z-index: -1;
+}
+.infolio-max-content{
+  width: max-content ;
+}
+.infolio-fixed-attachment{
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+}
+.infolio-small-background-size{
+  &::before{
+    background-size: 6px ;
+  }
+}
+.infolio-medium-background-size{
+  &::before{
+    background-size: 10px ;
+  }
+}
+.infolio-writing-mode-rl{
+  writing-mode: vertical-rl;
+}
+.infolio-blur-8{
+  backdrop-filter: blur(8px);
+}
+.infolio-blur-10{
+  backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 992px) {
+  .infolio-header-static{
+    position: static !important;
+    transform: none;
+  }
+}

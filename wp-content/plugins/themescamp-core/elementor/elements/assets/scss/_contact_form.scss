@@ -1,0 +1,89 @@
+.tcg-contact-form {
+    &-wrapper {
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .elementor-form-fields-wrapper {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+
+    &-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .name-field-double {
+        display: flex;
+        gap: 10px;
+    }
+
+    .tcg-field-group {
+        margin-bottom: 15px;
+        
+        .tcg-form-control-checkbox {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 0;
+            list-style: none;
+            font-size: 16px;
+            color: #333;
+            font-weight: normal;
+            cursor: pointer;
+
+            input[type="checkbox"] {
+                margin-inline-end: 10px;
+            }
+
+            & > * {
+                cursor: pointer;
+            }
+        }
+
+        & > label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        & .tcg-input,
+        & textarea,
+        & select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        & textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+    }
+
+    .tcg-button {
+        padding: 10px 20px;
+        background-color: #0073e6;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #005bb5;
+        }
+    }
+}

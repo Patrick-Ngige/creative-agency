@@ -1,0 +1,263 @@
+.infolio-inter-links-center {
+    position: relative;
+    overflow: auto;
+
+    &.horizontal {
+
+        .links-text {
+
+            ul {
+                margin-left: -40px !important;
+                margin-right: -40px !important;
+            }
+
+            li {
+                display: inline-block;
+                padding: 40px;
+
+                .sub-title {
+                    margin-bottom: 10px;
+                }
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 30px;
+
+                    a {
+
+                        .tag {
+                            display: block;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .num {
+                        font-size: 14px;
+                        font-weight: 600;
+                        opacity: .7;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.vertical {
+        display: flex;
+        align-items: end;
+
+        .links-text {
+            transform: rotate(180deg);
+            writing-mode: vertical-rl;
+            position: relative;
+            z-index: 66;
+
+            li {
+                padding: 0 20px;
+            }
+        }
+    }
+
+    .links-text {
+        a {
+            display: inline-block;
+        }
+
+        a,
+        a:hover {
+            color: inherit;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 40px 0;
+            position: relative;
+            z-index: 9;
+
+            &:hover {
+
+                .num {
+                    color: #ddd;
+                }
+
+                .text {
+                    color: #fff;
+                    -webkit-text-stroke-color: transparent;
+                }
+            }
+
+            .text {
+                transition: all .4s;
+                color: transparent;
+                -webkit-text-stroke: 1px #1a1a1a;
+            }
+
+            h2 {
+                font-weight: 700;
+
+                a {
+
+                    .tag {
+                        font-weight: 400;
+                        opacity: .5;
+                    }
+                }
+
+                .num {
+                    color: #1a1a1a;
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 600;
+                    opacity: .7;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    .links-img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        overflow: hidden;
+
+        [data-overlay-dark]:before {
+            background-color: #1d1d1d;
+        }
+
+        .img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transform: scale(1.04, 1.04);
+            transition: all .5s;
+
+            &.current {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .container-xxl {
+        max-width: 1500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .infolio-inter-links-center,
+    .infolio-inter-links-center.vertical {
+        .links-text {
+            li {
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .infolio-inter-links-center.vertical {
+        .links-text {
+            transform: none;
+            writing-mode: horizontal-tb;
+        }
+    }
+}
+
+//dark mode
+body.tcg-dark-mode {
+    .infolio-inter-links-center {
+        .links-text {
+            li {
+                &:hover {
+                    .text {
+                        color: #fff;
+                        -webkit-text-stroke-color: transparent;
+                    }
+                }
+
+                .text {
+                    transition: all .4s;
+                    color: transparent;
+                    -webkit-text-stroke: 1px #fff;
+                }
+
+                h2 {
+                    font-weight: 700;
+
+                    a {
+                        .tag {
+                            font-weight: 400;
+                            opacity: .5;
+                        }
+                    }
+
+                    .num {
+                        color: #fff;
+                        display: block;
+                        font-size: 14px;
+                        font-weight: 600;
+                        opacity: .7;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-inter-links-center {
+            .links-text {
+                li {
+                    &:hover {
+                        .text {
+                            color: #fff;
+                            -webkit-text-stroke-color: transparent;
+                        }
+                    }
+
+                    .text {
+                        transition: all .4s;
+                        color: transparent;
+                        -webkit-text-stroke: 1px #fff;
+                    }
+
+                    h2 {
+                        font-weight: 700;
+
+                        a {
+                            .tag {
+                                font-weight: 400;
+                                opacity: .5;
+                            }
+                        }
+
+                        .num {
+                            color: #fff;
+                            display: block;
+                            font-size: 14px;
+                            font-weight: 600;
+                            opacity: .7;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.infolio-post-categories{
+  .rest{
+    margin: 0;
+    padding: 0;
+    li{
+      display: flex;
+      list-style-type: none;
+      font-size: 15px;
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.02);
+      border-radius: 30px;
+      .count{
+        color: #1a1a1a;
+        margin-left: auto;
+      }
+      .category{
+        color: #1a1a1a;
+      }
+      span{
+        display: inline-block;
+      }
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-post-categories{
+    .rest{
+      li{
+        background: rgba(255, 255, 255, 0.02);
+        .count{
+          color: #FFFFFF;
+        }
+        .category{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-post-categories{
+      .rest{
+        li{
+          background: rgba(255, 255, 255, 0.02);
+          .count{
+            color: #FFFFFF;
+          }
+          .category{
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.tcg-cart {
+    position: relative;
+    display: inline-block;
+    .tcg-icon {
+        background-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 11px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #99999933;
+        line-height: 0;
+
+        .icon {
+            i {
+                font-size: 14px;
+                color: #222222;
+            }
+            svg {
+                width: 14px;
+                height: 14px;
+                fill: #222222;
+            }
+        }
+    
+        &:hover {
+            background-color: #222222;
+            i {
+                color: #fff;
+            }
+            svg {
+                fill: #fff;
+            }
+            .num {
+                background-color: #fff;
+                color: #222;
+            }
+        }
+    
+        .num {
+            position: absolute;
+            display: inline;
+            right: -2px;
+            top: 0px;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.0666666667);
+            transition: all 0.3s ease;
+            background-color: #222222;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// Dark Mode 
+body.tcg-dark-mode {
+
+    .tcg-cart {
+        .tcg-icon {
+            .icon {
+                i {
+                    color: #fff;
+                }
+                svg {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+
+    body.tcg-auto-mode {
+
+        .tcg-cart {
+            .tcg-icon {
+                .icon {
+                    i {
+                        color: #fff;
+                    }
+                    svg {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+
+    }
+}

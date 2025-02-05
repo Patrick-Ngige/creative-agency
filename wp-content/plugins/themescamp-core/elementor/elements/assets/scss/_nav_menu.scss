@@ -1,0 +1,17 @@
+.tcg-builder-menu ul > li {
+list-style:none;
+}
+
+.tcg-nav {
+    .fat-nav {
+        height: 100vh;
+        position: fixed;
+    }
+
+    .hamburger.active {
+        position: fixed;
+        top: 45px;
+        right: 15px;
+        left: unset;
+    }
+}

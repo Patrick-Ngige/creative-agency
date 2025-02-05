@@ -1,0 +1,176 @@
+
+/* -----------------------------------------------------------
+TABLE OF CONTENTS:--                                                                                                        
+--------------------------------------------------------------
+* Helper Section         
+	- text color   
+	- font-weight       
+	- font-size 
+	- line-height
+	- text-transform  
+	- letter-spacing 
+	- Overlay Effect Bg image     
+	- margin-top
+	- margin-bottom 
+	- padding-top
+	- padding-bottom
+	- the spacing
+	- social-media-colors
+* General Section
+	- Typography
+	- To top style
+	- inner page style  
+	- wp post style
+	- Bootstrap Clearfix
+	- Elementor Editor Style
+* Header Section
+* Slider Section
+* Features Section
+* Portfolio Section
+* Team Section
+* Testimonial Section
+* Contact Section
+* Footer Section
+* Blog Section
+	- Sidebar Section
+	- comment section
+* WordPress Style
+* Gutenberg Style
+* Responsive
+
+------------------------------------------------------------*/
+
+@import 'common/_variable.scss';
+
+
+/* ===============================================================
+			[ * Helper Section ] 
+================================================================*/
+
+@import 'common/_helper.scss'; 
+
+
+/* ===============================================================
+			[ * General section ]
+================================================================*/
+
+@import 'common/_general.scss';
+
+
+/* ===============================================================
+			[ * WP Defauult section ]
+================================================================*/
+
+@import 'common/_wp_default.scss'; 
+
+/* ===============================================================
+			[ * Responsive section  ]
+================================================================*/
+
+@import 'common/_responsive.scss';
+
+/* ===============================================================
+			[ * Header section ]
+================================================================*/
+
+@import 'default/_preloader.scss';
+
+/* ===============================================================
+			[ * Side panel section ]
+================================================================*/
+
+@import 'default/_side_panel.scss';
+
+/* ===============================================================
+			[ * 404! section ]
+================================================================*/
+
+@import 'default/_404.scss';
+
+/* ===============================================================
+			[ * Blog section ]  
+================================================================*/
+
+@import 'default/_blog.scss';
+@import 'default/_posts.scss';
+
+@import 'default/_blog_style_1.scss';
+@import 'default/_blog_recent.scss';
+@import 'default/_related_posts.scss';  
+
+@import 'default/_post_style_3.scss';  
+
+/* ===============================================================
+			[ * Sidebar section ]  
+================================================================*/
+
+@import 'default/_sidebar.scss'; 
+
+/* ===============================================================
+			[ * Comments section ] 
+================================================================*/
+
+@import 'default/_comments.scss';
+
+/* ===============================================================
+			[ * top_header section ] 
+================================================================*/
+
+@import 'default/_top_header.scss';
+
+/* ===============================================================
+			[ * Footer Section ]
+================================================================*/
+
+@import 'default/_footer.scss';
+
+/* ===============================================================
+			[ * Mega-menu Section ]
+================================================================*/
+
+@import 'features/_mega_menu.scss';
+
+/* ===============================================================
+			[ * Popup Section ]
+================================================================*/
+@import 'features/_popup.scss';
+
+
+/* ===============================================================
+			[ * Offcanvas Section ]
+================================================================*/
+
+@import 'features/_offcanvas.scss';
+
+/* ===============================================================
+			[ * switcher Section ]
+================================================================*/
+
+@import 'features/_switcher.scss';
+
+/* ===============================================================
+			[ * cursor Section ]
+================================================================*/
+
+@import 'features/_cursor.scss';
+
+/* ===============================================================
+			[ * Animation Section ]
+================================================================*/
+
+@import 'features/_animation.scss';
+
+/* ===============================================================
+			[ * Woo-commerce]
+================================================================*/
+
+@import 'woo/_woo_cart.scss';
+@import 'woo/_woo_products.scss';
+@import 'woo/_woo_widgets.scss';
+@import 'woo/_woo_categories.scss';
+@import 'woo/_woocommerce.scss';
+
+/* ===============================================================
+			[   The End   ]
+================================================================*/
+

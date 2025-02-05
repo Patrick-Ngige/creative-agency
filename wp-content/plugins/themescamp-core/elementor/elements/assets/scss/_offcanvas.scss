@@ -1,0 +1,19 @@
+/*==============================================================
+						Offcanvas
+==============================================================*/
+
+/** ===== OffCanvas ===== **/
+
+.tcg-offcanvas {
+  .offcanvas-toggle {
+    &.toggle-center {
+      margin: auto;
+    }
+    &.toggle-right {
+      margin-left: auto;
+    }
+    &.toggle-left {
+      margin-right: auto;
+    }
+  }
+}

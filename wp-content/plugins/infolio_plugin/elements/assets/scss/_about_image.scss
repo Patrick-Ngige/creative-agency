@@ -1,0 +1,59 @@
+.infolio-about-image{
+  position: relative;
+  .info {
+    padding: 0 60px;
+    margin-top: -30px;
+    p{
+      color: #777;
+      white-space: nowrap;
+    }
+  }
+  .img{
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    overflow: hidden;
+  }
+  .mz-shap {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .infolio-about-image .info {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .infolio-about-image .mz-shap {
+    top: -65px;
+  }
+}
+body.tcg-dark-mode {
+  .infolio-about-image{
+    .info{
+      p{
+        color: #c6c8c9;
+      }
+    }
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-about-image{
+      .info{
+        p{
+          color: #c6c8c9;
+        }
+      }
+    }
+  }
+}

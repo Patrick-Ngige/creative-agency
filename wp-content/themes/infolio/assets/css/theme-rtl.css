@@ -1,0 +1,9 @@
+.cursor-outer {
+    margin-left: -15px;
+}
+
+.mouse-cursor {
+    right: unset;
+    bottom: 0;
+    left: 0;
+}

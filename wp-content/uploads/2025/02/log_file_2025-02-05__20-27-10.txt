@@ -1,0 +1,85 @@
+
+---Downloaded files---
+The import files for: Inner Pages were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://creative.local
+Data file = C:\Users\YOGA 14\Local Sites\creative\app\public/wp-content/uploads/2025/02/demo-content-import-file_2025-02-05__20-27-10.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+https://elements.themescamp.com/docs/infolio/demo-data/elementor/ZIP file downloaded and extracted successfully.
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/after_import---
+

@@ -1,0 +1,36 @@
+.infolio-post-tags{
+  a{
+    display: inline-block;
+    transition: all .4s;
+    background: rgba(0, 0, 0, 0.02);
+    color: #1a1a1a;
+    &:hover{
+      background: #14CF93;
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-post-tags{
+    a{
+      display: inline-block;
+      transition: all .4s;
+      background: rgba(255, 255, 255, 0.02);
+      color: #FFFFFF;
+    }
+  }
+}
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-post-tags{
+      a{
+        display: inline-block;
+        transition: all .4s;
+        background: rgba(255, 255, 255, 0.02);
+        color: #FFFFFF;
+      }
+    }
+  }
+}

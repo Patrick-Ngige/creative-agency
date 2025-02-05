@@ -1,0 +1,53 @@
+.tcg-dynamic-query {
+    .pagination {
+        margin: 0px;
+        margin-top: 30px;
+
+        a {
+            padding: 6px 20px;
+            border-radius: 50px;
+            margin: 3px;
+            background-color: #f5f5f5;
+            color: #181C20;
+            font-weight: 400;
+            display: inline-block;
+
+            &.current-page,
+            &:hover {
+                background-color: var(--color-main);
+                color: #fff;
+            }
+        }
+    }
+
+    .tcg-dynamic-query-filters {
+        margin-bottom: 40px;
+
+        .filter-btn {
+            cursor: pointer;
+            background-color: transparent;
+            border: 0;
+            color: #111;
+            opacity: 0.6;
+            font-size: 16px;
+            text-transform: capitalize;
+            margin-inline-end: 16px;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+    .tcg-dynamic-query-item{
+        position: relative;
+    }
+    .gallery {
+        .tcg-dynamic-query-item {
+            position: relative;
+        }
+    }
+}
+
+.elementor-widget-tcg-dynamic-query {
+    width: 100%;
+}

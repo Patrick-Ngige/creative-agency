@@ -1,0 +1,239 @@
+.infolio-filtering{
+  .link{
+    cursor: pointer;
+    position: relative;
+    &::after{
+      content: '';
+      position: absolute;
+      left: -2px;
+      right: 110%;
+      bottom: -2px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      transition: all .4s;
+    }
+    &.active{
+      &::after{
+        right: -2px;
+      }
+    }
+  }
+}
+.infolio-portfolio-gallery{
+  position: relative;
+  &.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5) !important;
+    margin-left: calc(var(--bs-gutter-x) * -.5) !important;
+    &.sm-marg {
+      margin-left: -5px !important;
+      margin-right: -5px !important;
+      > * {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+    }
+    &.stand-marg {
+      margin-left: -20px !important;
+      margin-right: -20px !important;
+      > * {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+    }
+  }
+  .item{
+    a,a:hover{
+      color: inherit;
+    }
+    a,span{
+      display: inline-block;
+    }
+    .ml-auto{
+      margin-left:auto;
+    }
+    &:hover{
+
+      .img{
+
+        .cont{
+          opacity: 1;
+          transform: translateY(0);
+          &.under{
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .img{
+      position: relative;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .cont{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+        padding: 15px 30px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        transform: translateY(20px);
+        opacity: 0;
+        transition: all .4s;
+        h5{
+          font-size: 20px;
+          color: #1a1a1a;
+        }
+        p{
+          color: #777777;
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+        &.blur{
+          backdrop-filter: blur(30px);
+          h5{
+            color: #fff;
+          }
+          p{
+            color: #dddddd;
+          }
+        }
+        .picon{
+          svg{
+            width: 16px;
+            height: 16px;
+            fill: white;
+          }
+          i{
+            font-size: 16px;
+            color: #1a1a1a;
+          }
+        }
+
+        img{
+          width: 20px;
+        }
+
+        &.d-flex{
+          padding: 25px 30px;
+        }
+        &.under{
+          position: relative;
+          transform: none;
+          opacity: 1;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          transition: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px){
+  .infolio-portfolio-gallery.row.stand-marg{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    > * {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+  .infolio-portfolio-gallery.row.sm-marg{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    > * {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-filtering{
+    .link{
+      &::after{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+  .infolio-portfolio-gallery{
+    .item{
+      .img{
+        .cont{
+          background: #1d1d1d;
+          h5{
+            color: #FFFFFF;
+          }
+          p{
+            color: #c6c8c9;
+          }
+          &.blur{
+            h5{
+              color: #fff;
+            }
+            p{
+              color: #c6c8c9;
+            }
+          }
+          .picon{
+            i{
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-filtering{
+      .link{
+        &::after{
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+    .infolio-portfolio-gallery{
+      .item{
+        .img{
+          .cont{
+            background: #1d1d1d;
+            h5{
+              color: #FFFFFF;
+            }
+            p{
+              color: #c6c8c9;
+            }
+            &.blur{
+              h5{
+                color: #fff;
+              }
+              p{
+                color: #c6c8c9;
+              }
+            }
+            .picon{
+              i{
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

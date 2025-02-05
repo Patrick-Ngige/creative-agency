@@ -1,0 +1,154 @@
+.infolio-interactive-center {
+    text-align: center;
+
+    a {
+        display: inline-block;
+    }
+
+    a,
+    a:hover {
+        color: inherit;
+    }
+
+    .item {
+        .hover-reveal {
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            top: 15vh !important;
+            left: 20vw !important;
+            width: 60vw;
+            height: 70vh;
+            min-width: 600px;
+            min-height: 450px;
+        }
+
+        a {
+            padding: 50px 0;
+
+            &:hover {
+
+                h4 {
+                    color: #fff;
+                    -webkit-text-stroke-color: transparent;
+                }
+
+                p {
+                    color: #ddd;
+                }
+
+                .hover-reveal {
+                    top: 15vh !important;
+                    left: 20vw !important;
+                    width: 60vw;
+                    height: 70vh;
+                    min-width: 600px;
+                    min-height: 450px;
+
+                    .hover-reveal__inner,
+                    .hover-reveal__img {
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                    }
+
+                    .hover-reveal__img {
+                        background-size: cover;
+                        background-position: 50% 50%;
+                        background-position-x: 50%;
+                        background-position-y: 50%;
+                    }
+                }
+            }
+        }
+
+        .cont {
+            position: relative;
+            z-index: 3;
+        }
+
+        h4 {
+            font-size: 70px;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 1px #1a1a1a;
+            transition: all .4s;
+        }
+
+        p {
+            color: #777777;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .infolio-interactive-center .item .hover-reveal {
+        width: 90vw;
+        height: 90vh;
+        left: 5vw !important;
+        top: 5vh !important;
+    }
+
+    .infolio-interactive-center .item a {
+        padding: 20px 0;
+    }
+}
+
+
+//dark mode
+body.tcg-dark-mode {
+    .infolio-interactive-center {
+        .item {
+            a {
+                &:hover {
+                    h4 {
+                        color: #fff;
+                        -webkit-text-stroke-color: transparent;
+                    }
+                }
+            }
+
+            h4 {
+                color: transparent;
+                -webkit-text-stroke: 1px #fff;
+            }
+
+            p {
+                color: #c6c8c9;
+                font-weight: 400;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body.tcg-auto-mode {
+        .infolio-interactive-center {
+            .item {
+                a {
+                    &:hover {
+                        h4 {
+                            color: #fff;
+                            -webkit-text-stroke-color: transparent;
+                        }
+                    }
+                }
+
+                h4 {
+                    color: transparent;
+                    -webkit-text-stroke: 1px #fff;
+                }
+
+                p {
+                    color: #c6c8c9;
+                    font-weight: 400;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

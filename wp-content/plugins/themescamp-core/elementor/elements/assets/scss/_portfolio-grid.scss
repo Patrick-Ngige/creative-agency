@@ -1,0 +1,246 @@
+.tcg-portfolio-adv{
+
+    &.tcg-masonry {
+        .gridss .inner {
+            height: auto;
+        }
+    }
+    
+    .filtering{
+
+		.filter{
+			padding: 11px 15px;
+			border: 1px solid rgba(255,255,255,.1);
+			border-radius: 30px;
+			display: inline-block;
+		}
+
+		span{
+			font-weight: 500;
+			font-size: 13px;
+			margin: 0 20px;
+			cursor: pointer;
+			position: relative;
+            opacity: .7;
+
+			&.active{
+				opacity: 1;
+			}
+
+            &.text{
+                pointer-events: none;
+            }
+		}
+	}
+    
+    .gridss{
+        width: 100%;
+        .info-overlay{
+
+            .item-img{
+                position: relative;
+
+                &:after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #1d1d1d;
+                    opacity: 0;
+                    transition: all .4s;
+                    pointer-events: none;
+                }
+
+                a{
+                    width: 100%;
+                }
+
+                .info{
+                    display: inline-flex;
+                    color: #fff;
+                    position: absolute;
+                    bottom: 40px;
+                    left: 40px;
+                    opacity: 0;
+                    transform: translateY(40px);
+                    transition: all .4s;
+                    z-index: 2;
+                    .icon{
+                        transform : perspective(var(--e-transform-tcg-portfolio-adv-icon-perspective,0)) rotate(var(--e-transform-tcg-portfolio-adv-icon-rotateZ,0)) rotateX(var(--e-transform-tcg-portfolio-adv-icon-rotateX,0)) rotateY(var(--e-transform-tcg-portfolio-adv-icon-rotateY,0)) translate(var(--e-transform-tcg-portfolio-adv-icon-translate,0)) translateX(var(--e-transform-tcg-portfolio-adv-icon-translateX,0)) translateY(var(--e-transform-tcg-portfolio-adv-icon-translateY,0)) scaleX(calc(var(--e-transform-tcg-portfolio-adv-icon-flipX, 1) * var(--e-transform-tcg-portfolio-adv-icon-scaleX, var(--e-transform-tcg-portfolio-adv-icon-scale, 1)))) scaleY(calc(var(--e-transform-tcg-portfolio-adv-icon-flipY, 1) * var(--e-transform-tcg-portfolio-adv-icon-scaleY, var(--e-transform-tcg-portfolio-adv-icon-scale, 1)))) skewX(var(--e-transform-tcg-portfolio-adv-icon-skewX,0)) skewY(var(--e-transform-tcg-portfolio-adv-icon-skewY,0));
+                    }
+                    .title{
+                        transform : perspective(var(--e-transform-tcg-portfolio-adv-title-perspective,0)) rotate(var(--e-transform-tcg-portfolio-adv-title-rotateZ,0)) rotateX(var(--e-transform-tcg-portfolio-adv-title-rotateX,0)) rotateY(var(--e-transform-tcg-portfolio-adv-title-rotateY,0)) translate(var(--e-transform-tcg-portfolio-adv-title-translate,0)) translateX(var(--e-transform-tcg-portfolio-adv-title-translateX,0)) translateY(var(--e-transform-tcg-portfolio-adv-title-translateY,0)) scaleX(calc(var(--e-transform-tcg-portfolio-adv-title-flipX, 1) * var(--e-transform-tcg-portfolio-adv-title-scaleX, var(--e-transform-tcg-portfolio-adv-title-scale, 1)))) scaleY(calc(var(--e-transform-tcg-portfolio-adv-title-flipY, 1) * var(--e-transform-tcg-portfolio-adv-title-scaleY, var(--e-transform-tcg-portfolio-adv-title-scale, 1)))) skewX(var(--e-transform-tcg-portfolio-adv-title-skewX,0)) skewY(var(--e-transform-tcg-portfolio-adv-title-skewY,0));
+                        transform-origin: var(--e-transform-tcg-portfolio-adv-title-origin-y) var(--e-transform-tcg-portfolio-adv-title-origin-x);
+                    }
+                }
+
+                &:hover{
+
+                    &:after{
+                        opacity: .2;
+                    }
+
+                    .info{
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+
+        .inner{
+            height: 400px;
+            .clippy-img{
+                clip-path: polygon(25% 0, 75% 0, 75% 100%, 25% 100%);
+                opacity: 0;
+                transform: rotate(-7deg) scale(1.3);
+                transition: all 1s ease;
+                transition-delay: 0.2s;
+                &.animated {
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                    opacity: 1;
+                    transform: rotate(0) scale(1);
+                    transform : perspective(var(--e-transform-tcg-portfolio-adv-img-perspective,0)) rotate(var(--e-transform-tcg-portfolio-adv-img-rotateZ,0)) rotateX(var(--e-transform-tcg-portfolio-adv-img-rotateX,0)) rotateY(var(--e-transform-tcg-portfolio-adv-img-rotateY,0)) translate(var(--e-transform-tcg-portfolio-adv-img-translate,0)) translateX(var(--e-transform-tcg-portfolio-adv-img-translateX,0)) translateY(var(--e-transform-tcg-portfolio-adv-img-translateY,0)) scaleX(calc(var(--e-transform-tcg-portfolio-adv-img-flipX, 1) * var(--e-transform-tcg-portfolio-adv-img-scaleX, var(--e-transform-tcg-portfolio-adv-img-scale, 1)))) scaleY(calc(var(--e-transform-tcg-portfolio-adv-img-flipY, 1) * var(--e-transform-tcg-portfolio-adv-img-scaleY, var(--e-transform-tcg-portfolio-adv-img-scale, 1)))) skewX(var(--e-transform-tcg-portfolio-adv-img-skewX,0)) skewY(var(--e-transform-tcg-portfolio-adv-img-skewY,0));
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+                transform : perspective(var(--e-transform-tcg-portfolio-adv-img-perspective,0)) rotate(var(--e-transform-tcg-portfolio-adv-img-rotateZ,0)) rotateX(var(--e-transform-tcg-portfolio-adv-img-rotateX,0)) rotateY(var(--e-transform-tcg-portfolio-adv-img-rotateY,0)) translate(var(--e-transform-tcg-portfolio-adv-img-translate,0)) translateX(var(--e-transform-tcg-portfolio-adv-img-translateX,0)) translateY(var(--e-transform-tcg-portfolio-adv-img-translateY,0)) scaleX(calc(var(--e-transform-tcg-portfolio-adv-img-flipX, 1) * var(--e-transform-tcg-portfolio-adv-img-scaleX, var(--e-transform-tcg-portfolio-adv-img-scale, 1)))) scaleY(calc(var(--e-transform-tcg-portfolio-adv-img-flipY, 1) * var(--e-transform-tcg-portfolio-adv-img-scaleY, var(--e-transform-tcg-portfolio-adv-img-scale, 1)))) skewX(var(--e-transform-tcg-portfolio-adv-img-skewX,0)) skewY(var(--e-transform-tcg-portfolio-adv-img-skewY,0));
+            }
+        }
+    }
+
+}
+
+
+.tcg-metro{
+    .gridss{
+        .info-overlay{
+            .item-img{
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+
+                &:hover{
+    
+                    &:after{
+                        opacity: .8;
+                    }
+    
+                    .info{
+                        
+                        h6,
+                        .tag{
+                            transform: translateY(0);
+                            opacity: 1;
+                        }
+    
+                        .tag{
+                            transition-delay: .2s;
+                        }
+                    }
+                }
+
+                &:after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #1d1d1d;
+                    transition: all .4s;
+                    pointer-events: none;
+                    opacity: 0;
+                }
+    
+                .info{
+                    color: #fff !important;
+                    position: absolute;
+                    text-align: center;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    transform: translateY(-50%);
+                    overflow: hidden;
+                    z-index: 2;
+    
+                    h6,
+                    .tag{
+                        transform: translateY(100px);
+                        opacity: 0;
+                        transition: all .6s;
+    
+                        a{
+                            color: #fff !important;
+                        }
+                    }
+    
+                    .tag{
+                        transition-delay: 0;
+                    }
+                }
+
+                a{
+                    height: 100%;
+                    display: inline-block;
+                }
+            }
+        }
+        .inner{
+            height: 100% !important;
+        }
+    }
+    .items:nth-child(1){
+        height: 530px;
+    }
+    .items:nth-child(2){
+        height: 250px;
+    }
+    .items:nth-child(3){
+        height: 530px;
+    }
+    .items:nth-child(4){
+        height: 250px;
+    }
+    .items:nth-child(5){
+        height: 530px;
+    }
+    .items:nth-child(6){
+        height: 250px;
+    }
+    .items:nth-child(7){
+        height: 250px;
+    }
+    .items:nth-child(8){
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tcg-portfolio-adv, .tcg-metro{
+
+        .gallery{
+            justify-content: center !important;
+        }
+        .filtering{
+            .filter{
+                padding: 10px;
+                width: 100%;
+        
+                span{
+                    margin: 0 10px;
+
+                    &.text{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

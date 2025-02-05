@@ -1,0 +1,58 @@
+/* --------------- products style9 --------------- */
+.tcg-products {
+    .product-card{
+        position: relative;
+        margin-top: 60px;
+        .img{
+            height: 310px;
+            border-radius: 10px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+// Dark Mode 
+body.tcg-dark-mode {
+
+    .tcg-products {
+        .product-card{
+            .info{
+                h6{
+                    a{
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+
+    body.tcg-auto-mode {
+        .tcg-products {
+            .product-card{
+                .info{
+                    h6{
+                        a{
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

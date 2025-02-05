@@ -1,0 +1,18 @@
+.tcg-dynamic-tabs {
+    .nav-pills .nav-item {
+        list-style: none;
+
+        .nav-link {
+            background-color: transparent;
+            border: 0;
+            color: #111;
+            opacity: 0.6;
+            font-size: 16px;
+            text-transform: capitalize;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+}

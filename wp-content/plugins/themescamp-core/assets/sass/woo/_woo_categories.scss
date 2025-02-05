@@ -1,0 +1,48 @@
+.tcg-woo-categories {
+    .tcg-cat-card {
+        border-radius: 10px;
+        padding: 50px 20px;
+        margin: 10px;
+        position: relative;
+        display: block;
+        background-color: #fff;
+        transition: all 0.3s ease;
+        text-align: center;
+
+        .tcg-cat-card-img {
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #99999933;
+            margin: 0 auto 30px auto;
+            border-radius: 50% 50% 50% 50%;
+            justify-content: center;
+            height: 140px;
+            width: 140px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            transition: all 0.3s ease;
+
+            img {
+                height: 55px;
+                object-fit: contain;
+            }
+        }
+        .tcg-cat-title {
+            display: block;
+
+            h5 {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.2em;
+            }
+        }
+        p {
+            color: #777777;
+            margin: 0px 0px 0px 0px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.7em;
+        }
+    }
+}

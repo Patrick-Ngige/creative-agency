@@ -1,0 +1,59 @@
+/***************** Mega-menu style *****************/
+li.megamenu {
+  position: static !important;
+}
+
+li.megamenu:hover .infolio-mega-nav-item, .infolio-mega-nav-item:hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(3%,0);
+  pointer-events: auto;
+  /* Add this line */ }
+
+.infolio-mega-nav-item {
+  width: 96vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 50%;
+  left: 50%;
+  margin-inline-start: -49vw;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 11;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(10px);
+  //transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
+  transition-property: transform,opacity,visibility;
+  //left: 2vw;
+  border: 1px solid #dddddd;
+  overflow: hidden;
+}
+.infolio-mega-menu-wrap {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.07);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Dark Mode
+body.tcg-dark-mode {
+  .infolio-mega-nav-item {
+    border-color: #393939;
+  }
+}
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-mega-nav-item {
+      border-color: #393939;
+    }
+  }
+}

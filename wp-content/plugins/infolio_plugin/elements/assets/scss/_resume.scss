@@ -1,0 +1,90 @@
+.infolio-resume{
+  .items{
+    padding-left: 50px;
+    position: relative;
+    a,span{
+      display: inline-block;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: 10px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ccc;
+      z-index: 2;
+    }
+    .date{
+      font-size: 14px;
+      display: inline-block;
+      color: #777777;
+      padding: 7px 20px;
+      border: 1px solid rgba(0,0,0,.1);
+      border-radius: 30px;
+      margin-bottom: 15px;
+    }
+    .title{
+      font-size: 22px;
+      color: #1a1a1a;
+    }
+    .sub-title{
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 12px;
+    }
+    p{
+      color: #777777;
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-resume{
+    .items{
+      &:before{
+        background: #444;
+      }
+      .date{
+        color: #ccc;
+        border: 1px solid rgba(255,255,255,.1);
+      }
+      .title{
+        color: #ffffff;
+      }
+      .sub-title{
+        color: #ffffff;
+      }
+      p{
+        color: #c6c8c9;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-resume{
+      .items{
+        &:before{
+          background: #444;
+        }
+        .date{
+          color: #ccc;
+          border: 1px solid rgba(255,255,255,.1);
+        }
+        .title{
+          color: #ffffff;
+        }
+        .sub-title{
+          color: #ffffff;
+        }
+        p{
+          color: #c6c8c9;
+        }
+      }
+    }
+  }
+}

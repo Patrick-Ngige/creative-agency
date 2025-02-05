@@ -1,0 +1,60 @@
+.infolio-heading-text{
+  &.d-rotate{
+    perspective: 1000px;
+
+    .rotate-text{
+      display: block;
+      transform-style: preserve-3d;
+      transition: all .8s;
+      transform-origin: 50% 0%;
+      transform: translate3d(0px, 50px, -50px) rotateX(-45deg) scale(.95);
+      opacity: 0;
+      transition-delay: .3s;
+    }
+
+    &.animated{
+
+      .rotate-text{
+        transform: translate3d(0px, 0px, 0px) rotateX(0deg) scale(1);
+        opacity: 1;
+      }
+    }
+  }
+  .infolio-heading{
+    margin: 0;
+    position: relative;
+    >a,a:hover{
+      color: inherit;
+    }
+    .styled{
+      display: inline-block;
+    }
+    &.bg-img{
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: cover;
+    }
+    &.infolio-text-no-wrap{
+      white-space: nowrap;
+    }
+    &.inline-block{
+      display: inline-block;
+    }
+  }
+}
+
+.infolio-heading-text{
+
+  span{
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .infolio-heading-text .infolio-heading.infolio-text-breakline br {
+    display: none;
+  }
+  .infolio-heading-text.block-icon a {
+    display: block !important;
+  }
+}

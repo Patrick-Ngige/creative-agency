@@ -1,0 +1,4951 @@
+# Copyright (C) 2024 themesCamp
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Themescamp Framework 2.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/themescamp-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-28T08:32:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: themescamp-core\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Themescamp Framework"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://themescamp.com/potfolio"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Core plugin for ThemesCamp WordPress Themes."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "themesCamp"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://themescamp.com"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/manager/api.php:35
+#: elementor/elements-kit/includes/template-library/editor/server-request/template-library-editor-request.php:33
+msgid "Post not found"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/manager/api.php:42
+#: elementor/elements-kit/includes/template-library/editor/manager/api.php:54
+#: elementor/elements-kit/includes/template-library/editor/server-request/template-library-editor-request.php:40
+#: elementor/elements-kit/includes/template-library/editor/server-request/template-library-editor-request.php:53
+msgid "Template id missing"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/manager/api.php:58
+msgid "required_activated_license"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/server-request/library-source.php:19
+msgid "ElementKit Library"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/server-request/library-source.php:165
+msgid "Template does not have any content"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/tc-template-library-item-import-btn.php:6
+#: elementor/elements-kit/includes/template-library/editor/views/editor/template-library-insert-button.php:8
+msgid "Insert"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/tc-template-library-live-button.php:6
+msgid "Live Preview"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/template-library-error.php:9
+msgid "Template couldn't be loaded. Please activate you license key before."
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/template-library-header-back.php:4
+msgid "Back to Library"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/template-library-header.php:22
+#: elementor/elements/widgets/offcanvas/offcanvas.php:492
+msgid "Close"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/editor/views/editor/template-library-keywords.php:9
+msgid "Any Topic"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:47
+msgid "Template Library"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:100
+msgid "Fail to upload. Try again."
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:140
+msgid "Edit Page"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:140
+#: elementor/elements-kit/includes/template-library/template-library.php:151
+msgid "Edit Template"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:163
+msgid "Fail to upload. Try again"
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-library.php:183
+msgid "This template library will be deprecated soon so please use our brand new template library in your editor (Make sure you activated it from <a href=\"admin.php?page=element_kit_options#element_kit_other_settings\">element kit settings</a>)."
+msgstr ""
+
+#: elementor/elements-kit/includes/template-library/template-parts/demo-template-item.php:33
+msgid "This template need this plugin install and active"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:64
+msgid "TC Blog advanced"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:115
+msgid "Post List"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:121
+msgid "Posts View"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:124
+msgid "Row View"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:125
+msgid "Column View"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:132
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:247
+msgid "Masonry"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:146
+msgid "Separator"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:149
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:164
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:184
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:209
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:221
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:762
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:971
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1026
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:251
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:334
+#: elementor/elements/widgets/nav-menu/nav-menu.php:184
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:180
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:204
+msgid "Yes"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:150
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:165
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:185
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:210
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:222
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:763
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:972
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1027
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:252
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:335
+#: elementor/elements/widgets/nav-menu/nav-menu.php:185
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:181
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:205
+msgid "No"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:161
+msgid "Show Post Image"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:173
+msgid "Posts To Show"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:181
+msgid "Sort post by Category"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:193
+msgid "Category"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:205
+msgid "Always show the same list on every page(not paged)."
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:218
+msgid "Sort post by Tag"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:230
+msgid "Tag"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:242
+msgid "Order By"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:245
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:167
+msgid "Ascending"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:246
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:166
+msgid "Descending"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:255
+msgid "Show Title"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:258
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:270
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:307
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:362
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:374
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:459
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:520
+#: elementor/elements/widgets/nav-menu/nav-menu.php:265
+#: elementor/elements/widgets/nav-menu/nav-menu.php:282
+#: elementor/elements/widgets/post-image/post-image.php:640
+#: elementor/extender/elements-extender.php:337
+#: elementor/extender/elements-extender.php:350
+#: inc/admin/options/1-general.php:531
+#: inc/admin/options/1-general.php:541
+#: inc/admin/options/4-blog.php:40
+#: inc/admin/options/4-blog.php:88
+#: inc/admin/options/4-blog.php:114
+#: inc/admin/options/4-blog.php:134
+#: inc/admin/options/4-blog.php:147
+msgid "Show"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:259
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:271
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:308
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:363
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:375
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:460
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:521
+#: elementor/elements/widgets/nav-menu/nav-menu.php:266
+#: elementor/elements/widgets/nav-menu/nav-menu.php:283
+#: elementor/elements/widgets/post-image/post-image.php:641
+#: elementor/extender/elements-extender.php:338
+#: elementor/extender/elements-extender.php:351
+#: inc/admin/options/1-general.php:532
+#: inc/admin/options/1-general.php:542
+#: inc/admin/options/4-blog.php:41
+#: inc/admin/options/4-blog.php:89
+#: inc/admin/options/4-blog.php:115
+#: inc/admin/options/4-blog.php:135
+#: inc/admin/options/4-blog.php:148
+#: inc/admin/options/5-post.php:54
+msgid "Hide"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:267
+msgid "Show Exerpt"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:279
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:376
+msgid "Blog Excerpt Length"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:292
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:389
+msgid "After Excerpt text/symbol"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:304
+msgid "Show Main Category"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:329
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:428
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:592
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:664
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1035
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1182
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1428
+#: elementor/elements/widgets/contact-form/contact-form.php:668
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1114
+#: elementor/elements/widgets/mailchimp/mailchimp.php:487
+#: elementor/elements/widgets/mailchimp/mailchimp.php:913
+#: elementor/elements/widgets/offcanvas/offcanvas.php:1065
+msgid "Margin"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:341
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:148
+msgid "Columns number"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:344
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:151
+msgid "1 Column"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:345
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:152
+msgid "2 Columns"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:346
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:153
+msgid "3 Columns"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:347
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:154
+msgid "4 Columns"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:359
+msgid "Show date"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:371
+msgid "Show Category & Date Inlined"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:387
+msgid "Separator Type"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:390
+#: elementor/elements/widgets/mailchimp/mailchimp.php:355
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:261
+#: elementor/elements/widgets/post-info/post-info.php:331
+#: elementor/elements/widgets/post-info/post-info.php:594
+#: inc/admin/options/1-general.php:600
+msgid "Icon"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:391
+#: elementor/elements/widgets/contact-form/contact-form.php:213
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:514
+#: elementor/elements/widgets/offcanvas/offcanvas.php:156
+#: elementor/elements/widgets/post-info/post-info.php:642
+msgid "Text"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:403
+msgid "Text Separator"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:405
+msgid " /"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:416
+msgid "Image Separator"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:440
+msgid "Date Type"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:443
+msgid "Time ago"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:444
+msgid "Date-Time"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:445
+msgid "Month Day, Year"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:456
+msgid "Show Author"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:468
+msgid "Author Style"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:471
+#: elementor/elements/widgets/contact-form/contact-form.php:105
+#: elementor/elements/widgets/contact-form/contact-form.php:226
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:946
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1277
+#: elementor/elements/widgets/mailchimp/mailchimp.php:293
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:309
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:632
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:643
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1239
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1296
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1397
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1779
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1799
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1858
+#: elementor/elements/widgets/post-info/post-info.php:75
+#: elementor/elements/widgets/post-info/post-info.php:335
+#: inc/admin/options/5-post.php:39
+#: inc/admin/options/5-post.php:106
+msgid "Default"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:472
+msgid "Style 2"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:485
+msgid "Posted By"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:494
+msgid "Author & Date Position"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:499
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:681
+#: elementor/elements/widgets/mailchimp/mailchimp.php:372
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:824
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1096
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1467
+msgid "Top"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:503
+#: elementor/elements/widgets/mailchimp/mailchimp.php:373
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:828
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1100
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1475
+msgid "Bottom"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:517
+msgid "Read More"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:531
+msgid "Card Style"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:541
+msgid "Display"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:544
+#: elementor/elements/widgets/mailchimp/mailchimp.php:220
+msgid "Column"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:545
+#: elementor/elements/widgets/mailchimp/mailchimp.php:216
+msgid "Row"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:557
+msgid "Post Info Offset"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:604
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1055
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1269
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1416
+#: elementor/elements/widgets/contact-form/contact-form.php:656
+#: elementor/elements/widgets/contact-form/contact-form.php:822
+#: elementor/elements/widgets/contact-form/contact-form.php:958
+#: elementor/elements/widgets/mailchimp/mailchimp.php:475
+#: elementor/elements/widgets/mailchimp/mailchimp.php:649
+#: elementor/elements/widgets/mailchimp/mailchimp.php:724
+#: elementor/elements/widgets/mailchimp/mailchimp.php:901
+msgid "Padding"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:616
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:785
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1083
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1257
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1393
+#: elementor/elements/widgets/contact-form/contact-form.php:636
+#: elementor/elements/widgets/contact-form/contact-form.php:801
+#: elementor/elements/widgets/contact-form/contact-form.php:946
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:588
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1104
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1325
+#: elementor/elements/widgets/mailchimp/mailchimp.php:463
+#: elementor/elements/widgets/mailchimp/mailchimp.php:637
+#: elementor/elements/widgets/mailchimp/mailchimp.php:712
+#: elementor/elements/widgets/mailchimp/mailchimp.php:889
+#: elementor/elements/widgets/nav-menu/nav-menu.php:516
+#: elementor/elements/widgets/nav-menu/nav-menu.php:640
+#: elementor/elements/widgets/nav-menu/nav-menu.php:682
+#: elementor/elements/widgets/nav-menu/nav-menu.php:848
+#: elementor/elements/widgets/offcanvas/offcanvas.php:320
+#: elementor/elements/widgets/offcanvas/offcanvas.php:427
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:593
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:630
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:581
+msgid "Info Padding"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:642
+msgid "Info Margin"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:656
+msgid "Title Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:676
+msgid "Title Position"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:685
+msgid "Down"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:696
+#: elementor/elements/widgets/contact-form/contact-form.php:746
+#: elementor/elements/widgets/contact-form/contact-form.php:899
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:523
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:812
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:997
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:578
+#: elementor/elements/widgets/mailchimp/mailchimp.php:425
+#: elementor/elements/widgets/mailchimp/mailchimp.php:672
+#: elementor/elements/widgets/mailchimp/mailchimp.php:851
+#: elementor/elements/widgets/nav-menu/nav-menu.php:337
+#: elementor/elements/widgets/nav-menu/nav-menu.php:718
+#: elementor/elements/widgets/offcanvas/offcanvas.php:281
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1231
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1675
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1791
+#: elementor/elements/widgets/post-title/post-title.php:214
+#: elementor/extender/container-extender.php:305
+#: elementor/extender/container-extender.php:513
+#: elementor/extender/container-extender.php:959
+#: elementor/extender/elements-extender.php:67
+msgid "Normal"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:702
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:727
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1374
+msgid "Title Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:721
+#: elementor/elements/widgets/contact-form/contact-form.php:972
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:687
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1032
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:727
+#: elementor/elements/widgets/mailchimp/mailchimp.php:517
+#: elementor/elements/widgets/mailchimp/mailchimp.php:781
+#: elementor/elements/widgets/mailchimp/mailchimp.php:944
+#: elementor/elements/widgets/nav-menu/nav-menu.php:553
+#: elementor/elements/widgets/nav-menu/nav-menu.php:798
+#: elementor/elements/widgets/offcanvas/offcanvas.php:388
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1271
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1700
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1833
+#: elementor/extender/container-extender.php:397
+#: elementor/extender/container-extender.php:615
+#: elementor/extender/container-extender.php:978
+#: elementor/extender/elements-extender.php:159
+msgid "Hover"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:751
+msgid "Category Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:759
+msgid "Before Dot"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:774
+#: elementor/elements/widgets/contact-form/contact-form.php:790
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1184
+#: elementor/elements/widgets/mailchimp/mailchimp.php:624
+#: elementor/elements/widgets/mailchimp/mailchimp.php:702
+#: elementor/elements/widgets/offcanvas/offcanvas.php:374
+#: elementor/elements/widgets/offcanvas/offcanvas.php:474
+msgid "Border"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:797
+msgid "Container Padding"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:810
+#: elementor/elements/widgets/nav-menu/nav-menu.php:540
+msgid "Item Padding"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:823
+#: elementor/elements/widgets/contact-form/contact-form.php:868
+#: elementor/elements/widgets/contact-form/contact-form.php:999
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:629
+#: elementor/elements/widgets/mailchimp/mailchimp.php:544
+#: elementor/elements/widgets/mailchimp/mailchimp.php:810
+#: elementor/elements/widgets/mailchimp/mailchimp.php:971
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:680
+msgid "Border Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:834
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1589
+msgid "Category Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:845
+msgid "Category Position"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:850
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1338
+#: elementor/elements/widgets/contact-form/contact-form.php:154
+#: elementor/elements/widgets/contact-form/contact-form.php:183
+#: elementor/elements/widgets/contact-form/contact-form.php:242
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:476
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:508
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1039
+#: elementor/elements/widgets/mailchimp/mailchimp.php:165
+#: elementor/elements/widgets/mailchimp/mailchimp.php:259
+#: elementor/elements/widgets/mailchimp/mailchimp.php:370
+#: elementor/elements/widgets/nav-menu/nav-menu.php:141
+#: elementor/elements/widgets/nav-menu/nav-menu.php:214
+#: elementor/elements/widgets/nav-menu/nav-menu.php:240
+#: elementor/elements/widgets/offcanvas/offcanvas.php:114
+#: elementor/elements/widgets/offcanvas/offcanvas.php:172
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:609
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:720
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:721
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:989
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:990
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1442
+#: elementor/elements/widgets/post-content/post-content.php:53
+#: elementor/elements/widgets/post-title/post-title.php:125
+#: inc/admin/metabox/post.php:61
+#: inc/admin/options/6-sidebar.php:60
+msgid "Left"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:854
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1346
+#: elementor/elements/widgets/contact-form/contact-form.php:162
+#: elementor/elements/widgets/contact-form/contact-form.php:191
+#: elementor/elements/widgets/contact-form/contact-form.php:250
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:484
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:516
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1047
+#: elementor/elements/widgets/mailchimp/mailchimp.php:173
+#: elementor/elements/widgets/mailchimp/mailchimp.php:267
+#: elementor/elements/widgets/mailchimp/mailchimp.php:371
+#: elementor/elements/widgets/nav-menu/nav-menu.php:149
+#: elementor/elements/widgets/nav-menu/nav-menu.php:222
+#: elementor/elements/widgets/nav-menu/nav-menu.php:248
+#: elementor/elements/widgets/offcanvas/offcanvas.php:122
+#: elementor/elements/widgets/offcanvas/offcanvas.php:176
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:617
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:720
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:721
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:989
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:990
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1450
+#: elementor/elements/widgets/post-content/post-content.php:61
+#: elementor/elements/widgets/post-title/post-title.php:133
+#: inc/admin/metabox/post.php:63
+#: inc/admin/options/2-header.php:52
+#: inc/admin/options/6-sidebar.php:62
+msgid "Right"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:870
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:899
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:975
+msgid "Position"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:941
+msgid "Category Background"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:960
+msgid "Date Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:968
+#: elementor/elements/widgets/mailchimp/mailchimp.php:411
+msgid "Before Icon"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:980
+msgid "Date Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:991
+msgid "Date Color (Dark Mode)"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1023
+msgid "With Background"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1071
+msgid "Date Background"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1100
+msgid "Author Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1108
+msgid "Author Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1119
+msgid "Author Color (Dark Mode)"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1131
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1440
+msgid "Posted By Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1142
+msgid "Posted By Color (Dark Mode)"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1164
+msgid "Author Typography"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1174
+msgid "Excerpt Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1194
+msgid "Excerpt Color"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1215
+msgid "Post Image Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1223
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:918
+#: elementor/elements/widgets/post-info/post-info.php:545
+#: elementor/extender/video-widget-extender.php:71
+msgid "Height"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1291
+msgid "Post Content Setting"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1299
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:848
+#: elementor/elements/widgets/mailchimp/mailchimp.php:736
+#: elementor/elements/widgets/nav-menu/nav-menu.php:982
+#: elementor/elements/widgets/offcanvas/offcanvas.php:849
+#: elementor/elements/widgets/post-info/post-info.php:516
+#: elementor/extender/video-widget-extender.php:36
+msgid "Width"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1334
+#: elementor/elements/widgets/mailchimp/mailchimp.php:159
+msgid "Text Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1342
+#: elementor/elements/widgets/contact-form/contact-form.php:158
+#: elementor/elements/widgets/contact-form/contact-form.php:187
+#: elementor/elements/widgets/contact-form/contact-form.php:246
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:480
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:512
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1043
+#: elementor/elements/widgets/mailchimp/mailchimp.php:169
+#: elementor/elements/widgets/mailchimp/mailchimp.php:263
+#: elementor/elements/widgets/nav-menu/nav-menu.php:145
+#: elementor/elements/widgets/nav-menu/nav-menu.php:218
+#: elementor/elements/widgets/nav-menu/nav-menu.php:244
+#: elementor/elements/widgets/offcanvas/offcanvas.php:118
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:429
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:469
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:613
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1446
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1471
+#: elementor/elements/widgets/post-content/post-content.php:57
+#: elementor/elements/widgets/post-info/post-info.php:441
+#: elementor/elements/widgets/post-title/post-title.php:129
+#: inc/admin/options/2-header.php:53
+msgid "Center"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1350
+#: elementor/elements/widgets/contact-form/contact-form.php:254
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:488
+#: elementor/elements/widgets/mailchimp/mailchimp.php:177
+#: elementor/elements/widgets/post-content/post-content.php:65
+#: elementor/elements/widgets/post-title/post-title.php:137
+msgid "Justified"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1367
+#: elementor/elements/widgets/contact-form/contact-form.php:856
+#: elementor/elements/widgets/mailchimp/mailchimp.php:594
+#: elementor/elements/widgets/mailchimp/mailchimp.php:690
+#: elementor/elements/widgets/mailchimp/mailchimp.php:799
+#: elementor/elements/widgets/nav-menu/nav-menu.php:619
+#: elementor/elements/widgets/nav-menu/nav-menu.php:661
+#: elementor/elements/widgets/nav-menu/nav-menu.php:749
+#: elementor/elements/widgets/nav-menu/nav-menu.php:783
+#: elementor/elements/widgets/nav-menu/nav-menu.php:925
+#: elementor/elements/widgets/offcanvas/offcanvas.php:301
+#: elementor/elements/widgets/offcanvas/offcanvas.php:362
+#: elementor/elements/widgets/offcanvas/offcanvas.php:408
+#: elementor/elements/widgets/offcanvas/offcanvas.php:462
+#: elementor/elements/widgets/offcanvas/offcanvas.php:560
+#: elementor/elements/widgets/offcanvas/offcanvas.php:618
+msgid "Background"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1459
+msgid "Separator Padding"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1470
+msgid "Separator Margin"
+msgstr ""
+
+#: elementor/elements/widgets/blog-advanced/blog-advanced.php:1633
+msgid "|"
+msgstr ""
+
+#: elementor/elements/widgets/button-animate/button-animate.php:65
+msgid "TC Button anim"
+msgstr ""
+
+#: elementor/elements/widgets/button-animate/button-animate.php:252
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#. translators: %1$s Code open tag, %2$s: Code close tag.
+#: elementor/elements/widgets/button-animate/button-animate.php:255
+msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows %1$sA-z 0-9%2$s & underscore chars without spaces."
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:25
+#: inc/admin/options/9-extras.php:41
+msgid "Contact Form"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:59
+msgid "Forms Layout"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:66
+#: elementor/elements/widgets/contact-form/contact-form.php:298
+#: elementor/elements/widgets/contact-form/contact-form.php:338
+#: elementor/elements/widgets/contact-form/contact-form.php:377
+#: elementor/elements/widgets/contact-form/contact-form.php:416
+#: elementor/elements/widgets/contact-form/contact-form.php:455
+#: elementor/elements/widgets/contact-form/contact-form.php:682
+msgid "Label"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:75
+#: elementor/elements/widgets/contact-form/contact-form.php:325
+msgid "Contact Number Field"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:83
+#: elementor/elements/widgets/contact-form/contact-form.php:364
+msgid "Subject Field"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:92
+#: elementor/elements/widgets/contact-form/contact-form.php:442
+msgid "Message Field"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:101
+msgid "Input Size"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:106
+#: elementor/elements/widgets/contact-form/contact-form.php:227
+#: elementor/elements/widgets/mailchimp/mailchimp.php:294
+msgid "Small"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:107
+#: elementor/elements/widgets/contact-form/contact-form.php:228
+#: elementor/elements/widgets/mailchimp/mailchimp.php:296
+msgid "Large"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:115
+msgid "Two Columns"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:126
+msgid "Name/Email Field Inline"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:138
+msgid "All Field Inline"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:150
+#: elementor/elements/widgets/contact-form/contact-form.php:237
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:472
+#: elementor/elements/widgets/nav-menu/nav-menu.php:1020
+#: elementor/elements/widgets/post-content/post-content.php:49
+#: elementor/elements/widgets/post-info/post-info.php:433
+#: elementor/elements/widgets/post-title/post-title.php:121
+msgid "Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:178
+msgid "Text Align"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:206
+#: elementor/elements/widgets/contact-form/contact-form.php:889
+msgid "Submit Button"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:215
+msgid "Send Message"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:222
+#: elementor/elements/widgets/offcanvas/offcanvas.php:500
+#: elementor/elements/widgets/post-info/post-info.php:224
+#: elementor/elements/widgets/post-info/post-info.php:618
+msgid "Size"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:229
+msgid "Full Width"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:267
+msgid "Additional Options"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:274
+msgid "Custom Text"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:285
+msgid "Name Field"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:300
+#: elementor/elements/widgets/contact-form/contact-form.php:1266
+msgid "Name*"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:312
+#: elementor/elements/widgets/contact-form/contact-form.php:351
+#: elementor/elements/widgets/contact-form/contact-form.php:390
+#: elementor/elements/widgets/contact-form/contact-form.php:429
+#: elementor/elements/widgets/contact-form/contact-form.php:468
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:314
+#: elementor/elements/widgets/contact-form/contact-form.php:1139
+msgid "Your Name"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:340
+msgid "Contact Number"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:353
+msgid "Your contact number"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:379
+#: elementor/elements/widgets/contact-form/contact-form.php:1320
+msgid "Subject*"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:392
+msgid "Your message subject"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:403
+msgid "Email Field"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:418
+#: elementor/elements/widgets/contact-form/contact-form.php:1284
+msgid "Email*"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:431
+#: elementor/elements/widgets/contact-form/contact-form.php:1169
+msgid "example@email.com"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:457
+#: elementor/elements/widgets/contact-form/contact-form.php:1343
+msgid "Your Message*"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:470
+#: elementor/elements/widgets/contact-form/contact-form.php:1180
+msgid "Your Message Here"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:482
+msgid "Additional Bottom Message"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:490
+msgid "Message"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:492
+msgid "Note: You have to fill-up above all respective field, then click below button for send your message"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:502
+msgid "reCAPTCHA Enable"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:503
+msgid "Make sure you set the invisible reCAPTCHA key in settings."
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:512
+msgid "Hide reCAPTCHA Bagde"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:524
+msgid "Message Rows"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:545
+msgid "Redirect After Submit"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:559
+msgid "Note: Because of security reasons, you can ONLY use your current domain here."
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:570
+msgid "Reset After Submit"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:581
+msgid "Form Style"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:589
+msgid "Field Space"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:612
+msgid "Form Wrapper Style"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:693
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1013
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1062
+msgid "Spacing"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:710
+#: elementor/elements/widgets/contact-form/contact-form.php:753
+#: elementor/elements/widgets/contact-form/contact-form.php:906
+#: elementor/elements/widgets/contact-form/contact-form.php:979
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:539
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1355
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1416
+#: elementor/elements/widgets/mailchimp/mailchimp.php:583
+#: elementor/elements/widgets/mailchimp/mailchimp.php:679
+#: elementor/elements/widgets/mailchimp/mailchimp.php:788
+#: elementor/elements/widgets/post-content/post-content.php:78
+#: elementor/elements/widgets/post-info/post-info.php:668
+#: elementor/elements/widgets/post-title/post-title.php:170
+#: inc/admin/options/1-general.php:205
+msgid "Text Color"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:736
+msgid "Fields"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:765
+#: elementor/elements/widgets/mailchimp/mailchimp.php:572
+msgid "Placeholder Color"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:777
+msgid "Background Color"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:837
+#: elementor/elements/widgets/mailchimp/mailchimp.php:606
+#: elementor/elements/widgets/mailchimp/mailchimp.php:771
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1030
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1079
+#: inc/admin/options/1-general.php:287
+msgid "Typography"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:849
+msgid "Focus"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1014
+#: inc/admin/options/1-general.php:503
+msgid "Animation"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1028
+msgid "Additional Message"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1040
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:820
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:585
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:616
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:734
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:765
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:870
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:901
+#: elementor/elements/widgets/mailchimp/mailchimp.php:432
+#: elementor/elements/widgets/mailchimp/mailchimp.php:524
+#: elementor/elements/widgets/mailchimp/mailchimp.php:858
+#: elementor/elements/widgets/mailchimp/mailchimp.php:951
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1002
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1051
+#: elementor/elements/widgets/nav-menu/nav-menu.php:442
+#: elementor/elements/widgets/nav-menu/nav-menu.php:477
+#: elementor/elements/widgets/nav-menu/nav-menu.php:594
+#: elementor/elements/widgets/nav-menu/nav-menu.php:736
+#: elementor/elements/widgets/nav-menu/nav-menu.php:770
+#: elementor/elements/widgets/nav-menu/nav-menu.php:816
+#: elementor/elements/widgets/nav-menu/nav-menu.php:908
+#: elementor/elements/widgets/offcanvas/offcanvas.php:288
+#: elementor/elements/widgets/offcanvas/offcanvas.php:348
+#: elementor/elements/widgets/offcanvas/offcanvas.php:395
+#: elementor/elements/widgets/offcanvas/offcanvas.php:448
+#: elementor/elements/widgets/offcanvas/offcanvas.php:571
+#: elementor/elements/widgets/offcanvas/offcanvas.php:630
+#: elementor/elements/widgets/post-info/post-info.php:574
+#: elementor/elements/widgets/post-info/post-info.php:602
+msgid "Color"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1149
+msgid "Your Contact Number"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1159
+msgid "Your Message Subject"
+msgstr ""
+
+#: elementor/elements/widgets/contact-form/contact-form.php:1302
+msgid "Contact Number*"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:176
+msgid "Review Text"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:178
+msgid "Reviews"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:187
+msgid "No Reviews Text"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:189
+msgid "No Reviews"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:199
+msgid "Categories/tags Separator"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:211
+#: elementor/elements/widgets/post-info/post-info.php:110
+msgid "Date Format"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:216
+#: elementor/elements/widgets/post-info/post-info.php:115
+msgctxt "Date Format"
+msgid "March 6, 2018 (F j, Y)"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:220
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:302
+#: elementor/elements/widgets/mailchimp/mailchimp.php:298
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:633
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1240
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1297
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1398
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1800
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1859
+#: elementor/elements/widgets/post-info/post-info.php:102
+#: elementor/elements/widgets/post-info/post-info.php:119
+#: elementor/elements/widgets/post-info/post-info.php:156
+#: elementor/elements/widgets/post-info/post-info.php:290
+#: elementor/elements/widgets/post-info/post-info.php:336
+#: inc/admin/metabox/builder.php:54
+#: inc/admin/options/5-post.php:38
+#: inc/admin/options/92-custom.php:12
+#: inc/custom-font.php:13
+msgid "Custom"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:231
+#: elementor/elements/widgets/post-info/post-info.php:130
+msgid "Custom Date Format"
+msgstr ""
+
+#. translators: %s: Allowed data letters (see: http://php.net/manual/en/function.date.php).
+#. translators: %s: Allowed time letters (see: http://php.net/manual/en/function.time.php).
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:240
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:323
+#: elementor/elements/widgets/post-info/post-info.php:139
+#: elementor/elements/widgets/post-info/post-info.php:176
+msgid "Use the letters: %s"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:249
+msgid "Use Days Ago"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:264
+msgid "Days Ago Text"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:266
+msgid "Days ago"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:267
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:349
+msgid "Enter custom text"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:278
+msgid "Days Ago Limit"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:294
+#: elementor/elements/widgets/post-info/post-info.php:148
+msgid "Time Format"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:313
+#: elementor/elements/widgets/post-info/post-info.php:166
+msgid "Custom Time Format"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:332
+msgid "Use Hours Ago"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:346
+msgid "Hours Ago Text"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:348
+msgid "hours ago"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:360
+msgid "Hours Ago Limit"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:401
+#: elementor/elements/widgets/post-info/post-info.php:239
+msgid "Custom Format"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:413
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:415
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1544
+#: elementor/elements/widgets/post-info/post-info.php:251
+#: elementor/elements/widgets/post-info/post-info.php:253
+#: elementor/elements/widgets/post-info/post-info.php:787
+msgid "No Comments"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:426
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:428
+#: elementor/elements/widgets/post-info/post-info.php:264
+#: elementor/elements/widgets/post-info/post-info.php:266
+#: elementor/elements/widgets/post-info/post-info.php:788
+msgid "One Comment"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:439
+#: elementor/elements/widgets/post-info/post-info.php:100
+#: elementor/elements/widgets/post-info/post-info.php:277
+msgid "Comments"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:441
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1546
+#: elementor/elements/widgets/post-info/post-info.php:279
+#: elementor/elements/widgets/post-info/post-info.php:789
+msgid "%s Comments"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:452
+#: elementor/elements/widgets/post-title/post-title.php:101
+msgid "HTML Tag"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:502
+#: elementor/elements/widgets/post-info/post-info.php:305
+msgid "Link"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:558
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:740
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1004
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1039
+#: elementor/elements/widgets/nav-menu/nav-menu.php:576
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:524
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1681
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1706
+#: elementor/extender/container-extender.php:592
+#: elementor/extender/container-extender.php:694
+msgid "Opacity"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:610
+msgid "Heading Blur Method"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:626
+msgid "Blur"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:718
+msgid "Hover Text Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:809
+#: elementor/elements/widgets/post-title/post-title.php:211
+msgid "Blend Mode"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:813
+msgid "Multiply"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:814
+msgid "Screen"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:815
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1610
+msgid "Overlay"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:816
+msgid "Darken"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:817
+msgid "Lighten"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:818
+msgid "Color Dodge"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:819
+msgid "Saturation"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:821
+msgid "Difference"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:822
+msgid "Exclusion"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:823
+msgid "Hue"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:824
+msgid "Luminosity"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:837
+msgid "Image"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:883
+msgid "Max Width"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:940
+msgid "Object Fit"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:947
+msgid "Fill"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:948
+msgid "Cover"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:949
+msgid "Contain"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:961
+msgid "Object Position"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:964
+msgid "Center Center"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:965
+msgid "Center Left"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:966
+msgid "Center Right"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:967
+msgid "Top Center"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:968
+msgid "Top Left"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:969
+msgid "Top Right"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:970
+msgid "Bottom Center"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:971
+msgid "Bottom Left"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:972
+msgid "Bottom Right"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1065
+msgid "Transition Duration"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1083
+#: elementor/elements/widgets/mailchimp/mailchimp.php:824
+msgid "Hover Animation"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1129
+msgid "Price & Reviews Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1140
+msgid "Price Options"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1149
+msgid "Sale Price Typography"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1156
+msgid "Sale Price Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1166
+msgid "Sale Price Margin"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1178
+msgid "Old Price Typography"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1185
+msgid "Old Price Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1195
+msgid "Old Price Margin"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1206
+msgid "Rate Options"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1215
+msgid "Rate Text Typography"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1222
+msgid "Rate Text Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1232
+msgid "Star Icon Size"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1250
+msgid "Star Icon Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1263
+msgid "Tags & Categories Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1273
+msgid "Tags & Categories Display Type"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1278
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:406
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1507
+#: inc/admin/metabox/builder.php:34
+msgid "Block"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1279
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:407
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1508
+msgid "Inline Block"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1290
+msgid "Tags & Categories Padding"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1303
+msgid "Tags & Categories Margin"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1469
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1505
+msgid "%s %s"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-post-meta/dynamic-post-meta.php:1545
+msgid "%s Comment"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:221
+msgid "Tabs"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:231
+msgid "All Items Title"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:243
+msgid "Display Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:246
+msgid "Columns"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:258
+msgid "Query"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:265
+msgid "Source"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:277
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:251
+msgid "Warning"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:278
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:252
+msgid "This option will only affect in <strong>Archive page of Elementor Theme Builder</strong> dynamically."
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:365
+msgid "Pagination"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:415
+msgid "Posts Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:423
+msgid "Space Between Posts (Vertical)"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:458
+msgid "Space Between Posts (Horizontal)"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:496
+msgid "Pagination Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:504
+msgid "Pagination Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:530
+msgid "Pagination Padding"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:542
+msgid "Pagination Margin"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:563
+msgid "Pagination Radius"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:863
+#: elementor/elements/widgets/nav-menu/nav-menu.php:654
+msgid "Active"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1003
+msgid "Tabs Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1011
+msgid "Tabs Padding"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1023
+msgid "Tabs Margin"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1035
+msgid "Tabs Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1176
+#: elementor/elements/widgets/offcanvas/offcanvas.php:339
+#: elementor/elements/widgets/offcanvas/offcanvas.php:439
+#: elementor/elements/widgets/offcanvas/offcanvas.php:609
+msgid "Dark Mode Controls"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1605
+msgid "Overlay Style"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-query/dynamic-query.php:1612
+msgid "Overlay Selectors"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:404
+msgid "Important Note"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:405
+msgid "Add class \"dynamic-slider-content\" to the content you want to hide and display only on the active slide."
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:472
+msgid "Effect Important Note"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:473
+msgid "Only Slide and Cover flow effects are support more than one slide per view."
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:527
+msgid "Loop Important Note"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:528
+msgid "The number of slides must be more than the slides per view."
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1229
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1399
+msgid "Content & Background Important Note"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1230
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1400
+msgid "This Will Override Any Color & Background In The Element"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1247
+#: elementor/elements/widgets/dynamic-slider/dynamic-slider.php:1417
+msgid "Content Color"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-tabs/dynamic-tabs.php:128
+msgid "Tab Title"
+msgstr ""
+
+#: elementor/elements/widgets/dynamic-tabs/dynamic-tabs.php:156
+msgid "Active Tab"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:26
+#: inc/admin/options/9-extras.php:77
+msgid "Mailchimp"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:55
+#: elementor/elements/widgets/nav-menu/nav-menu.php:123
+#: elementor/elements/widgets/post-info/post-info.php:70
+#: inc/admin/options/6-sidebar.php:51
+msgid "Layout"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:62
+msgid "Show Before Icon"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:70
+msgid "Inline Before Icon"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:83
+#: elementor/elements/widgets/post-info/post-info.php:348
+msgid "Choose Icon"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:101
+msgid "Show Name"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:110
+msgid "Name Field Placeholder"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:114
+#: elementor/elements/widgets/mailchimp/mailchimp.php:115
+msgid "Name "
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:125
+msgid "Email Field Placeholder"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:129
+#: elementor/elements/widgets/mailchimp/mailchimp.php:130
+msgid "Email *"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:138
+#: elementor/elements/widgets/mailchimp/mailchimp.php:141
+#: elementor/elements/widgets/mailchimp/mailchimp.php:991
+msgid "Before Text"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:149
+#: elementor/elements/widgets/mailchimp/mailchimp.php:152
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1040
+msgid "After Text"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:202
+msgid "Fullwidth Fields"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:211
+msgid "Fields Direction"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:240
+msgid "Fullwidth Button"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:255
+msgid "Button Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:289
+#: elementor/elements/widgets/nav-menu/nav-menu.php:408
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:437
+#: elementor/elements/widgets/post-info/post-info.php:411
+msgid "Space Between"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:295
+msgid "Medium"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:297
+msgid "Collapse"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:315
+msgid "Custom Gap"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:337
+msgid "Signup Button"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:344
+#: inc/admin/options/2-header.php:243
+msgid "Button Text"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:347
+#: elementor/elements/widgets/mailchimp/mailchimp.php:348
+msgid "SIGNUP"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:366
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:384
+msgid "Icon Spacing"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:564
+msgid "Field"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:614
+msgid "Border Style"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:663
+msgid "Sign Up Button"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:838
+msgid "Signup Button Icon"
+msgstr ""
+
+#: elementor/elements/widgets/mailchimp/mailchimp.php:1175
+msgid "Subscribe"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:45
+msgid "TC Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:93
+msgid "Menu to Display"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:102
+msgid "Select Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:113
+msgid "There are no menus in your site."
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:113
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:127
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:128
+msgid "Vertical"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:129
+msgid "Dropdown"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:137
+msgid "Align"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:153
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:477
+msgid "Stretch"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:167
+msgid "Hover Style"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:170
+#: elementor/elements/widgets/offcanvas/offcanvas.php:152
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:644
+#: elementor/elements/widgets/post-info/post-info.php:334
+#: elementor/elements/widgets/site-logo/site-logo.php:69
+#: elementor/extender/theme-builder-controls.php:72
+#: inc/admin/metabox/post.php:62
+#: inc/admin/options/1-general.php:263
+#: inc/admin/options/5-post.php:144
+#: inc/admin/options/6-sidebar.php:61
+#: inc/mega-menu/menu-walker-edit.php:68
+msgid "None"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:171
+msgid "slide up"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:172
+msgid "Underline"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:181
+msgid "Menu Sticky"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:196
+msgid "Drop Down Type"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:199
+msgid "From Left"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:200
+msgid "From Right"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:210
+msgid "Parent Menu Align"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:236
+msgid "Child Menu Align"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:262
+msgid "Desktop Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:279
+#: elementor/elements/widgets/nav-menu/nav-menu.php:862
+msgid "Mobile Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:296
+msgid "Sticky Background"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:311
+msgid "Main Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:344
+msgid "Horizontal Padding"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:360
+msgid "Vertical Padding"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:376
+msgid "Horizontal Margin"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:392
+msgid "Vertical Margin"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:426
+msgid "Dropdown Arrow Size"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:455
+#: elementor/elements/widgets/nav-menu/nav-menu.php:492
+#: elementor/elements/widgets/nav-menu/nav-menu.php:606
+msgid "Arrow Color"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:468
+#: elementor/elements/widgets/nav-menu/nav-menu.php:761
+#: elementor/elements/widgets/nav-menu/nav-menu.php:899
+msgid "Dark Mode"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:528
+msgid "Item Margin"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:560
+msgid "Underline position (px)"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:703
+msgid "Main Sub-Menu"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:832
+msgid "Top Position (px)"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:874
+msgid "Mobile Icon Color"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:886
+msgid "Mobile Icon Active Color"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:942
+msgid "Top position"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:958
+msgid "Wrapper Padding"
+msgstr ""
+
+#: elementor/elements/widgets/nav-menu/nav-menu.php:973
+#: inc/admin/metabox/builder.php:33
+msgid "Mega Menu"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:30
+msgid "TC Offcanvas"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:63
+#: inc/admin/metabox/main.php:16
+#: inc/admin/options/1-general.php:11
+msgid "General"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:74
+msgid "Select Offcanvas"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:85
+msgid "There are no Offcanvas in your site."
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:85
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Theme Builder</a> to create one."
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:95
+msgid "Select Icon"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:110
+msgid "Toggle Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:134
+msgid "Canvas Animation"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:137
+msgid "Slide Left"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:138
+msgid "Slide Right"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:139
+msgid "Fade"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:148
+#: elementor/elements/widgets/offcanvas/offcanvas.php:168
+msgid "Toggle Side Content"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:211
+msgid "Toggle"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:219
+msgid "Toggle Size"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:239
+msgid "Toggle Height"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:259
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:521
+msgid "Close Container Size"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:540
+msgid "Close Icon Size"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:830
+msgid "Canvas"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:838
+msgid "Overly Color"
+msgstr ""
+
+#: elementor/elements/widgets/offcanvas/offcanvas.php:1049
+msgid "Text Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:61
+msgid "TC Portfolio Advanced"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:111
+msgid "Settings"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:119
+msgid "Item to display"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:128
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:748
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:783
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:839
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:873
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:907
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1018
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1054
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1112
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1147
+msgid "Offset"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:132
+msgid "Number of posts to skip."
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:139
+msgid "Categories Separator"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:163
+msgid "Orders"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:168
+msgid "Random"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:177
+msgid "Sort Portfolio by Portfolio Category"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:189
+msgid "Category to Show"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:201
+msgid "Sort post by Tags"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:213
+msgid "Tags"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:225
+msgid "Show filter"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:228
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:240
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:252
+#: elementor/elements/widgets/post-info/post-info.php:459
+#: elementor/extender/container-extender.php:216
+#: elementor/extender/container-extender.php:275
+#: inc/admin/metabox/main.php:36
+#: inc/admin/options/1-general.php:554
+#: inc/admin/options/1-general.php:566
+#: inc/admin/options/2-header.php:108
+#: inc/admin/options/2-header.php:153
+#: inc/admin/options/2-header.php:163
+#: inc/admin/options/2-header.php:224
+#: inc/admin/options/2-header.php:235
+#: inc/admin/options/91-woocommerce.php:22
+msgid "On"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:229
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:241
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:253
+#: elementor/elements/widgets/post-info/post-info.php:458
+#: elementor/extender/container-extender.php:215
+#: elementor/extender/container-extender.php:276
+#: inc/admin/metabox/main.php:37
+#: inc/admin/options/1-general.php:555
+#: inc/admin/options/1-general.php:567
+#: inc/admin/options/2-header.php:109
+#: inc/admin/options/2-header.php:154
+#: inc/admin/options/2-header.php:164
+#: inc/admin/options/2-header.php:225
+#: inc/admin/options/2-header.php:236
+#: inc/admin/options/5-post.php:107
+#: inc/admin/options/91-woocommerce.php:23
+msgid "Off"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:237
+msgid "Metro Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:249
+msgid "Masonry Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:274
+msgid "Card Styles"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:282
+msgid "Portfolio Widget Padding"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:294
+msgid "Gallery Margin"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:306
+msgid "Card Overflow"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:310
+msgid "Hidden"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:311
+msgid "Visible"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:325
+msgid "Card Margin"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:337
+msgid "Card Padding"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:365
+msgid "Filter Styles"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:374
+msgid "Filter Border"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:382
+msgid "Filter text Color"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:395
+msgid "Portfolio Info"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:402
+msgid "Info Display Type"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:408
+msgid "Flex"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:419
+msgid "Justify Content"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:425
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:465
+#: elementor/elements/widgets/post-info/post-info.php:437
+msgid "Start"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:433
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:473
+#: elementor/elements/widgets/post-info/post-info.php:445
+msgid "End"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:441
+msgid "Space Around"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:445
+msgid "Space Evenly"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:460
+msgid "Align Items"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:491
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:499
+msgid "Wrap"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:495
+msgid "No Wrap"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:514
+msgid "item info Background"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:542
+msgid "Width Adjustment"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:563
+msgid "Height Adjustment"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:605
+msgid "Info Alignment"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:630
+msgid "Outline"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:640
+msgid "Border Type"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:645
+#: elementor/elements/widgets/post-info/post-info.php:473
+msgid "Solid"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:646
+#: elementor/elements/widgets/post-info/post-info.php:474
+msgid "Double"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:647
+#: elementor/elements/widgets/post-info/post-info.php:475
+msgid "Dotted"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:648
+#: elementor/elements/widgets/post-info/post-info.php:476
+msgid "Dashed"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:649
+msgid "Groove"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:659
+msgid "Bullet Width"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:694
+msgid "Bullet Offset"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:726
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:995
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:818
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1090
+msgid "Vertical Orientation"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:917
+msgid "Offset X"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:939
+msgid "Offset Y"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:940
+msgid "Do not leave Offset X empty set it to 0 to apply the style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:968
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:978
+msgid "unset"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:979
+msgid "absolute"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:980
+msgid "relative"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1181
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1193
+msgid "Icon Size (px)"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1216
+msgid "Icon Margin"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1237
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1294
+msgid "Icon Transform"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1247
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1304
+msgid "Icon Translate Y"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1258
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1315
+msgid "Icon Translate X"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1277
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1839
+msgid "Transition"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1331
+msgid "Title Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1384
+msgid "Title Margin"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1395
+msgid "Title Transform"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1405
+msgid "Title Translate Y"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1416
+msgid "Title Translate X"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1427
+msgid "Title Rotate"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1438
+msgid "Transform Origin X"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1463
+msgid "Transform Origin Y"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1489
+msgid "Portfolio Category"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1496
+msgid "Category Wrapper Options"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1503
+msgid "Display Type"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1527
+msgid "Category Wrapper Color"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1538
+msgid "Category Wrapper Margin"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1550
+msgid "Category Wrapper Padding"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1562
+msgid "Category Wrapper Border Radius"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1582
+msgid "Category Link Item Options"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1635
+msgid "Background Blur Method"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1651
+msgid "Background Blur"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1727
+msgid "Image Style"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1734
+msgid "Image Container Options"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1741
+msgid "Image Container Height"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1775
+msgid "Animations"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1780
+msgid "Clippy Image"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1797
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1856
+msgid "Image Transform"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1807
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1866
+msgid "Image Scale"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1819
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1878
+msgid "Image Rotate"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1985
+msgid "Filter By :"
+msgstr ""
+
+#: elementor/elements/widgets/portfolio-advanced/portfolio-advanced.php:1986
+msgid "All"
+msgstr ""
+
+#: elementor/elements/widgets/post-comments/post-comments.php:48
+msgid "Skin"
+msgstr ""
+
+#: elementor/elements/widgets/post-comments/post-comments.php:51
+msgid "Theme Comments"
+msgstr ""
+
+#: elementor/elements/widgets/post-comments/post-comments.php:53
+msgid "The Theme Comments skin uses the currently active theme comments design and layout to display the comment form and comments."
+msgstr ""
+
+#: elementor/elements/widgets/post-content/post-content.php:22
+msgid "TC Post Content"
+msgstr ""
+
+#: elementor/elements/widgets/post-content/post-content.php:41
+#: elementor/elements/widgets/post-info/post-info.php:470
+#: inc/admin/options/6-sidebar.php:24
+msgid "Style"
+msgstr ""
+
+#: elementor/elements/widgets/post-image/post-image.php:32
+msgid "TC Post Image"
+msgstr ""
+
+#: elementor/elements/widgets/post-image/post-image.php:83
+msgid "Image Settings"
+msgstr ""
+
+#: elementor/elements/widgets/post-image/post-image.php:630
+msgid "Image Hover"
+msgstr ""
+
+#: elementor/elements/widgets/post-image/post-image.php:638
+msgid "Hover Overlay"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:24
+msgid "TC Post Info"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:63
+msgid "Meta Data"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:79
+msgid "Inline"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:93
+#: inc/template-builder/template-admin.php:48
+msgid "Type"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:97
+#: inc/admin/admin-status-page.php:95
+msgid "Author"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:98
+msgid "Date"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:99
+msgid "Time"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:101
+msgid "Terms"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:185
+msgid "Taxonomy"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:199
+msgid "Before"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:213
+msgid "Avatar"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:317
+#: elementor/elements/widgets/site-logo/site-logo.php:71
+msgid "Custom URL"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:403
+msgid "List"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:456
+msgid "Divider"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:492
+msgid "Weight"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:650
+msgid "Indent"
+msgstr ""
+
+#: elementor/elements/widgets/post-info/post-info.php:700
+msgid "Choose"
+msgstr ""
+
+#: elementor/elements/widgets/post-title/post-title.php:47
+msgid "TC Post Title"
+msgstr ""
+
+#: elementor/elements/widgets/post-title/post-title.php:94
+#: elementor/elements/widgets/post-title/post-title.php:162
+msgid "Title"
+msgstr ""
+
+#: elementor/elements/widgets/post-title/post-title.php:151
+msgid "View"
+msgstr ""
+
+#: elementor/elements/widgets/post-title/post-title.php:262
+msgid "This is a dummy title."
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:70
+msgid "Site URL"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:72
+msgid "Media File"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:85
+msgid "Logo Settings"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:92
+msgid "Logo type"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:96
+#: inc/admin/metabox/main.php:25
+#: inc/admin/options/1-general.php:31
+#: inc/admin/options/1-general.php:277
+msgid "Light"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:97
+#: inc/admin/metabox/main.php:27
+#: inc/admin/options/1-general.php:33
+#: inc/admin/options/1-general.php:276
+msgid "Dark"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:98
+#: inc/admin/metabox/main.php:26
+#: inc/admin/options/1-general.php:32
+#: inc/admin/options/1-general.php:275
+msgid "Auto"
+msgstr ""
+
+#: elementor/elements/widgets/site-logo/site-logo.php:128
+#: elementor/elements/widgets/site-logo/site-logo.php:133
+#: elementor/elements/widgets/site-logo/site-logo.php:137
+#: elementor/elements/widgets/site-logo/site-logo.php:140
+#: inc/template-parts/header.php:80
+#: inc/template-parts/header.php:83
+#: inc/template-parts/header.php:90
+#: inc/template-parts/header.php:93
+msgid "Logo"
+msgstr ""
+
+#: elementor/extender/container-extender.php:95
+#: elementor/extender/container-extender.php:141
+msgid "TCG Background Blur Method"
+msgstr ""
+
+#: elementor/extender/container-extender.php:111
+#: elementor/extender/container-extender.php:158
+#: elementor/extender/elements-extender.php:260
+msgid "TCG Background Blur"
+msgstr ""
+
+#: elementor/extender/container-extender.php:204
+#: elementor/extender/container-extender.php:212
+msgid "TCG Advanced Hover"
+msgstr ""
+
+#: elementor/extender/container-extender.php:273
+msgid "TCG Background Parallax"
+msgstr ""
+
+#: elementor/extender/container-extender.php:294
+#: elementor/extender/elements-extender.php:56
+msgid "TCG Dark Mode Background"
+msgstr ""
+
+#: elementor/extender/container-extender.php:502
+msgid "TCG Dark Mode Background Overlay"
+msgstr ""
+
+#: elementor/extender/container-extender.php:950
+#: elementor/extender/elements-extender.php:294
+msgid "TCG Dark Mode Border"
+msgstr ""
+
+#: elementor/extender/container-extender.php:965
+#: elementor/extender/container-extender.php:984
+#: elementor/extender/elements-extender.php:303
+msgid "Border Color (Dark Mode)"
+msgstr ""
+
+#: elementor/extender/elements-extender.php:327
+msgid "TCG Dark Mode Responsive"
+msgstr ""
+
+#: elementor/extender/elements-extender.php:335
+msgid "Hide in Dark Mode"
+msgstr ""
+
+#: elementor/extender/elements-extender.php:348
+msgid "Hide in Light Mode"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:31
+#: inc/page-metaboxes.php:40
+msgid "Header Settings"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:39
+msgid "Sticky Header"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:42
+msgid "off"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:43
+msgid "Sticky"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:61
+msgid "Sliding Settings"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:69
+msgid "Container Sliding type"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:73
+msgid "Slider (Parent)"
+msgstr ""
+
+#: elementor/extender/theme-builder-controls.php:74
+msgid "Slide (Child)"
+msgstr ""
+
+#: elementor/extender/video-widget-extender.php:28
+msgid "Video Custom Size"
+msgstr ""
+
+#: elementor/helpers/contact-form.php:61
+msgid "Please fill in all the required fields."
+msgstr ""
+
+#: elementor/helpers/contact-form.php:62
+msgid "Please enter a valid e-mail."
+msgstr ""
+
+#: elementor/helpers/contact-form.php:63
+msgid "You can not use this e-mail due to security issues."
+msgstr ""
+
+#: elementor/helpers/contact-form.php:64
+msgid "You are trying to send e-mail by banned e-mail. Multiple tries can ban you permanently!"
+msgstr ""
+
+#: elementor/helpers/contact-form.php:65
+msgid "Unknown error! Please check your settings."
+msgstr ""
+
+#: elementor/helpers/contact-form.php:78
+msgid "Security check failed!"
+msgstr ""
+
+#: elementor/helpers/contact-form.php:109
+msgid "Hi, %s. We got your e-mail. We'll reply you very soon. Thanks for being with us..."
+msgstr ""
+
+#: inc/about-us.php:5
+msgid "THEMESCAMP - About Us"
+msgstr ""
+
+#: inc/about-us.php:38
+msgid "Title:"
+msgstr ""
+
+#: inc/about-us.php:44
+msgid "Social Media:"
+msgstr ""
+
+#: inc/about-us.php:48
+msgid "Facebook"
+msgstr ""
+
+#: inc/about-us.php:53
+msgid "Twitter"
+msgstr ""
+
+#: inc/about-us.php:58
+msgid "Linkedin"
+msgstr ""
+
+#: inc/about-us.php:63
+msgid "Instagram"
+msgstr ""
+
+#: inc/about-us.php:68
+msgid "Pinterest"
+msgstr ""
+
+#: inc/about-us.php:73
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/admin-init.php:63
+#: inc/admin/admin-init.php:64
+#: inc/admin/admin-init.php:205
+msgid "Dashboard"
+msgstr ""
+
+#: inc/admin/admin-init.php:199
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/admin/admin-init.php:200
+msgid "Thank you for installing %s Theme! Everything in the theme is streamlined to make your website building experience as simple and intuitive as possible. We hope you'll turn it into a powerful marketing asset that brings customers to your digital doorstep."
+msgstr ""
+
+#: inc/admin/admin-init.php:207
+msgid "License"
+msgstr ""
+
+#: inc/admin/admin-init.php:209
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/admin-init.php:211
+msgid "Import Demos"
+msgstr ""
+
+#: inc/admin/admin-init.php:212
+msgid "System status"
+msgstr ""
+
+#: inc/admin/admin-init.php:215
+#: inc/admin/admin-welcome-page.php:50
+#: inc/admin/option-init.php:35
+#: inc/admin/option-init.php:36
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/admin-init.php:217
+#: inc/template-builder/template-admin.php:31
+#: inc/template-builder/template-admin.php:32
+#: inc/template-builder/template-cpt.php:14
+msgid "Theme Builder"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:23
+msgid "WordPress Setting"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:26
+msgid "Home URL"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:30
+msgid "Site Url"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:34
+#: inc/admin/admin-status-page.php:85
+msgid "Version"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:38
+msgid "Language"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:42
+msgid "Memory Limit"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:49
+msgid " - Recommended setting memory to be at least 128MB"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:54
+msgid "How to change memory settings."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:66
+msgid "Enabled."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:69
+msgid " How to disable WP_DEBUG mode."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:73
+msgid "Disabled."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:78
+msgid "Theme Config"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:81
+msgid "Theme Name"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:90
+msgid "Parent Theme Version"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:105
+msgid "Server Setting"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:108
+msgid "PHP Version"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:115
+msgid " - Recommended a minimum PHP version of "
+msgstr ""
+
+#: inc/admin/admin-status-page.php:125
+msgid "Post Max Size"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:129
+msgid "You cannot upload images, themes, and plugins that have a size bigger than this value."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:131
+msgid "If you want to change this setting please read this guide"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:137
+msgid "Max Execution Time"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:144
+#: inc/admin/admin-status-page.php:166
+#: inc/admin/admin-status-page.php:188
+msgid " - Recommended at least "
+msgstr ""
+
+#: inc/admin/admin-status-page.php:150
+#: inc/admin/admin-status-page.php:172
+#: inc/admin/admin-status-page.php:194
+#: inc/admin/admin-status-page.php:219
+msgid "To see how you can change this please read this guide"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:159
+msgid "PHP Max Input Time"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:181
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:203
+msgid "MySql Version"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:207
+msgid "Max upload size"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:214
+msgid " - Recommended minimum value: 128 MB."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:228
+msgid "SimpleXML"
+msgstr ""
+
+#: inc/admin/admin-status-page.php:232
+msgid "To ensure successful installation of demo content The SimpleXML extension should be installed on your web server. Please contact your hosting provider to install and activate SimpleXML extension."
+msgstr ""
+
+#: inc/admin/admin-status-page.php:235
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:18
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:19
+msgid "Cut your learning curve and dive right in! Explore our comprehensively organized documentation for a smooth start."
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:34
+msgid " Need Help?"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:35
+msgid "We have got your back, providing full support. We are excited to assist you in crafting a website that fills you with pride."
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:51
+msgid "Streamline your customization process! Check out our meticulously crafted theme options for a hassle-free start."
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:58
+msgid "Import demos"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:59
+msgid "Simplify your website setup with our one-click import demos! Dive for a seamless and quick starting."
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:66
+msgid "Live Customizer"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:67
+msgid "Enhance your website customization experience with Live Customizer!, for a smooth and immediate start."
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:73
+msgid "Discover More"
+msgstr ""
+
+#: inc/admin/admin-welcome-page.php:74
+msgid "Explore more WordPress themes today! Uncover a wide selection of options to find the perfect theme for your project."
+msgstr ""
+
+#: inc/admin/metabox/builder.php:12
+msgid "Custom Template Options"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:20
+msgid "TEMPLATE TYPE"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:23
+msgid "This Rules here override meta options of page/post, "
+msgstr ""
+
+#: inc/admin/metabox/builder.php:23
+#: inc/admin/metabox/main.php:49
+#: inc/admin/metabox/main.php:57
+#: inc/admin/metabox/main.php:80
+#: inc/admin/metabox/main.php:89
+msgid "Theme options"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:23
+msgid " as well   "
+msgstr ""
+
+#: inc/admin/metabox/builder.php:29
+msgid "Template type"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:31
+#: inc/admin/metabox/main.php:47
+#: inc/admin/options/2-header.php:12
+msgid "Header"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:32
+#: inc/admin/metabox/main.php:78
+#: inc/admin/options/3-footer.php:9
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:35
+msgid "Popup"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:36
+msgid "Offcanvas"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:37
+msgid "Single"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:38
+msgid "Archive"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:50
+#: inc/admin/metabox/builder.php:63
+msgid "Popup Width"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:51
+msgid "Select or type a value (PX)"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:53
+msgid "Full"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:75
+msgid "Offcanvas Width"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:101
+msgid "Display on"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:103
+#: inc/admin/metabox/builder.php:185
+msgid "Entire Website"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:104
+#: inc/admin/metabox/builder.php:186
+msgid "All Pages"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:105
+#: inc/admin/metabox/builder.php:187
+msgid "Front Page"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:106
+#: inc/admin/metabox/builder.php:188
+msgid "Post Page"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:107
+#: inc/admin/metabox/builder.php:189
+msgid "Post Details"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:108
+#: inc/admin/metabox/builder.php:190
+msgid "All Archive"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:109
+#: inc/admin/metabox/builder.php:192
+msgid "Date Archive"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:110
+#: inc/admin/metabox/builder.php:193
+msgid "Author Archive"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:111
+#: inc/admin/metabox/builder.php:194
+msgid "Portfolio Archive"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:112
+#: inc/admin/metabox/builder.php:191
+#: inc/admin/metabox/builder.php:195
+msgid "All Portfolios"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:113
+#: inc/admin/metabox/builder.php:196
+msgid "Search Page"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:114
+#: inc/admin/metabox/builder.php:197
+#: inc/admin/options/9-extras.php:16
+msgid "404 Page"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:115
+#: inc/admin/metabox/builder.php:198
+msgid "Specific Pages"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:116
+#: inc/admin/metabox/builder.php:199
+msgid "Specific Posts"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:117
+#: inc/admin/metabox/builder.php:200
+msgid "Specific Portfolios"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:130
+#: inc/admin/metabox/builder.php:212
+#: inc/admin/metabox/builder.php:225
+msgid "Pages Multi Select Option"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:131
+#: inc/admin/metabox/builder.php:145
+#: inc/admin/metabox/builder.php:158
+#: inc/admin/metabox/builder.php:213
+#: inc/admin/metabox/builder.php:226
+#: inc/admin/metabox/builder.php:239
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: inc/admin/metabox/builder.php:144
+msgid "Posts Multi Select Option"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:157
+#: inc/admin/metabox/builder.php:238
+msgid "Portfolios Multi Select Option"
+msgstr ""
+
+#: inc/admin/metabox/builder.php:183
+msgid "Hide on"
+msgstr ""
+
+#: inc/admin/metabox/main.php:18
+#: inc/admin/metabox/post.php:20
+#: inc/admin/metabox/post.php:41
+msgid "Choose an option OR click \"x\" to revert to the global settings from Theme Options."
+msgstr ""
+
+#: inc/admin/metabox/main.php:23
+msgid "Webpage Dark/Light Mode"
+msgstr ""
+
+#: inc/admin/metabox/main.php:34
+msgid "Color mode switcher"
+msgstr ""
+
+#: inc/admin/metabox/main.php:49
+#: inc/admin/metabox/main.php:80
+msgid "The default settings are derived from the "
+msgstr ""
+
+#: inc/admin/metabox/main.php:49
+#: inc/admin/metabox/main.php:80
+msgid ", While if wish to use customization, please use the   "
+msgstr ""
+
+#: inc/admin/metabox/main.php:49
+#: inc/admin/metabox/main.php:80
+#: inc/admin/options/2-header.php:20
+#: inc/admin/options/3-footer.php:15
+msgid "Custom builder."
+msgstr ""
+
+#: inc/admin/metabox/main.php:55
+#: inc/admin/options/2-header.php:26
+msgid "Header type"
+msgstr ""
+
+#: inc/admin/metabox/main.php:58
+#: inc/page-metaboxes.php:62
+msgid "Use Custom Header"
+msgstr ""
+
+#: inc/admin/metabox/main.php:59
+#: inc/admin/options/2-header.php:30
+#: inc/page-metaboxes.php:66
+msgid "No Header"
+msgstr ""
+
+#: inc/admin/metabox/main.php:67
+msgid "Header Position/Format"
+msgstr ""
+
+#: inc/admin/metabox/main.php:69
+#: inc/admin/options/2-header.php:40
+msgid "Relative Position with Background, "
+msgstr ""
+
+#: inc/admin/metabox/main.php:70
+#: inc/admin/options/2-header.php:41
+msgid "Absolute Position, Transperant"
+msgstr ""
+
+#: inc/admin/metabox/main.php:86
+#: inc/admin/options/3-footer.php:21
+msgid "Footer type"
+msgstr ""
+
+#: inc/admin/metabox/main.php:90
+#: inc/page-metaboxes.php:115
+#: inc/page-metaboxes.php:131
+#: inc/page-metaboxes.php:181
+msgid "Use Custom Footer"
+msgstr ""
+
+#: inc/admin/metabox/main.php:91
+#: inc/admin/options/3-footer.php:25
+#: inc/page-metaboxes.php:135
+msgid "No Footer"
+msgstr ""
+
+#: inc/admin/metabox/main.php:103
+msgid "Main Options"
+msgstr ""
+
+#: inc/admin/metabox/post.php:11
+msgid "Post Options"
+msgstr ""
+
+#: inc/admin/metabox/post.php:18
+msgid "Post Content"
+msgstr ""
+
+#: inc/admin/metabox/post.php:26
+msgid "Post Image"
+msgstr ""
+
+#: inc/admin/metabox/post.php:29
+#: inc/admin/options/5-post.php:22
+msgid "Elegant"
+msgstr ""
+
+#: inc/admin/metabox/post.php:30
+#: inc/admin/options/5-post.php:23
+msgid "Classic"
+msgstr ""
+
+#: inc/admin/metabox/post.php:31
+#: inc/admin/options/5-post.php:24
+msgid "Overlay Image"
+msgstr ""
+
+#: inc/admin/metabox/post.php:39
+msgid "Post Sidebar"
+msgstr ""
+
+#: inc/admin/metabox/post.php:48
+#: inc/admin/options/6-sidebar.php:58
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: inc/admin/metabox/post.php:50
+#: inc/admin/options/4-blog.php:28
+#: inc/admin/options/6-sidebar.php:34
+msgid "Clean Style"
+msgstr ""
+
+#: inc/admin/metabox/post.php:51
+#: inc/admin/options/4-blog.php:29
+#: inc/admin/options/6-sidebar.php:35
+msgid "Boundary Style"
+msgstr ""
+
+#: inc/admin/metabox/post.php:52
+#: inc/admin/options/4-blog.php:30
+#: inc/admin/options/6-sidebar.php:36
+msgid "Elegant Style"
+msgstr ""
+
+#: inc/admin/metabox/post.php:59
+msgid "Post Sidebar Position"
+msgstr ""
+
+#: inc/admin/option-init.php:133
+msgid "If you need help please read docs and open a ticket on our support center."
+msgstr ""
+
+#: inc/admin/options/1-general.php:12
+msgid "Welcome to the theme options"
+msgstr ""
+
+#: inc/admin/options/1-general.php:20
+msgid "Tcg Mode"
+msgstr ""
+
+#: inc/admin/options/1-general.php:27
+msgid "Website Dark/Light Mode"
+msgstr ""
+
+#: inc/admin/options/1-general.php:28
+msgid "Enable dark color scheme for your website"
+msgstr ""
+
+#: inc/admin/options/1-general.php:29
+msgid "Auto: Mode at the Operating System of each user"
+msgstr ""
+
+#: inc/admin/options/1-general.php:45
+msgid "Global Color"
+msgstr ""
+
+#: inc/admin/options/1-general.php:46
+#: inc/admin/options/1-general.php:161
+#: inc/admin/options/1-general.php:234
+#: inc/admin/options/2-header.php:65
+#: inc/admin/options/3-footer.php:36
+msgid "Configuration the style settings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:52
+msgid "Main Color Scheme"
+msgstr ""
+
+#: inc/admin/options/1-general.php:53
+msgid "Pick your color scheme (default: #501E9C)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:60
+msgid "primary Color Scheme"
+msgstr ""
+
+#: inc/admin/options/1-general.php:61
+#: inc/admin/options/1-general.php:222
+msgid "Pick your color scheme (default: #8169F1)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:68
+msgid "Secondary Color Scheme"
+msgstr ""
+
+#: inc/admin/options/1-general.php:69
+msgid "Pick your color scheme (default: #A44CEE)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:76
+msgid "Ternary Color Scheme"
+msgstr ""
+
+#: inc/admin/options/1-general.php:77
+msgid "Pick your color scheme (default: #FF847F)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:84
+msgid "Hyperlink Color"
+msgstr ""
+
+#: inc/admin/options/1-general.php:85
+msgid "Pick your color for hyperlink. Default color is black #999999"
+msgstr ""
+
+#: inc/admin/options/1-general.php:92
+msgid "Hyperlink color on hover state"
+msgstr ""
+
+#: inc/admin/options/1-general.php:93
+msgid "Pick your color for hover state in hyperlink. Default color is #12c2e9"
+msgstr ""
+
+#: inc/admin/options/1-general.php:100
+msgid "Color on Heading"
+msgstr ""
+
+#: inc/admin/options/1-general.php:101
+msgid "Pick your color for heading text. Default color is black #000000"
+msgstr ""
+
+#: inc/admin/options/1-general.php:108
+msgid "Color on General Paragraph"
+msgstr ""
+
+#: inc/admin/options/1-general.php:109
+msgid "Pick your color for general paragraph text. Default color is black #666"
+msgstr ""
+
+#: inc/admin/options/1-general.php:116
+msgid "Sticky Menu Background color (for menu with black background & All Sticky Custom Menu)"
+msgstr ""
+
+#: inc/admin/options/1-general.php:117
+msgid "Pick your background color for sticky menu in white text header. Default color is #fff"
+msgstr ""
+
+#: inc/admin/options/1-general.php:124
+msgid "Sticky Menu Background color (for menu with white background)"
+msgstr ""
+
+#: inc/admin/options/1-general.php:125
+msgid "Pick your background color for sticky menu in white text header. Default color is #ffffff"
+msgstr ""
+
+#: inc/admin/options/1-general.php:132
+msgid "Sticky Menu BBorder color (for menu with transparent background)"
+msgstr ""
+
+#: inc/admin/options/1-general.php:133
+msgid "Pick your border color for sticky menu in transparent text header. Default color is #ffffff"
+msgstr ""
+
+#: inc/admin/options/1-general.php:141
+msgid "To top color"
+msgstr ""
+
+#: inc/admin/options/1-general.php:142
+msgid "To top color icon in footer"
+msgstr ""
+
+#: inc/admin/options/1-general.php:149
+msgid "Standard Footer Background color"
+msgstr ""
+
+#: inc/admin/options/1-general.php:150
+msgid "Pick your background color for standard footer. Default color is black #202020"
+msgstr ""
+
+#: inc/admin/options/1-general.php:160
+msgid "Preloader"
+msgstr ""
+
+#: inc/admin/options/1-general.php:167
+#: inc/admin/options/1-general.php:240
+msgid "Preloader Setting"
+msgstr ""
+
+#: inc/admin/options/1-general.php:169
+#: inc/admin/options/1-general.php:242
+msgid "Show in All pages"
+msgstr ""
+
+#: inc/admin/options/1-general.php:170
+#: inc/admin/options/1-general.php:243
+msgid "Show in Home page only"
+msgstr ""
+
+#: inc/admin/options/1-general.php:171
+#: inc/admin/options/1-general.php:244
+msgid "Hide in all pages"
+msgstr ""
+
+#: inc/admin/options/1-general.php:177
+msgid "Preloader Type"
+msgstr ""
+
+#: inc/admin/options/1-general.php:179
+msgid "Circle"
+msgstr ""
+
+#: inc/admin/options/1-general.php:180
+msgid "Progress"
+msgstr ""
+
+#: inc/admin/options/1-general.php:181
+msgid "Text & Logo"
+msgstr ""
+
+#: inc/admin/options/1-general.php:189
+msgid "Preloader Logo"
+msgstr ""
+
+#: inc/admin/options/1-general.php:190
+msgid "Upload your logo for preloader"
+msgstr ""
+
+#: inc/admin/options/1-general.php:196
+msgid "Preloader Text"
+msgstr ""
+
+#: inc/admin/options/1-general.php:197
+msgid "Preloader Text Filter for all categories"
+msgstr ""
+
+#: inc/admin/options/1-general.php:198
+msgid "Insert your text for preloader"
+msgstr ""
+
+#: inc/admin/options/1-general.php:206
+msgid "Pick your color scheme (default: #ffffff)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:213
+#: inc/admin/options/1-general.php:221
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/admin/options/1-general.php:214
+msgid "Pick your color scheme (default: #12c2e9)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:233
+msgid "Back to Top"
+msgstr ""
+
+#: inc/admin/options/1-general.php:253
+msgid "Cursor"
+msgstr ""
+
+#: inc/admin/options/1-general.php:254
+msgid "Select your cursor type"
+msgstr ""
+
+#: inc/admin/options/1-general.php:261
+msgid "Theme Cursor Style"
+msgstr ""
+
+#: inc/admin/options/1-general.php:264
+msgid "Circle style"
+msgstr ""
+
+#: inc/admin/options/1-general.php:265
+msgid "Smoke effect"
+msgstr ""
+
+#: inc/admin/options/1-general.php:273
+msgid "Smoke Color"
+msgstr ""
+
+#: inc/admin/options/1-general.php:292
+msgid "Body"
+msgstr ""
+
+#: inc/admin/options/1-general.php:293
+msgid "Choose Size and Style for Body"
+msgstr ""
+
+#: inc/admin/options/1-general.php:311
+msgid "Paragraph"
+msgstr ""
+
+#: inc/admin/options/1-general.php:312
+msgid "Choose Size and Style for paragraph"
+msgstr ""
+
+#: inc/admin/options/1-general.php:330
+msgid "H1 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:331
+msgid "Choose Size and Style for h1"
+msgstr ""
+
+#: inc/admin/options/1-general.php:349
+msgid "H2 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:350
+msgid "Choose Size and Style for h2"
+msgstr ""
+
+#: inc/admin/options/1-general.php:368
+msgid "H3 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:369
+msgid "Choose Size and Style for h3"
+msgstr ""
+
+#: inc/admin/options/1-general.php:387
+msgid "H4 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:388
+msgid "Choose Size and Style for h4"
+msgstr ""
+
+#: inc/admin/options/1-general.php:406
+msgid "H5 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:407
+msgid "Choose Size and Style for h5"
+msgstr ""
+
+#: inc/admin/options/1-general.php:425
+msgid "H6 Headings"
+msgstr ""
+
+#: inc/admin/options/1-general.php:426
+msgid "Choose Size and Style for h6"
+msgstr ""
+
+#: inc/admin/options/1-general.php:452
+msgid "Custom fonts"
+msgstr ""
+
+#: inc/admin/options/1-general.php:461
+msgid "List of uploaded Fonts"
+msgstr ""
+
+#: inc/admin/options/1-general.php:462
+msgid "Choose Font file(.woff) or ZIP of font files (if like .ttf)."
+msgstr ""
+
+#: inc/admin/options/1-general.php:469
+msgid "List of dedicated Fonts for Elementor Builder "
+msgstr ""
+
+#: inc/admin/options/1-general.php:471
+msgid "Elementor custom fonts"
+msgstr ""
+
+#: inc/admin/options/1-general.php:481
+msgid "Custom Fonts Typography"
+msgstr ""
+
+#: inc/admin/options/1-general.php:511
+msgid "Smooth Scroll animation."
+msgstr ""
+
+#: inc/admin/options/1-general.php:512
+msgid "Turn off to disable Smooth Scroll."
+msgstr ""
+
+#: inc/admin/options/1-general.php:522
+msgid "Dev Tools"
+msgstr ""
+
+#: inc/admin/options/1-general.php:529
+msgid "Show Post Meta data "
+msgstr ""
+
+#: inc/admin/options/1-general.php:539
+msgid "Show Blocks in \"Edit with Elementor\" bar "
+msgstr ""
+
+#: inc/admin/options/1-general.php:551
+msgid "Front mode switcher"
+msgstr ""
+
+#: inc/admin/options/1-general.php:552
+#: inc/admin/options/1-general.php:564
+msgid "Enable front mode switcher for your website"
+msgstr ""
+
+#: inc/admin/options/1-general.php:563
+msgid "Features switcher"
+msgstr ""
+
+#: inc/admin/options/1-general.php:574
+msgid "List of Features for website"
+msgstr ""
+
+#: inc/admin/options/1-general.php:585
+msgid "Features Text"
+msgstr ""
+
+#: inc/admin/options/1-general.php:586
+msgid "Input features text here"
+msgstr ""
+
+#: inc/admin/options/1-general.php:587
+msgid "Support"
+msgstr ""
+
+#: inc/admin/options/1-general.php:592
+msgid "Features Link"
+msgstr ""
+
+#: inc/admin/options/1-general.php:593
+msgid "Input features link here"
+msgstr ""
+
+#: inc/admin/options/1-general.php:601
+msgid "Upload your icon (Recommended size 18x18px)"
+msgstr ""
+
+#: inc/admin/options/1-general.php:608
+msgid "For full saved options, visit: "
+msgstr ""
+
+#: inc/admin/options/1-general.php:612
+msgid "Showing the system saved options"
+msgstr ""
+
+#: inc/admin/options/1-general.php:619
+msgid "For animation character class, use: "
+msgstr ""
+
+#: inc/admin/options/1-general.php:620
+msgid "For animation line class, use: "
+msgstr ""
+
+#: inc/admin/options/1-general.php:621
+msgid "For animation parallax class, use: "
+msgstr ""
+
+#: inc/admin/options/1-general.php:625
+msgid "Elementor useful classes"
+msgstr ""
+
+#: inc/admin/options/2-header.php:19
+msgid "Header settings"
+msgstr ""
+
+#: inc/admin/options/2-header.php:20
+#: inc/admin/options/3-footer.php:15
+msgid "If wish to use customization, please use the   "
+msgstr ""
+
+#: inc/admin/options/2-header.php:28
+msgid "Standard Header"
+msgstr ""
+
+#: inc/admin/options/2-header.php:29
+msgid "Custom Header"
+msgstr ""
+
+#: inc/admin/options/2-header.php:38
+msgid "Header Position"
+msgstr ""
+
+#: inc/admin/options/2-header.php:50
+msgid "Menu Position"
+msgstr ""
+
+#: inc/admin/options/2-header.php:64
+msgid "Header logo"
+msgstr ""
+
+#: inc/admin/options/2-header.php:72
+#: inc/admin/options/3-footer.php:52
+msgid "Logo Dark Text"
+msgstr ""
+
+#: inc/admin/options/2-header.php:73
+msgid "Upload your logo for white text (standard) header (Recommended size 240x80px)"
+msgstr ""
+
+#: inc/admin/options/2-header.php:79
+#: inc/admin/options/3-footer.php:43
+msgid "Logo White Text"
+msgstr ""
+
+#: inc/admin/options/2-header.php:80
+msgid "Upload your logo for dark text (standard) header (Recommended size 240x80px)"
+msgstr ""
+
+#: inc/admin/options/2-header.php:88
+msgid "Logo dimensions Height"
+msgstr ""
+
+#: inc/admin/options/2-header.php:89
+msgid "Enable or disable any piece of this field. Width, Height, or Units.)"
+msgstr ""
+
+#: inc/admin/options/2-header.php:99
+msgid "Header social"
+msgstr ""
+
+#: inc/admin/options/2-header.php:100
+msgid "Configuration the header social icons"
+msgstr ""
+
+#: inc/admin/options/2-header.php:106
+msgid "Enable Top Menu"
+msgstr ""
+
+#: inc/admin/options/2-header.php:116
+msgid "Phone"
+msgstr ""
+
+#: inc/admin/options/2-header.php:117
+msgid "Input phone number"
+msgstr ""
+
+#: inc/admin/options/2-header.php:123
+msgid "Mail"
+msgstr ""
+
+#: inc/admin/options/2-header.php:124
+msgid "Input mail address"
+msgstr ""
+
+#: inc/admin/options/2-header.php:130
+msgid "Address"
+msgstr ""
+
+#: inc/admin/options/2-header.php:131
+msgid "Input address"
+msgstr ""
+
+#: inc/admin/options/2-header.php:137
+#: inc/admin/options/2-header.php:144
+msgid "Join"
+msgstr ""
+
+#: inc/admin/options/2-header.php:138
+msgid "Input Join text"
+msgstr ""
+
+#: inc/admin/options/2-header.php:145
+msgid "Input Join link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:151
+msgid "Enable Header Social"
+msgstr ""
+
+#: inc/admin/options/2-header.php:161
+msgid "Enable Header Social New Tab"
+msgstr ""
+
+#: inc/admin/options/2-header.php:172
+#: inc/admin/options/3-footer.php:84
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:173
+#: inc/admin/options/3-footer.php:85
+msgid "Input facebook link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:179
+#: inc/admin/options/3-footer.php:91
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:180
+#: inc/admin/options/3-footer.php:92
+msgid "Input Twitter link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:186
+#: inc/admin/options/3-footer.php:98
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:187
+#: inc/admin/options/3-footer.php:99
+msgid "Input Instagram link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:193
+#: inc/admin/options/3-footer.php:105
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:194
+#: inc/admin/options/3-footer.php:106
+msgid "Input Pinterest link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:200
+#: inc/admin/options/3-footer.php:112
+msgid "Xing Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:201
+#: inc/admin/options/3-footer.php:113
+msgid "Input Xing link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:207
+#: inc/admin/options/3-footer.php:119
+msgid "LinkedIn Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:208
+#: inc/admin/options/3-footer.php:120
+msgid "Input LinkedIn link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:214
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/admin/options/2-header.php:215
+msgid "Input Youtube link here"
+msgstr ""
+
+#: inc/admin/options/2-header.php:221
+msgid "Search Icon"
+msgstr ""
+
+#: inc/admin/options/2-header.php:222
+msgid "To show search icon in header"
+msgstr ""
+
+#: inc/admin/options/2-header.php:232
+msgid "Button"
+msgstr ""
+
+#: inc/admin/options/2-header.php:233
+msgid "To show Button in header"
+msgstr ""
+
+#: inc/admin/options/2-header.php:249
+msgid "Button URL"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:14
+msgid "Footer settings"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:23
+msgid "Standard Footer"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:24
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:35
+msgid "Footer logo"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:44
+msgid "Upload your logo for white text (standard) footer (Recommended size 240x80px)"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:53
+#: inc/admin/options/3-footer.php:59
+msgid "Upload your logo for dark text (standard) footer (Recommended size 240x80px)"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:58
+msgid "Footer Text"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:71
+msgid "Footer social"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:72
+msgid "Configuration the footer social icons"
+msgstr ""
+
+#: inc/admin/options/3-footer.php:78
+msgid "Enable Footer Social"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:10
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:17
+msgid "Blog setting"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:18
+msgid "Configuration blog settings:"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:25
+msgid "Default Blog Article Layout"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:26
+#: inc/admin/options/6-sidebar.php:17
+msgid "Note: each Style can be additionally customized within the chiled theme."
+msgstr ""
+
+#: inc/admin/options/4-blog.php:38
+msgid "Featured Image in Related Posts"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:49
+msgid "Blog Slider Delay"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:50
+msgid "Insert the slider delay for slider in blog sidebar,blog wide and single blog post here. The default value 8000"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:61
+msgid "Blog Button text (Continue Reading)"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:68
+msgid "Blog Articles"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:75
+msgid "Pagination type"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:77
+msgid "Next/Previous"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:78
+msgid "Load More"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:86
+msgid "Show latest blog slider"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:97
+msgid "Blog slider title"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:104
+msgid "Blog slider sub-title"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:112
+msgid "Show Popular blog"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:122
+msgid "Blog popular title"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:131
+msgid "Blog Tags"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:132
+msgid "Enable Tags"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:144
+msgid "Blog Button (Continue Reading)"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:145
+msgid "Enable Blog Button (Continue Reading)"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:154
+msgid "Post Excerpt Size (max word count)"
+msgstr ""
+
+#: inc/admin/options/4-blog.php:155
+msgid "You can control blog post excerpt size with this option."
+msgstr ""
+
+#: inc/admin/options/5-post.php:11
+msgid "Single Post"
+msgstr ""
+
+#: inc/admin/options/5-post.php:19
+#: inc/admin/options/5-post.php:141
+msgid "Default Post Layout"
+msgstr ""
+
+#: inc/admin/options/5-post.php:20
+#: inc/admin/options/5-post.php:142
+msgid "Note: each Post can be additionally customized within its Meta boxes section."
+msgstr ""
+
+#: inc/admin/options/5-post.php:31
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/options/5-post.php:37
+msgid "Page Title Text"
+msgstr ""
+
+#: inc/admin/options/5-post.php:45
+msgid "Custom Page Title Text"
+msgstr ""
+
+#: inc/admin/options/5-post.php:46
+msgid "Blog Post"
+msgstr ""
+
+#: inc/admin/options/5-post.php:52
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/options/5-post.php:53
+msgid "Use"
+msgstr ""
+
+#: inc/admin/options/5-post.php:60
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/options/5-post.php:81
+msgid "Padding Top/Bottom"
+msgstr ""
+
+#: inc/admin/options/5-post.php:82
+msgid "Note: this setting affects only the \"Overlay Image\" post layout."
+msgstr ""
+
+#: inc/admin/options/5-post.php:97
+msgid "Appearance"
+msgstr ""
+
+#: inc/admin/options/5-post.php:104
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/options/5-post.php:124
+msgid "Related posts"
+msgstr ""
+
+#: inc/admin/options/5-post.php:128
+msgid "Single Related Post Count"
+msgstr ""
+
+#: inc/admin/options/5-post.php:145
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/options/5-post.php:146
+msgid "Slider"
+msgstr ""
+
+#: inc/admin/options/5-post.php:153
+msgid "Post Extras"
+msgstr ""
+
+#: inc/admin/options/5-post.php:160
+msgid "Share Box"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:8
+#: inc/post-metaboxes.php:94
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:14
+msgid "Sidebar Settings"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:31
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:32
+msgid "Select the style for Sidebar"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:70
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: inc/admin/options/6-sidebar.php:92
+msgid "Search Sidebar Layout"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:8
+msgid "portfolio"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:13
+msgid "Portfolio settings"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:14
+msgid "Configuration portfolio settings"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:20
+msgid "Portfolio Slug"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:21
+msgid "Custom slug for portfolio like \"projects\""
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:23
+#: inc/admin/options/7-portfolio.php:36
+#: inc/admin/options/7-portfolio.php:49
+msgid "Make sure to update %1$sPermalink%2$s to Post name structure and \"save changes\"."
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:33
+msgid "Portfolio category Slug"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:34
+msgid "Custom slug for portfolio like \"projects-cats\""
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:46
+msgid "Portfolio tag Slug"
+msgstr ""
+
+#: inc/admin/options/7-portfolio.php:47
+msgid "Custom slug for portfolio like \"projects-tag\""
+msgstr ""
+
+#: inc/admin/options/9-extras.php:9
+msgid "Extras"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:23
+msgid "Enable custom 404 page"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:30
+msgid "Custom 404 page"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:47
+msgid "Contact Form Email"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:48
+msgid "Enter Email to recieve forms"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:55
+msgid "ReCaptcha Site key"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:56
+#: inc/admin/options/9-extras.php:62
+#: inc/admin/options/9-extras.php:68
+msgid "Enter your ReCaptcha API to activate ReCaptcha"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:61
+msgid "ReCaptcha Secret key"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:67
+msgid "Spam Email List"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:83
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:84
+msgid "Enter your Mailchimp API key"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:89
+msgid "Audience ID"
+msgstr ""
+
+#: inc/admin/options/9-extras.php:90
+msgid "Enter your ReCaptcha Audience ID"
+msgstr ""
+
+#: inc/admin/options/91-woocommerce.php:11
+msgid "Woo-Shop"
+msgstr ""
+
+#: inc/admin/options/91-woocommerce.php:12
+msgid "Configuration the Woocommerce"
+msgstr ""
+
+#: inc/admin/options/91-woocommerce.php:19
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/admin/options/91-woocommerce.php:20
+msgid "To show Cart icon in header"
+msgstr ""
+
+#: inc/admin/options/92-custom.php:19
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/options/92-custom.php:20
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: inc/admin/options/92-custom.php:21
+msgid "Set your custom CSS code. overwrite theme/plugin style.."
+msgstr ""
+
+#: inc/admin/options/92-custom.php:30
+msgid "JavaScript Code"
+msgstr ""
+
+#: inc/admin/options/92-custom.php:31
+msgid "Paste your JS code here."
+msgstr ""
+
+#: inc/admin/options/92-custom.php:32
+msgid "Set your custom JavaScript code. Loaded before </body> tag. <script> tags are automatically added.."
+msgstr ""
+
+#: inc/admin/options/93-performance.php:12
+msgid "Performance"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:20
+msgid "Default WP Block Styles"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:21
+msgid "Turn off to disable the default styles from Gutenberg block library."
+msgstr ""
+
+#: inc/admin/options/93-performance.php:29
+msgid "Emoji Script"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:30
+msgid "Turn off to disable the Emoji script (wp-emoji-release.min.js)."
+msgstr ""
+
+#: inc/admin/options/93-performance.php:38
+msgid "Font Awesome (fa)"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:39
+msgid "Turn off to disable Font Awesome icon pack."
+msgstr ""
+
+#: inc/admin/options/93-performance.php:47
+msgid "Elementor Icons (eicon)"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:48
+msgid "Turn off to disable the default Elementor icon pack."
+msgstr ""
+
+#: inc/admin/options/93-performance.php:56
+msgid "Elementor Animations"
+msgstr ""
+
+#: inc/admin/options/93-performance.php:57
+msgid "Turn off to disable all animations."
+msgstr ""
+
+#: inc/license.php:50
+#: inc/license.php:55
+msgid "Thank you for choosing "
+msgstr ""
+
+#: inc/license.php:51
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: inc/license.php:56
+msgid "Click on the button below to begin the registration process."
+msgstr ""
+
+#: inc/license.php:87
+msgid "An update mechanism"
+msgstr ""
+
+#: inc/license.php:88
+msgid "Access to support"
+msgstr ""
+
+#: inc/license.php:94
+msgid "I downloaded the theme from Envato Elements."
+msgstr ""
+
+#: inc/license.php:103
+#: inc/license.php:159
+msgid "Your e-mail"
+msgstr ""
+
+#: inc/license.php:117
+#: inc/license.php:173
+msgid "Your data is processed in accordance with our %s."
+msgstr ""
+
+#: inc/license.php:118
+#: inc/license.php:174
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/license.php:137
+msgid "License Status:"
+msgstr ""
+
+#: inc/license.php:139
+msgid "Revoke License Key"
+msgstr ""
+
+#: inc/license.php:141
+msgid "Revoke Elements Token"
+msgstr ""
+
+#: inc/license.php:147
+msgid "Register Now!"
+msgstr ""
+
+#: inc/license.php:150
+msgid "Verify via purchase code (Alternative of Register)."
+msgstr ""
+
+#: inc/license.php:319
+msgid "Purchase code verification failed."
+msgstr ""
+
+#: inc/license.php:325
+msgid "Purchase code verified successfully."
+msgstr ""
+
+#: inc/license.php:330
+msgid "Invalid Purchase code."
+msgstr ""
+
+#: inc/mega-menu/menu-walker-edit.php:66
+msgid "Select Mega Menu"
+msgstr ""
+
+#: inc/one-click-cloud.php:279
+msgid "Import HomePages"
+msgstr ""
+
+#: inc/one-click-cloud.php:284
+#: inc/one-click-cloud.php:299
+msgid "Visit Site"
+msgstr ""
+
+#: inc/one-click-cloud.php:290
+msgid "Import Inner pages"
+msgstr ""
+
+#: inc/page-metaboxes.php:14
+msgid "Page Settings"
+msgstr ""
+
+#: inc/page-metaboxes.php:23
+msgid "Please Note"
+msgstr ""
+
+#: inc/page-metaboxes.php:24
+msgid "The Custom Header & Custom Footer only appear on the actual page, not in elementor editor."
+msgstr ""
+
+#: inc/page-metaboxes.php:46
+msgid "Header Options"
+msgstr ""
+
+#: inc/page-metaboxes.php:54
+msgid "Use Global Settings (in Theme Options)"
+msgstr ""
+
+#: inc/page-metaboxes.php:58
+msgid "Use Default Header"
+msgstr ""
+
+#: inc/page-metaboxes.php:74
+msgid "Choose Custom Header"
+msgstr ""
+
+#: inc/page-metaboxes.php:87
+msgid "Header Format"
+msgstr ""
+
+#: inc/page-metaboxes.php:96
+msgid "Black Text with White Background Header in Relative Position"
+msgstr ""
+
+#: inc/page-metaboxes.php:100
+msgid "White Text with Transparent Background Header in Absolute Position"
+msgstr ""
+
+#: inc/page-metaboxes.php:109
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/page-metaboxes.php:123
+msgid "Use Global Settings (in Theme Options) Footer"
+msgstr ""
+
+#: inc/page-metaboxes.php:127
+#: inc/page-metaboxes.php:177
+msgid "Use Default Footer"
+msgstr ""
+
+#: inc/page-metaboxes.php:145
+msgid "Choose Custom Footer"
+msgstr ""
+
+#: inc/page-metaboxes.php:160
+msgid "side panel Settings"
+msgstr ""
+
+#: inc/page-metaboxes.php:165
+msgid "Use Custom offcanvas"
+msgstr ""
+
+#: inc/page-metaboxes.php:173
+msgid "Use Global Settings (in Theme Options) offcanvas"
+msgstr ""
+
+#: inc/page-metaboxes.php:185
+msgid "No offcanvas"
+msgstr ""
+
+#: inc/page-metaboxes.php:192
+msgid "Choose Custom offcanvas"
+msgstr ""
+
+#: inc/portfolio.php:16
+msgid "Portfolios"
+msgstr ""
+
+#: inc/portfolio.php:17
+msgid "Portfolio"
+msgstr ""
+
+#: inc/portfolio.php:18
+#: inc/portfolio.php:19
+#: inc/portfolio.php:21
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/portfolio.php:20
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/portfolio.php:22
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/portfolio.php:23
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/portfolio.php:24
+msgid "No Portfolio found"
+msgstr ""
+
+#: inc/portfolio.php:25
+msgid "No Portfolio found in trash"
+msgstr ""
+
+#: inc/post-metaboxes.php:14
+msgid "Post Setting"
+msgstr ""
+
+#: inc/post-metaboxes.php:22
+msgid "Note for Image"
+msgstr ""
+
+#: inc/post-metaboxes.php:23
+msgid "Always use the same ratio/size for images in slider/gallery below.  "
+msgstr ""
+
+#: inc/post-metaboxes.php:35
+msgid "Choose Post Format Here"
+msgstr ""
+
+#: inc/post-metaboxes.php:42
+msgid "Post Standard"
+msgstr ""
+
+#: inc/post-metaboxes.php:46
+msgid "Post Gallery"
+msgstr ""
+
+#: inc/post-metaboxes.php:50
+msgid "Post Slider"
+msgstr ""
+
+#: inc/post-metaboxes.php:54
+msgid "Post Video"
+msgstr ""
+
+#: inc/post-metaboxes.php:58
+msgid "Post Audio"
+msgstr ""
+
+#: inc/post-metaboxes.php:64
+msgid "Gallery Setting"
+msgstr ""
+
+#: inc/post-metaboxes.php:67
+msgid "Create your Post gallery here. <br/>Try to use same ratio for each image."
+msgstr ""
+
+#: inc/post-metaboxes.php:71
+msgid "Slider Setting"
+msgstr ""
+
+#: inc/post-metaboxes.php:74
+msgid "Create your Post Slider here."
+msgstr ""
+
+#: inc/post-metaboxes.php:78
+msgid "Video Setting"
+msgstr ""
+
+#: inc/post-metaboxes.php:81
+msgid "Insert the link for video embed here.<br/> For video from youtube/vimeo just put the link without any attribute like ?wmode=opaque.<br/>eg: http://www.youtube.com/embed/IzgAYZTuBA8 or http://player.vimeo.com/video/64078587"
+msgstr ""
+
+#: inc/post-metaboxes.php:85
+msgid "Audio Setting"
+msgstr ""
+
+#: inc/post-metaboxes.php:89
+msgid ""
+"Insert your iframe/embedded code for audio here.<br/>\r\n"
+"\t\tYou can input iframe/embed code from youtube/vimeo here too, if you don't like the default style of Post video."
+msgstr ""
+
+#: inc/post-metaboxes.php:97
+msgid "You can hide the sidebar by turning it off."
+msgstr ""
+
+#: inc/template-builder/template-admin.php:49
+msgid "Info"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:15
+msgid "Builder Template"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:16
+msgid "Add New"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:17
+msgid "Add New."
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:18
+msgid "Edit Post"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:19
+msgid "Add New.."
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:20
+msgid "View Post"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:21
+msgid "Search Post"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:22
+msgid "No Posts found"
+msgstr ""
+
+#: inc/template-builder/template-cpt.php:23
+msgid "No Posts found in trash"
+msgstr ""
+
+#: inc/template-parts/404-template.php:38
+msgid "404"
+msgstr ""
+
+#: inc/template-parts/404-template.php:39
+msgid "Oops..!!! Page not found!"
+msgstr ""
+
+#: inc/template-parts/404-template.php:42
+msgid "Go Back Now!"
+msgstr ""
+
+#: inc/template-parts/author-template.php:19
+msgid "Author: "
+msgstr ""
+
+#: inc/template-parts/blog-1.php:25
+#: inc/template-parts/blog-2.php:24
+#: inc/template-parts/blog-3.php:25
+msgid "Show more"
+msgstr ""
+
+#: inc/template-parts/blog-1.php:30
+#: inc/template-parts/blog-2.php:29
+#: inc/template-parts/blog-3.php:30
+#: inc/template-parts/port-archive.php:67
+msgid "Previous Page"
+msgstr ""
+
+#: inc/template-parts/blog-1.php:31
+#: inc/template-parts/blog-2.php:30
+#: inc/template-parts/blog-3.php:31
+#: inc/template-parts/port-archive.php:68
+msgid "Next Page"
+msgstr ""
+
+#: inc/template-parts/content-page.php:14
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-parts/count-view.php:8
+msgid "0 Views"
+msgstr ""
+
+#: inc/template-parts/count-view.php:9
+msgid " View "
+msgstr ""
+
+#: inc/template-parts/count-view.php:10
+#: inc/template-parts/count-view.php:23
+msgid " Views "
+msgstr ""
+
+#: inc/template-parts/count-view.php:39
+msgid "ago"
+msgstr ""
+
+#: inc/template-parts/header.php:227
+#: inc/template-parts/search-template.php:45
+msgid "Type search keyword..."
+msgstr ""
+
+#: inc/template-parts/loop-portfolio.php:147
+#: templates/loop-portfolio.php:146
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/template-parts/loop-post.php:109
+#: inc/template-parts/post-1.php:123
+#: inc/template-parts/post-2.php:110
+#: inc/template-parts/post-3.php:45
+msgid " Comment"
+msgstr ""
+
+#: inc/template-parts/loop-post.php:111
+#: inc/template-parts/post-1.php:125
+#: inc/template-parts/post-2.php:112
+#: inc/template-parts/post-3.php:47
+msgid " Comments"
+msgstr ""
+
+#: inc/template-parts/popular-1.php:51
+#: inc/template-parts/post-1.php:22
+#: inc/template-parts/slider-1.php:53
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-parts/port-archive.php:72
+msgid "No portfolios found."
+msgstr ""
+
+#: inc/template-parts/post-1.php:148
+msgid "Tags:  "
+msgstr ""
+
+#: inc/template-parts/post-2.php:160
+#: inc/template-parts/post-3.php:96
+msgid "Previous post"
+msgstr ""
+
+#: inc/template-parts/post-2.php:168
+#: inc/template-parts/post-3.php:104
+msgid "Next post"
+msgstr ""
+
+#: inc/template-parts/related-1.php:23
+#: inc/template-parts/related-2.php:23
+#: inc/template-parts/related-posts.php:19
+msgid "Related Posts"
+msgstr ""
+
+#: inc/template-parts/related-2.php:42
+msgid "Posted on "
+msgstr ""
+
+#: inc/template-parts/search-template.php:29
+msgid "Search result for:"
+msgstr ""
+
+#: inc/template-parts/search-template.php:41
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr ""
+
+#: inc/template-parts/standard-blocks.php:20
+msgid "LogoWhite"
+msgstr ""
+
+#: inc/template-parts/standard-blocks.php:87
+msgid "Copyright %s by ThemesCamp All Rights Reserved."
+msgstr ""
+
+#: inc/woo.php:51
+msgid "View your shopping cart"
+msgstr ""
+
+#: init.php:155
+msgid "Themescamp Icons"
+msgstr ""
+
+#: init.php:176
+msgid "Pe Icons"
+msgstr ""
+
+#: plugin.php:50
+msgid "Themescamp Plugin is not working because you are using an old version of Elementor."
+msgstr ""
+
+#: plugin.php:51
+msgid "Update Elementor Now"
+msgstr ""
+
+#: plugin.php:527
+msgid "Type keyword here"
+msgstr ""

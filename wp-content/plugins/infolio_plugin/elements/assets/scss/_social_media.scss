@@ -1,0 +1,35 @@
+.infolio-social-media{
+  &.rest{
+    margin: 0 ;
+    padding: 0 ;
+    li{
+      list-style-type: none;
+    }
+    a{
+      display: inline-block;
+    }
+    span{
+      display: inline-block;
+    }
+    a,a:hover{
+      color: inherit;
+    }
+    .cursor-pointer{
+      cursor: pointer;
+    }
+    .infolio-hover-this {
+      .infolio-hover-anim {
+        transition: transform 0.2s linear;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .infolio-social-media {
+    .icon_responsive{
+      svg,i{
+        display: none;
+      }
+    }
+  }
+}

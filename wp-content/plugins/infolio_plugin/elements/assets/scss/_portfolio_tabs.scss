@@ -1,0 +1,225 @@
+.infolio-portfolio-tabs{
+  .rest{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5) !important;
+    margin-left: calc(var(--bs-gutter-x) * -.5) !important;
+  }
+  .cluom{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+    .info{
+      .categories{
+        color: #1a1a1a;
+      }
+      .title{
+        color: #1a1a1a;
+      }
+    }
+    &:last-of-type{
+      border-bottom: 0;
+    }
+
+    &.current{
+      border-left-color: transparent;
+    }
+
+    .more{
+      margin-left: auto;
+      font-size: 16px;
+      color: #1a1a1a;
+      i,svg{
+        margin-left: 15px;
+      }
+      i{
+        color: #1a1a1a;
+      }
+      svg{
+        color: #1a1a1a;
+      }
+      a,a:hover{
+        display: inline-block;
+        color: inherit;
+      }
+    }
+  }
+
+  .glry-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .bg-img{
+      position: absolute;
+      top: 80px;
+      left: 80px;
+      right: 80px;
+      bottom: 80px;
+      transform: scale(1.1,1.1);
+      opacity: 0;
+      transition: all .7s;
+      background-size: cover;
+      background-position: center center;
+
+      &.current{
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+
+  &.rotate-image-animate{
+    border: 0;
+
+    .cluom{
+      padding: 0 0 15px;
+      border-left: 0;
+    }
+
+    .glry-img{
+      width: 450px;
+      height: 450px;
+      position: relative;
+      transform: rotate(-10deg);
+
+      .bg-img{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        transform: scale(1.05);
+        opacity: 0;
+        transition: all .7s;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 15px;
+
+        &:before{
+          top: -50px;
+          left: 50px;
+          transform: translateY(-100px);
+        }
+
+        &:after{
+          bottom: -50px;
+          right: 50px;
+          transform: translateY(100px);
+        }
+
+        &:after,
+        &:before{
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 100px;
+          background: #14cf93;
+          opacity: 0;
+          transition: all .4s;
+          transition-delay: .4s;
+        }
+
+        &.current{
+          transform: scale(1);
+          opacity: 1;
+
+          &:after,
+          &:before{
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .infolio-portfolio-tabs .glry-img {
+    display: none;
+  }
+  .infolio-portfolio-tabs.rotate-image-animate   .cluom {
+    svg,i{
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .infolio-portfolio-tabs .cluom {
+    padding: 40px 30px;
+    overflow: hidden;
+  }
+  .infolio-portfolio-tabs.rotate-image-animate  .cluom {
+    padding: 30px 10px;
+    margin: 0;
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-portfolio-tabs{
+    .cluom{
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      border-left: 1px solid rgba(255,255,255,.1);
+    }
+    &.rotate-image-animate .cluom{
+      border-left: 0;
+    }
+    .info{
+      .categories{
+        color: #ffffff;
+      }
+      .title{
+        color: #ffffff;
+      }
+    }
+    .more{
+      color: #ffffff;
+      i{
+        color: #ffffff;
+      }
+      svg{
+        fill: #ffffff;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-portfolio-tabs{
+      .cluom{
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        border-left: 1px solid rgba(255,255,255,.1);
+      }
+      &.rotate-image-animate .cluom{
+        border-left: 0;
+      }
+      .info{
+        .categories{
+          color: #ffffff;
+        }
+        .title{
+          color: #ffffff;
+        }
+      }
+      .more{
+        color: #ffffff;
+        i{
+          color: #ffffff;
+        }
+        svg{
+          fill: #ffffff;
+        }
+      }
+    }
+  }
+}

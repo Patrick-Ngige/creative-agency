@@ -1,0 +1,289 @@
+.infolio-services {
+
+    .swiper-container:not(.swiper-container-initialized)>.swiper-wrapper, .swiper:not(.swiper-initialized)>.swiper-wrapper {
+        overflow: unset;
+    }
+
+    span,
+    a {
+        display: inline-block;
+    }
+
+    .sec-head {
+        margin-bottom: 80px;
+
+        .buttons {
+            margin-left: auto;
+        }
+
+        .swiper-arrow-control {
+            display: flex;
+            padding-top: 25px;
+        }
+
+        .swiper-arrow-control .swiper-button-prev,
+        .swiper-arrow-control .swiper-button-next {
+
+            i,
+            svg {
+                font-size: 14px;
+                fill: #1a1a1a;
+                color: #1a1a1a;
+
+                path {
+                    fill: #1a1a1a;
+                }
+            }
+
+            position: static;
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.01);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            color: inherit;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .swiper-button-next {
+            margin-left: 15px;
+        }
+
+        .sub-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #14cf93;
+            margin: 0 0 25px;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 1.3;
+            margin: 0 0 0.2rem;
+
+            .light {
+                font-weight: 200;
+            }
+        }
+
+        .bord {
+            padding-top: 25px;
+            padding-right: 30px;
+            position: relative;
+            border-top: 1px solid rgba(0, 0, 0, 0.14);
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 40px;
+                border-right: 1px solid rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    .item-box {
+        padding: 60px 40px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 15px;
+
+        .icon-img {
+            opacity: 0.5;
+            width: 70px;
+            margin-bottom: 40px;
+        }
+
+        h5 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 16px;
+            font-weight: 400;
+            color: #777;
+            margin: 0;
+        }
+
+        .rmore {
+            margin-top: 30px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        a,
+        a:hover {
+            color: inherit;
+        }
+
+        .sub-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+        }
+
+        .icon-img-20 {
+            width: 20px;
+            margin-left: 5px
+        }
+
+        .icon-box {
+            display: inline-block;
+            box-shadow: inset -2px -2px 2px rgba(65, 65, 65, 0.14), inset 2px 2px 5px rgba(7, 7, 7, 0.38);
+            border-radius: 15px;
+            width: 80px;
+            height: 80px;
+            padding: 15px;
+
+            img {
+                opacity: .7;
+            }
+        }
+    }
+
+    .infolio-serv-swiper {
+        clip-path: inset(-100vw -100vw -100vw 0);
+    }
+
+    .swiper-container {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .infolio-services .sec-head .bord {
+        display: block !important;
+    }
+
+    .infolio-services .sec-head h2 {
+        font-size: 28px;
+    }
+
+    .infolio-services .sec-head .buttons {
+        margin-top: 15px;
+    }
+}
+
+// Dark Mode
+body.tcg-dark-mode {
+    .infolio-services {
+        .sec-head {
+            h2 {
+                color: #fff;
+            }
+
+            .swiper-arrow-control .swiper-button-prev,
+            .swiper-arrow-control .swiper-button-next {
+
+                i,
+                svg {
+                    fill: white;
+                    color: white;
+
+                    path {
+                        fill: white;
+                    }
+                }
+
+                background-color: rgba(255, 255, 255, 0.01);
+                border-color: rgba(255, 255, 255, 0.05);
+            }
+        }
+
+        .item-box {
+            border-color: rgba(255, 255, 255, .12);
+
+            h5 {
+                color: #fff;
+            }
+
+            p {
+                color: #c6c8c9;
+            }
+
+            .sub-title {
+                color: #fff;
+            }
+        }
+
+        .bord {
+            position: relative;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+            &::after {
+                border-right: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+    }
+}
+
+// Auto Mode
+@media (prefers-color-scheme: dark) {
+
+    body.tcg-auto-mode {
+        .infolio-services {
+            .sec-head {
+                h2 {
+                    color: #fff;
+                }
+
+                .swiper-arrow-control .swiper-button-prev,
+                .swiper-arrow-control .swiper-button-next {
+
+                    i,
+                    svg {
+                        fill: white;
+                        color: white;
+
+                        path {
+                            fill: white;
+                        }
+                    }
+
+                    background-color: rgba(255, 255, 255, 0.01);
+                    border-color: rgba(255, 255, 255, 0.05);
+                }
+            }
+
+            .item-box {
+                border-color: rgba(255, 255, 255, .12);
+
+                h5 {
+                    color: #fff;
+                }
+
+                p {
+                    color: #c6c8c9;
+                }
+
+                .sub-title {
+                    color: #fff;
+                }
+            }
+
+            .bord {
+                position: relative;
+                border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+                &::after {
+                    border-right: 1px solid rgba(255, 255, 255, 0.1);
+                }
+            }
+        }
+    }
+}

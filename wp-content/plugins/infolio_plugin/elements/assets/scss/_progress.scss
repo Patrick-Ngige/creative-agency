@@ -1,0 +1,78 @@
+.infolio-progress {
+  .sub-title {
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .skill-progress {
+    height: 5px;
+    background-color: rgba(0,0,0,.05);
+    position: relative;
+    .progres {
+      position: absolute;
+      height: 100%;
+      width: 40%;
+      top: 0;
+      left: 0;
+      background: #1a1a1a;
+      transition: all 1.5s;
+
+      &:after {
+        color: #1a1a1a;
+        content: attr(data-value);
+        position: absolute;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      &.value-above::after{
+        right: 10px;
+        top: -25px;
+      }
+      &.value-after::after{
+        top: -5px;
+        right: -50px;
+      }
+      &.value-hidden::after{
+        content: none !important;
+      }
+    }
+  }
+}
+body.tcg-dark-mode {
+  .infolio-progress{
+    .sub-title {
+      color: #ffffff;
+    }
+    .skill-progress {
+      background-color: rgba(255,255,255,.05);
+      .progres {
+        background: #fff;
+        &:after {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-progress{
+      .sub-title {
+        color: #ffffff;
+      }
+      .skill-progress {
+        background-color: rgba(255,255,255,.05);
+        .progres {
+          background: #fff;
+          &:after {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

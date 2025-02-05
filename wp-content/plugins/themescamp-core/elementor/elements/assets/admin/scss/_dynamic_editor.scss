@@ -1,0 +1,93 @@
+/*----------------------------- Editor Style -----------------------------*/
+
+.tcg-dynamic-important-note {
+    padding: 10px;
+    background: #ffc107;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.tcg-dynamic-editor {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    background: #000000b0;
+    
+    .tcg-add-dynamic-block {
+        height: 50vh;
+        margin: auto;
+        background: #1a1c1e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .tcg-add-dynamic-title {
+            margin-bottom: 40px;
+            display: block;
+            font-size: 36px;
+            text-transform: capitalize;
+        }
+
+        .tcg-add-dynamic-form {
+            display: inline-flex;
+            margin-inline-end: 10px;
+
+            #tcg-dynamic-name {
+                width: 35vw;
+                height: 45px;
+                margin-inline-end: 10px;
+                font-size: 15px;
+                font-weight: 400;
+                padding: 15px;
+            }
+
+            #add-tcg-dynamic-block {
+                padding: 8px 50px;
+                background: #0a875a;
+                border: none;
+                border-radius: 3px;
+                font-size: 17px;
+                font-weight: 600;
+                cursor: pointer;
+                width: auto;
+            }
+        }
+    }
+
+    .editor-container {
+        height: 90vh;
+        width: 95%;
+        margin: auto;
+
+        .editor-controllers {
+            background: #1a1c1e;
+            height: 40px;
+            display: flex;
+            justify-content: end;
+    
+            .close-tcg-dynamic-editor {
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                border: 1px solid #ffffff4a;
+                color: #fff;
+                font-size: 18px;
+                cursor: pointer;
+            }
+        }
+
+        .editor-view {
+            width: 100%;
+            height: calc(90vh - 40px);
+        }
+    }
+}

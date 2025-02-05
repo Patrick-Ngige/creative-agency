@@ -1,0 +1,82 @@
+.infolio-accordion{
+  .accordion{
+    .item{
+      margin-bottom: 15px;
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+    }
+    .title{
+      padding: 10px 0 10px 0;
+      cursor: pointer;
+      position: relative;
+      h6{
+        margin: 0;
+      }
+      .ico{
+        left: auto;
+        right: 25px;
+        position: absolute;
+        top: 50%;
+        width: 15px;
+        height: 1px;
+        transform: translateY(-50%);
+        background: #999;
+        &:after{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 1px;
+            height: 15px;
+            transform: translateY(-50%);
+            background: #999;
+        }
+      }
+      svg,i{
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+      }
+    }
+
+    .accordion-info{
+      display: none;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-top: 0;
+      p{
+        margin: 0;
+      }
+    }
+
+    .active{
+      display: block;
+
+      .title{
+
+        .ico{
+
+          &:after{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 1px;
+            height: 15px;
+            transform: translateY(-50%);
+            background: #999;
+          }
+        }
+        svg,i{
+          transform: rotate(45deg);
+        }
+      }
+
+      .accordion-info{
+        display: block;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,62 @@
+.e-con {
+    &:hover {
+        .elementor-widget-tcg-post-featured-image>.elementor-widget-container>.tcg-post-image.selector-type-container {
+
+            &.tcg-post-image-container-active {
+                .tcg-post-image-wrapper::after {
+                    display: block;
+                }
+
+                .image-hover-container {
+                    display: block;
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+}
+
+.tcg-post-image {
+
+    &.selector-type-image {
+        &:hover {
+            .tcg-post-image-wrapper::after {
+                display: block;
+            }
+
+            .image-hover-container {
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
+
+    .tcg-post-image-wrapper::after {
+        content: '';
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: none;
+    }
+
+    .image-hover-container {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        opacity: 0;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+
+        svg {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}

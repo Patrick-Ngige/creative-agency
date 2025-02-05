@@ -1,0 +1,209 @@
+/*==============================================================
+						Mega Menu
+==============================================================*/
+/***************** Mega-menu reset *****************/
+.navigation .tcg-mega-nav-item .menu-wrapper .menu ul li {
+	display: initial;
+	position: initial; }
+
+.menu-wrapper ul li .tcg-mega-nav-item ul {
+	background: initial;
+	left: initial;
+	line-height: initial;
+	list-style: initial;
+	margin: initial;
+	padding: initial;
+	position: initial;
+	text-align: initial;
+	top: initial;
+	width: initial;
+	z-index: initial;
+	-webkit-box-shadow: initial;
+	box-shadow: initial;
+	border-top: initial;
+	background: initial;
+	border-top: initial; }
+
+.menu-wrapper .navigation .menu-item-has-children .tcg-mega-nav-item li {
+	display: flex; }
+
+/***************** Mega-menu style *****************/
+li.megamenu {
+	position: static !important; 
+}
+
+
+
+li.megamenu:hover .tcg-mega-nav-item, li.megamenu.active .tcg-mega-nav-item, .tcg-mega-nav-item:hover {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+	pointer-events: auto;
+	/* Add this line */ }
+
+.tcg-mega-nav-item {
+	width: 80vw;
+	left: 10vw;
+	min-width: 232px;
+	border-radius: 5px;
+	position: absolute;
+	top: 100%;
+	z-index: 11;
+	list-style: none;
+	opacity: 0;
+	visibility: hidden;
+	text-align: start;
+	pointer-events: none;
+	transform: translateY(10px);
+	transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
+	transition-property: transform,opacity,visibility;
+	font-size: initial; 
+}
+	.tcg-mega-nav-item:before {
+		/* content:""; */
+		display: inline-block;
+		border-radius: inherit;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+		background-color: #fff;
+		box-shadow: 0 16px 50px rgba(0, 0, 0, 0.07);
+		pointer-events: none; }
+
+.tcg-mega-menu-wrap {
+	width: 100%;
+	max-width: none;
+	padding: 0;
+	// background-color: #fff;
+	box-shadow: 0 16px 50px rgba(0, 0, 0, 0.07);
+	margin-right: auto;
+	margin-left: auto; }
+
+/*==============================================================
+						Default Multi Column Mega Menu
+==============================================================*/
+
+.navigation li.mega-menu{
+	position: initial;
+}
+.navigation li.mega-menu li.menu-item-has-children > a:after{
+	display:none;
+}
+.menu-wrapper ul li.mega-menu:hover ul {
+	opacity: 1;
+	visibility: visible;
+	transform: scaleY(1);
+}
+.menu-wrapper ul li.mega-menu ul.sub-menu li {
+	background-color: inherit;
+	padding: 0 5px;
+	padding-bottom: 10px;
+	width: max-content;
+}
+
+.menu-wrapper ul li.mega-menu ul.sub-menu li a::hover {
+	background-color: #fff;
+	color: #071041;
+}
+
+.menu-wrapper ul li.mega-menu > ul.sub-menu {
+	background-color: #fff !important;
+	padding: 20px 0;
+	width: -webkit-calc(100vw - 60px)!important;
+	width: calc(100vw - 60px)!important;
+	display: flex;
+		>li{
+			width: 25%;
+		display: block;
+		float: left;
+		margin: 0px;
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+		&:first-child{
+			border: none;
+		}
+		}
+} 
+
+.menu-wrapper ul li.mega-menu.col2 > ul.sub-menu {
+		width: calc(100vw*.50 ) !important;
+		left: calc(100vw - 75%);
+		display: flex;
+		>li{
+			width: 50%;
+		}
+}
+.menu-wrapper ul li.mega-menu.col3 > ul.sub-menu {
+	width: 660px !important;
+	width: calc(100vw*.75 ) !important;
+		left: calc(100vw - 87.5%);
+		display: flex;
+		>li{
+			width: 33.33%;
+		}
+}
+
+.menu-wrapper ul li.mega-menu > ul.sub-menu > li ul {
+	position: relative;
+	width: inherit;
+	left: inherit;
+	border: none;
+	box-shadow: none;
+	display: block !important;
+	background: initial;
+}
+.menu-wrapper ul li.mega-menu > ul.sub-menu > li > a {
+	font-weight: 600;
+	margin-bottom: 1px;
+	text-transform: uppercase;
+}
+
+.menu-wrapper ul li.mega-menu > ul.sub-menu li:after {
+	content: '';
+}
+.menu-wrapper ul li.mega-menu.hide-header > ul.sub-menu > li > a {
+	display: none;
+}
+/* Mobile Multi Column Menu */
+.mean-container .mega-menu.hide-header > ul > li {
+	border-top: none;
+}
+.mean-container .mega-menu.hide-header > ul > li > a {
+	display: none;
+}
+.mean-container .mega-menu.hide-header > ul > li > ul {
+	display: block !important;
+}
+
+/*  Helper classes */
+
+.tcg-hlp-static {
+	position: static !important;
+}
+
+
+/*  Mobile  */
+@media (max-width: 767px) {
+
+	li.tcg-buga-fat {
+		position: relative !important; 
+	}
+
+	.tcg-mega-nav-item{
+	    width: 99vw;
+    	left: -3vw;
+
+	}
+
+	.fat-nav li a.menu-item-icon{
+		border: none;
+	}
+
+}
+
+
+/*==============================================================
+						The End
+==============================================================*/

@@ -1,0 +1,57 @@
+/* Cursor*/
+
+.mouse-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translateZ(0);
+    visibility: hidden;
+}
+
+.cursor-inner {
+    margin-left: -2px;
+    margin-top: -2px;
+    width: 6px;
+    height: 6px;
+    z-index: 10000001;
+}
+
+.cursor-inner.cursor-hover {
+    margin-left: -30px;
+    margin-top: -23px;
+    width: 60px;
+    height: 60px;
+    // background-color: var(--color-main);
+    opacity: .3;
+}
+
+.cursor-outer {
+    margin-left: -19px;
+    margin-top: -19px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    z-index: 10000000;
+    opacity: .5;
+    transition: all .08s ease-out;
+    border-radius: 50px;
+    border: 1px solid transparent;
+
+    &.cursor-hover {
+        opacity: 0;
+    }
+}
+
+/* Smoke Cursor */
+.tcg-smoke-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.07;
+    z-index: 999;
+    pointer-events: none;
+}

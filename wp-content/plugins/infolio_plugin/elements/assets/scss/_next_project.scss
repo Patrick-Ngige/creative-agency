@@ -1,0 +1,100 @@
+.infolio-next-project{
+  position: relative;
+  .margin{
+    width: max-content;
+  }
+  .box{
+    padding: 200px 80px;
+    position: relative;
+
+    &:after{
+      content: '';
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      right: -1px;
+      bottom: -1px;
+      background: #f5f7f9;
+      transition: all .4s;
+    }
+
+    .cont{
+      position: relative;
+      z-index: 3;
+      svg{
+        fill: #1a1a1a;
+      }
+      .title,.sub-title{
+        color: #1a1a1a;
+        max-width: 100%;
+      }
+    }
+
+    &:hover{
+      .cont{
+        svg{
+          fill: #fff;
+        }
+        .title,.sub-title{
+          color: #fff;
+          max-width: 100%;
+        }
+      }
+
+      &:after{
+        background: #1d1d1d;
+        opacity: .3;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .infolio-next-project .box .cont {
+    width: 236px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .infolio-next-project .box .cont {
+    width: 186px;
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-next-project{
+    .box{
+      &:after{
+        background: #1d1d1d;
+      }
+      .cont{
+        svg{
+          fill: #fff;
+        }
+        .title,.sub-title{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-next-project{
+      .box{
+        &:after{
+          background: #1d1d1d;
+        }
+        .cont{
+          svg{
+            fill: #fff;
+          }
+          .title,.sub-title{
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

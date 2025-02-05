@@ -1,0 +1,118 @@
+.tcg-gallery-tabs {
+    .row.md-marg {
+        margin-left: -25px !important;
+        margin-right: -25px !important;
+
+        >* {
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+        }
+    }
+
+    .sec-head {
+        margin-bottom: 80px;
+
+        .sub-title {
+            margin-bottom: 25px !important;
+            color: #14cf93;
+        }
+
+        .bord {
+            position: relative;
+            padding-right: 30px;
+            display: flex;
+            align-items: center;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 40px;
+                border-right: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        .buttons {
+            margin-left: auto;
+        }
+    }
+
+    .item {
+        margin-top: 50px;
+        position: relative;
+
+        .img {
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        h6 {
+            font-size: 18px;
+        }
+
+        .new {
+            position: absolute;
+            top: 15px;
+            right: 0px;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 3px 10px;
+            background: #ff2300;
+        }
+    }
+
+    .filter {
+
+        span {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            padding: 10px 20px;
+            border: 1px solid rgba(255, 255, 255, .1);
+            border-radius: 30px;
+            margin: 0;
+            margin-right: 15px;
+            position: relative;
+            cursor: pointer;
+            opacity: .7;
+
+            &.active {
+                opacity: 1;
+                border: 1px solid rgba(255, 255, 255, .5);
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tcg-demos .sec-head .main-title {
+        margin-bottom: 15px;
+    }
+
+    .tcg-demos .row.md-marg {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+
+        >* {
+            padding-left: -15px !important;
+            padding-right: -15px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tcg-demos .sec-head .bord .buttons {
+        margin-top: 15px !important;
+    }
+
+    .tcg-demos .sec-head .bord {
+        display: block;
+    }
+}

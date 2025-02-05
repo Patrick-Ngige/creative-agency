@@ -1,0 +1,14 @@
+.infolio-contact-form{
+  p{
+    margin: 0;
+    input:focus{
+      box-shadow: none;
+    }
+    textarea:focus{
+      box-shadow: none;
+    }
+  }
+  .wpcf7-spinner{
+    position: absolute;
+  }
+}

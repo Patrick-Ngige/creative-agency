@@ -1,0 +1,165 @@
+.infolio-parallax-slider{
+
+  position: relative;
+  a,a:hover{
+    color: inherit;
+  }
+  a,span{
+    display: inline-block;
+  }
+
+  .swiper-slide {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      min-height: 100vh;
+      padding: 80px 0;
+
+      .bg-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+      }
+
+      .video-container{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        video{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+    }
+
+  .swiper-slide-active {
+      transform: rotate(0);
+      z-index: 99;
+
+      .caption {
+
+        h1{
+          font-size: 100px;
+        }
+
+        .thin,
+        .btn-curve,
+        p{
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    }
+
+  .caption {
+
+      .cal-act{
+        position: relative;
+      }
+
+      p{
+        color: #eee;
+        margin-top: 15px;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all .4s;
+        transition-delay: 1s;
+      }
+    }
+
+  .swiper-controls{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+
+    .swiper-button-prev,
+    .swiper-button-next{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      top: auto;
+      color: #fff;
+      z-index: 9;
+
+      &:after{
+        display: none;
+      }
+
+      span{
+        white-space: nowrap;
+      }
+    }
+
+    .swiper-button-prev{
+      left: 120px;
+
+      i{
+        margin-right: 25px;
+      }
+    }
+
+    .swiper-button-next{
+      right: 120px;
+
+      i{
+        margin-left: 25px;
+      }
+    }
+  }
+
+  .swiper-pagination{
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+  }
+
+  .swiper-pagination-bullet{
+    background: transparent;
+    margin: 0 10px !important;
+  }
+
+  .swiper-pagination-bullet-active .path{
+    display: inline-block !important;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dash linear 10s;
+    animation-iteration-count: unset;
+  }
+
+  .path {
+    display: none;
+  }
+
+  @keyframes dash {
+
+    from {
+      stroke-dashoffset: 1000;
+    }
+
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .infolio-parallax-slider .swiper-controls .swiper-button-next {
+    right: 50px;
+  }
+  .infolio-parallax-slider .swiper-controls .swiper-button-prev {
+    left: 50px;
+  }
+  .infolio-parallax-slider .swiper-pagination {
+    display:none;
+  }
+}

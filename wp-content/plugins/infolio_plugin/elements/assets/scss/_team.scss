@@ -1,0 +1,152 @@
+.infolio-team{
+
+  .item{
+    position: relative;
+    padding-right: 60px;
+
+    &:hover{
+
+      .img{
+
+        .info{
+          bottom: 15px;
+          opacity: 1;
+        }
+      }
+
+      .social{
+        right: 5px;
+        transform: rotate(8deg);
+      }
+    }
+
+    .img{
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      z-index: 2;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .info{
+        .name{
+          margin: 0;
+        }
+        span{
+          display: inline-block;
+        }
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        bottom: -15px;
+        padding: 15px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        opacity: 0;
+        transition: all .4s;
+      }
+    }
+
+    .social{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      right: 60px;
+      bottom: 40px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      background: #f5f7f9;
+      border-radius: 10px;
+      transition: all .4s;
+
+      .links{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        a{
+          color: #1a1a1a;
+          display: block;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 50%;
+          margin-bottom: 5px;
+          transition: all .4s;
+
+          svg {
+            width: 15px;
+            height: 15px;
+            fill: #1a1a1a;
+          }
+
+          &:hover{
+            background: #14cf93;
+            border-color: #14cf93;
+            color: #111;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.tcg-dark-mode {
+  .infolio-team{
+    .item{
+      .img .info{
+        background: rgba(0,0,0,.1);
+        .position{
+          color: #fff;
+        }
+        .name{
+          color: #fff;
+        }
+      }
+      .social{
+        border: 1px solid rgba(255,255,255,.1);
+        background: #242424;
+        .links{
+          a{
+            color: #fff;
+            border: 1px solid rgba(255,255,255,.3);
+
+            svg {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-team{
+      .item{
+        .img .info{
+          background: rgba(0,0,0,.1);
+        }
+        .social{
+          border: 1px solid rgba(255,255,255,.1);
+          background: #242424;
+          .links{
+            a{
+              color: #fff;
+              border: 1px solid rgba(255,255,255,.3);
+
+              svg {
+                fill: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

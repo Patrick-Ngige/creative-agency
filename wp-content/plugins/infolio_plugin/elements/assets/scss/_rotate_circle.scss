@@ -1,0 +1,139 @@
+.infolio-rotate-circle{
+  position: relative;
+  display: inline-block;
+  a{
+    display: inline-block;
+  }
+  a,a:hover{
+    color: inherit;
+  }
+  .rotate-circle{
+    color: #1a1a1a;
+    text{
+      textPath{
+        fill: #1a1a1a;
+      }
+    }
+    animation-name: rotateCircle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  i{
+    color: #1a1a1a;
+  }
+  svg{
+    path{
+      fill: #1a1a1a;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .shap-right-top {
+    position: absolute;
+    top: -2.1rem;
+    right: 65px;
+    transform: rotate(180deg);
+    svg{
+      width: 2.1rem;
+      height: 2.1rem;
+      path{
+        fill: #ffffff;
+      }
+    }
+  }
+  .shap-left-bottom {
+    position: absolute;
+    bottom: -1px;
+    left: -2.1rem;
+    transform: rotate(180deg);
+    svg{
+      width: 2.1rem;
+      height: 2.1rem;
+      path{
+        fill: #ffffff;
+      }
+    }
+  }
+}
+
+@keyframes rotateCircle {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+//dark mode
+body.tcg-dark-mode {
+  .infolio-rotate-circle{
+    .rotate-circle{
+      color: #ffffff;
+      text{
+        textPath{
+          fill: #FFFFFF;
+        }
+      }
+    }
+    i{
+      color: #ffffff;
+    }
+    svg{
+      path{
+        fill: #ffffff;
+      }
+    }
+    .shap-right-top {
+      svg{
+        path{
+          fill: #1a1a1a;
+        }
+      }
+    }
+    .shap-left-bottom {
+      svg{
+        path{
+          fill: #1a1a1a;
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.tcg-auto-mode {
+    .infolio-rotate-circle{
+      .rotate-circle{
+        color: #FFFFFF;
+        text{
+          textPath{
+            fill: #FFFFFF;
+          }
+        }
+      }
+      i{
+        color: #ffffff;
+      }
+      svg{
+        path{
+          fill: #ffffff;
+        }
+      }
+      .shap-right-top {
+        svg{
+          path{
+            fill: #1a1a1a;
+          }
+        }
+      }
+      .shap-left-bottom {
+        svg{
+          path{
+            fill: #1a1a1a;
+          }
+        }
+      }
+    }
+  }
+}

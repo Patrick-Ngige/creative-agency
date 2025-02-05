@@ -1,0 +1,4531 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Infolio Theme Addons\n"
+"POT-Creation-Date: 2024-09-02 08:53+0300\n"
+"PO-Revision-Date: 2024-09-02 08:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: infolio_plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: elements/widgets/about-image/about-image.php:59
+msgid "Infolio About Image"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:113
+msgid "About Image Image"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:120
+#: elements/widgets/brand/brand.php:231
+#: elements/widgets/button-animate/button-animate.php:263
+#: elements/widgets/heading/heading.php:264
+#: elements/widgets/image-scale/image-scale.php:153
+#: elements/widgets/image/image.php:121
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:222
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:182
+msgid "Choose Image"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:142
+msgid "Maze Shape"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:145
+#: elements/widgets/about-image/about-image.php:156
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:123
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:149
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:188
+#: elements/widgets/blog/blog.php:142
+#: elements/widgets/creative-blog-list/creative-blog-list.php:135
+#: elements/widgets/heading/heading.php:246
+#: elements/widgets/heading/heading.php:257
+#: elements/widgets/heading/heading.php:275
+#: elements/widgets/heading/heading.php:284
+#: elements/widgets/heading/heading.php:296
+#: elements/widgets/heading/heading.php:396
+#: elements/widgets/image-scale/image-scale.php:204
+#: elements/widgets/image-scale/image-scale.php:228
+#: elements/widgets/image-scale/image-scale.php:302
+#: elements/widgets/image/image.php:239 elements/widgets/image/image.php:253
+#: elements/widgets/images-carousel/images-carousel.php:102
+#: elements/widgets/images-carousel/images-carousel.php:112
+#: elements/widgets/images-carousel/images-carousel.php:132
+#: elements/widgets/images-carousel/images-carousel.php:143
+#: elements/widgets/images-carousel/images-carousel.php:153
+#: elements/widgets/images-carousel/images-carousel.php:173
+#: elements/widgets/interactive-center/interactive-center.php:127
+#: elements/widgets/interactive-center/interactive-center.php:153
+#: elements/widgets/interactive-center/interactive-center.php:192
+#: elements/widgets/marquee/marquee.php:240
+#: elements/widgets/parallax-slider/parallax-slider.php:163
+#: elements/widgets/parallax-slider/parallax-slider.php:189
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:128
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:138
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:159
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:252
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:278
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:125
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:151
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:188
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:198
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:217
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:243
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:121
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:147
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:119
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:130
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:141
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:162
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:188
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:227
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:239
+#: elements/widgets/portfolio/portfolio.php:129
+#: elements/widgets/portfolio/portfolio.php:155
+#: elements/widgets/portfolio/portfolio.php:194
+#: elements/widgets/post-categories/post-categories.php:64
+#: elements/widgets/post-tags/post-tags.php:48
+#: elements/widgets/services-card/services-card.php:119
+#: elements/widgets/services-card/services-card.php:143
+#: elements/widgets/showcase-carousel/showcase-carousel.php:177
+#: elements/widgets/showcase-carousel/showcase-carousel.php:203
+#: elements/widgets/showcase-interactive/showcase-interactive.php:139
+#: elements/widgets/showcase-interactive/showcase-interactive.php:165
+#: elements/widgets/showcase-interactive/showcase-interactive.php:204
+#: elements/widgets/social-media/social-media.php:64
+#: elements/widgets/social-media/social-media.php:75
+#: elements/widgets/social-media/social-media.php:86
+#: elements/widgets/work-crus/work-crus.php:117
+#: elements/widgets/work-crus/work-crus.php:127
+#: elements/widgets/work-crus/work-crus.php:148
+#: elements/widgets/work-crus/work-crus.php:170
+#: elements/widgets/work-crus/work-crus.php:253
+#: elements/widgets/work-crus/work-crus.php:279
+#: elements/widgets/work-metro/work-metro.php:139
+#: elements/widgets/work-metro/work-metro.php:165 inc/elemntor-extras.php:126
+msgid "Yes"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:146
+#: elements/widgets/about-image/about-image.php:157
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:124
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:150
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:189
+#: elements/widgets/blog/blog.php:143
+#: elements/widgets/creative-blog-list/creative-blog-list.php:136
+#: elements/widgets/heading/heading.php:247
+#: elements/widgets/heading/heading.php:258
+#: elements/widgets/heading/heading.php:276
+#: elements/widgets/heading/heading.php:285
+#: elements/widgets/heading/heading.php:297
+#: elements/widgets/heading/heading.php:397
+#: elements/widgets/image-scale/image-scale.php:205
+#: elements/widgets/image-scale/image-scale.php:229
+#: elements/widgets/image-scale/image-scale.php:303
+#: elements/widgets/image/image.php:240 elements/widgets/image/image.php:254
+#: elements/widgets/images-carousel/images-carousel.php:103
+#: elements/widgets/images-carousel/images-carousel.php:113
+#: elements/widgets/images-carousel/images-carousel.php:133
+#: elements/widgets/images-carousel/images-carousel.php:144
+#: elements/widgets/images-carousel/images-carousel.php:154
+#: elements/widgets/images-carousel/images-carousel.php:174
+#: elements/widgets/interactive-center/interactive-center.php:128
+#: elements/widgets/interactive-center/interactive-center.php:154
+#: elements/widgets/interactive-center/interactive-center.php:193
+#: elements/widgets/marquee/marquee.php:241
+#: elements/widgets/parallax-slider/parallax-slider.php:164
+#: elements/widgets/parallax-slider/parallax-slider.php:190
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:129
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:139
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:160
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:253
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:279
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:126
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:152
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:189
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:199
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:218
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:244
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:122
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:148
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:120
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:131
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:142
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:163
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:189
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:228
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:240
+#: elements/widgets/portfolio/portfolio.php:130
+#: elements/widgets/portfolio/portfolio.php:156
+#: elements/widgets/portfolio/portfolio.php:195
+#: elements/widgets/post-categories/post-categories.php:65
+#: elements/widgets/post-tags/post-tags.php:49
+#: elements/widgets/services-card/services-card.php:120
+#: elements/widgets/services-card/services-card.php:144
+#: elements/widgets/showcase-carousel/showcase-carousel.php:178
+#: elements/widgets/showcase-carousel/showcase-carousel.php:204
+#: elements/widgets/showcase-interactive/showcase-interactive.php:140
+#: elements/widgets/showcase-interactive/showcase-interactive.php:166
+#: elements/widgets/showcase-interactive/showcase-interactive.php:205
+#: elements/widgets/social-media/social-media.php:65
+#: elements/widgets/social-media/social-media.php:77
+#: elements/widgets/social-media/social-media.php:87
+#: elements/widgets/work-crus/work-crus.php:118
+#: elements/widgets/work-crus/work-crus.php:128
+#: elements/widgets/work-crus/work-crus.php:149
+#: elements/widgets/work-crus/work-crus.php:171
+#: elements/widgets/work-crus/work-crus.php:254
+#: elements/widgets/work-crus/work-crus.php:280
+#: elements/widgets/work-metro/work-metro.php:140
+#: elements/widgets/work-metro/work-metro.php:166 inc/elemntor-extras.php:127
+msgid "No"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:153
+msgid "Titles"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:164
+#: elements/widgets/accordion/accordion.php:82
+#: elements/widgets/awards-item/awards-item.php:77
+#: elements/widgets/curve-title/curve-title.php:125
+#: elements/widgets/curve-title/curve-title.php:253
+#: elements/widgets/heading/heading.php:130
+#: elements/widgets/heading/heading.php:320
+#: elements/widgets/panel-slider/panel-slider.php:112
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:188
+#: elements/widgets/resume/resume.php:64
+#: elements/widgets/services-slider/services-slider.php:142
+#: elements/widgets/slides/slides.php:139
+#: elements/widgets/slides/slides.php:236
+#: elements/widgets/testimonials/testimonials.php:178
+#: elements/widgets/work-crus/work-crus.php:199
+msgid "Title"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:168
+msgid "Enter your Title"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:177
+#: elements/widgets/brand/brand.php:268 elements/widgets/brand/brand.php:286
+#: elements/widgets/demos-gallery/demos-gallery.php:69
+#: elements/widgets/next-project/next-project.php:63
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:179
+#: elements/widgets/services-slider/services-slider.php:133
+#: elements/widgets/slides/slides.php:148
+#: elements/widgets/testimonials/testimonials.php:169
+#: elements/widgets/toggle-tabs/toggle-tabs.php:147
+#: elements/widgets/work-crus/work-crus.php:190
+msgid "Sub Title"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:181
+msgid "Enter your Sub Title"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:193
+#: elements/widgets/brand/brand.php:124
+#: elements/widgets/button-animate/button-animate.php:252
+#: elements/widgets/image-scale/image-scale.php:325
+#: elements/widgets/image/image.php:114 elements/widgets/image/image.php:299
+#: elements/widgets/images-carousel/images-carousel.php:184
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:167
+#: elements/widgets/services-card/services-card.php:151
+#: elements/widgets/services-card/services-card.php:271
+#: elements/widgets/team-tabs/team-tabs.php:116
+#: elements/widgets/team/team.php:138
+msgid "Image"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:201
+#: elements/widgets/icon-list/icon-list.php:385
+#: elements/widgets/icon-list/icon-list.php:488
+#: elements/widgets/icon/icon.php:418
+#: elements/widgets/image-scale/image-scale.php:345
+#: elements/widgets/image/image.php:307
+#: elements/widgets/play-button/play-button.php:167
+#: elements/widgets/services-card/services-card.php:315
+#: elements/widgets/toggle-tabs/toggle-tabs.php:503
+#: elements/widgets/toggle-tabs/toggle-tabs.php:693
+msgid "Width"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:236
+#: elements/widgets/image-scale/image-scale.php:380
+#: elements/widgets/image/image.php:342
+msgid "Max Width"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:271
+#: elements/widgets/button-animate/button-animate.php:315
+#: elements/widgets/icon-list/icon-list.php:403
+#: elements/widgets/icon-list/icon-list.php:469
+#: elements/widgets/image-scale/image-scale.php:415
+#: elements/widgets/image/image.php:377
+#: elements/widgets/play-button/play-button.php:185
+#: elements/widgets/toggle-tabs/toggle-tabs.php:728
+msgid "Height"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:293
+#: elements/widgets/image-scale/image-scale.php:437
+#: elements/widgets/image/image.php:399
+msgid "Object Fit"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:299
+#: elements/widgets/heading/heading.php:165
+#: elements/widgets/icon-list/icon-list.php:153
+#: elements/widgets/icon/icon.php:143
+#: elements/widgets/image-scale/image-scale.php:301
+#: elements/widgets/image-scale/image-scale.php:443
+#: elements/widgets/image/image.php:238 elements/widgets/image/image.php:405
+#: elements/widgets/menu/menu.php:136
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:118
+#: elements/widgets/text-editor/text-editor.php:138
+#: elements/widgets/text-editor/text-editor.php:359
+msgid "Default"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:300
+#: elements/widgets/image-scale/image-scale.php:444
+#: elements/widgets/image/image.php:406
+msgid "Fill"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:301
+#: elements/widgets/image-scale/image-scale.php:445
+#: elements/widgets/image/image.php:407
+msgid "Cover"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:302
+#: elements/widgets/image-scale/image-scale.php:446
+#: elements/widgets/image/image.php:408
+msgid "Contain"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:314
+#: elements/widgets/image-scale/image-scale.php:458
+#: elements/widgets/image/image.php:420
+msgid "Object Position"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:317
+#: elements/widgets/image-scale/image-scale.php:461
+#: elements/widgets/image/image.php:423
+msgid "Center Center"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:318
+#: elements/widgets/image-scale/image-scale.php:462
+#: elements/widgets/image/image.php:424
+msgid "Center Left"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:319
+#: elements/widgets/image-scale/image-scale.php:463
+#: elements/widgets/image/image.php:425
+msgid "Center Right"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:320
+#: elements/widgets/image-scale/image-scale.php:464
+#: elements/widgets/image/image.php:426
+msgid "Top Center"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:321
+#: elements/widgets/brand/brand.php:169
+#: elements/widgets/image-scale/image-scale.php:465
+#: elements/widgets/image/image.php:427
+msgid "Top Left"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:322
+#: elements/widgets/brand/brand.php:178
+#: elements/widgets/image-scale/image-scale.php:466
+#: elements/widgets/image/image.php:428
+#: elements/widgets/testimonials/testimonials.php:140
+msgid "Top Right"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:323
+#: elements/widgets/image-scale/image-scale.php:467
+#: elements/widgets/image/image.php:429
+msgid "Bottom Center"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:324
+#: elements/widgets/brand/brand.php:186
+#: elements/widgets/image-scale/image-scale.php:468
+#: elements/widgets/image/image.php:430
+msgid "Bottom Left"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:325
+#: elements/widgets/brand/brand.php:195
+#: elements/widgets/image-scale/image-scale.php:469
+#: elements/widgets/image/image.php:431
+msgid "Bottom Right"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:348
+#: elements/widgets/blog-classic/blog-classic.php:505
+#: elements/widgets/blog/blog.php:357 elements/widgets/blog/blog.php:520
+#: elements/widgets/button-animate/button-animate.php:371
+#: elements/widgets/button-animate/button-animate.php:837
+#: elements/widgets/contact-form/contact-form.php:109
+#: elements/widgets/contact-form/contact-form.php:260
+#: elements/widgets/heading/heading.php:328
+#: elements/widgets/heading/heading.php:483
+#: elements/widgets/icon-list/icon-list.php:548
+#: elements/widgets/icon-list/icon-list.php:746
+#: elements/widgets/icon/icon.php:221
+#: elements/widgets/image-scale/image-scale.php:492
+#: elements/widgets/image/image.php:455 elements/widgets/menu/menu.php:179
+#: elements/widgets/post-tags/post-tags.php:121
+#: elements/widgets/social-media/social-media.php:280
+#: elements/widgets/team/team.php:237
+#: elements/widgets/toggle-tabs/toggle-tabs.php:540
+msgid "Normal"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:354
+#: elements/widgets/about-image/about-image.php:385
+#: elements/widgets/blog-classic/blog-classic.php:286
+#: elements/widgets/heading/heading.php:416
+#: elements/widgets/heading/heading.php:685 elements/widgets/icon/icon.php:525
+#: elements/widgets/image-scale/image-scale.php:498
+#: elements/widgets/image-scale/image-scale.php:529
+#: elements/widgets/image/image.php:462 elements/widgets/image/image.php:496
+#: elements/widgets/marquee/marquee.php:318
+#: elements/widgets/services-card/services-card.php:278
+#: elements/widgets/text-editor/text-editor.php:248
+#: elements/widgets/toggle-tabs/toggle-tabs.php:639
+msgid "Opacity"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:379
+#: elements/widgets/blog-classic/blog-classic.php:536
+#: elements/widgets/blog/blog.php:385 elements/widgets/blog/blog.php:588
+#: elements/widgets/button-animate/button-animate.php:657
+#: elements/widgets/button-animate/button-animate.php:958
+#: elements/widgets/contact-form/contact-form.php:341
+#: elements/widgets/heading/heading.php:356
+#: elements/widgets/icon-list/icon-list.php:614
+#: elements/widgets/icon-list/icon-list.php:636
+#: elements/widgets/icon-list/icon-list.php:790
+#: elements/widgets/icon-list/icon-list.php:808
+#: elements/widgets/icon/icon.php:348
+#: elements/widgets/image-scale/image-scale.php:523
+#: elements/widgets/image/image.php:489 elements/widgets/menu/menu.php:198
+#: elements/widgets/post-tags/post-tags.php:149
+#: elements/widgets/social-media/social-media.php:317
+#: elements/widgets/team/team.php:267
+#: elements/widgets/toggle-tabs/toggle-tabs.php:564
+msgid "Hover"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:411
+#: elements/widgets/image-scale/image-scale.php:555
+#: elements/widgets/image/image.php:522
+msgid "Transition Duration"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:428
+#: elements/widgets/icon/icon.php:386
+#: elements/widgets/image-scale/image-scale.php:572
+#: elements/widgets/image/image.php:539
+#: elements/widgets/social-media/social-media.php:84
+msgid "Hover Animation"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:447
+#: elements/widgets/accordion/accordion.php:220
+#: elements/widgets/accordion/accordion.php:324
+#: elements/widgets/blog-classic/blog-classic.php:245
+#: elements/widgets/blog/blog.php:506
+#: elements/widgets/button-animate/button-animate.php:642
+#: elements/widgets/button-animate/button-animate.php:784
+#: elements/widgets/button-animate/button-animate.php:924
+#: elements/widgets/button-animate/button-animate.php:1030
+#: elements/widgets/contact-form/contact-form.php:150
+#: elements/widgets/contact-form/contact-form.php:202
+#: elements/widgets/contact-form/contact-form.php:328
+#: elements/widgets/contact-form/contact-form.php:408
+#: elements/widgets/icon-list/icon-list.php:507
+#: elements/widgets/icon/icon.php:510
+#: elements/widgets/image-scale/image-scale.php:591
+#: elements/widgets/image/image.php:560
+#: elements/widgets/latest-posts/latest-posts.php:232
+#: elements/widgets/mailchimp/mailchimp.php:288
+#: elements/widgets/mailchimp/mailchimp.php:728
+#: elements/widgets/marquee/marquee.php:387
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:460
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:484
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:392
+#: elements/widgets/post-tags/post-tags.php:109
+#: elements/widgets/search/search.php:382
+#: elements/widgets/services-card/services-card.php:258
+#: elements/widgets/showcase-carousel/showcase-carousel.php:356
+#: elements/widgets/social-media/social-media.php:267
+#: elements/widgets/text-editor/text-editor.php:449
+#: elements/widgets/toggle-tabs/toggle-tabs.php:273
+#: elements/widgets/toggle-tabs/toggle-tabs.php:362
+#: elements/widgets/toggle-tabs/toggle-tabs.php:491
+#: elements/widgets/work-crus/work-crus.php:424
+msgid "Border Radius"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:472
+#: elements/widgets/brand/brand.php:125
+#: elements/widgets/icon-list/icon-list.php:173
+#: elements/widgets/icon-list/icon-list.php:737
+#: elements/widgets/marquee/marquee.php:127
+#: elements/widgets/marquee/marquee.php:137
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:247
+#: elements/widgets/rotate-circle/rotate-circle.php:124
+#: elements/widgets/services-card/services-card.php:170
+#: elements/widgets/services-card/services-card.php:338
+#: elements/widgets/slides/slides.php:257
+#: elements/widgets/team-tabs/team-tabs.php:142
+#: elements/widgets/toggle-tabs/toggle-tabs.php:195
+msgid "Text"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:480
+#: elements/widgets/accordion/accordion.php:179
+#: elements/widgets/blog/blog.php:364 elements/widgets/blog/blog.php:392
+#: elements/widgets/creative-blog-list/creative-blog-list.php:246
+#: elements/widgets/next-project/next-project.php:174
+#: elements/widgets/pagination/pagination.php:133
+#: elements/widgets/parallax-slider/parallax-slider.php:233
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:360
+#: elements/widgets/portfolio/portfolio.php:212
+#: elements/widgets/services-card/services-card.php:379
+#: elements/widgets/showcase-carousel/showcase-carousel.php:247
+#: elements/widgets/slides/slides.php:244 elements/widgets/team/team.php:244
+#: elements/widgets/team/team.php:274
+#: elements/widgets/testimonials/testimonials.php:703
+msgid "Title Color"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:498
+#: elements/widgets/accordion/accordion.php:160
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:216
+#: elements/widgets/blog-classic/blog-classic.php:209
+#: elements/widgets/blog/blog.php:415
+#: elements/widgets/creative-blog-list/creative-blog-list.php:265
+#: elements/widgets/interactive-center/interactive-center.php:216
+#: elements/widgets/latest-posts/latest-posts.php:188
+#: elements/widgets/next-project/next-project.php:194
+#: elements/widgets/pagination/pagination.php:153
+#: elements/widgets/parallax-slider/parallax-slider.php:253
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:380
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:247
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:422
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:276
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:331
+#: elements/widgets/portfolio/portfolio.php:233
+#: elements/widgets/resume/resume.php:124
+#: elements/widgets/showcase-carousel/showcase-carousel.php:268
+#: elements/widgets/showcase-interactive/showcase-interactive.php:245
+#: elements/widgets/team-tabs/team-tabs.php:208
+#: elements/widgets/work-crus/work-crus.php:362
+#: elements/widgets/work-metro/work-metro.php:259
+msgid "Title Margin"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:517
+#: elements/widgets/next-project/next-project.php:225
+#: elements/widgets/pagination/pagination.php:184
+#: elements/widgets/resume/resume.php:146
+msgid "Sub Title Margin"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:530
+#: elements/widgets/accordion/accordion.php:72
+#: elements/widgets/button-animate/button-animate.php:176
+#: elements/widgets/heading/heading.php:282
+#: elements/widgets/heading/heading.php:305
+#: elements/widgets/heading/heading.php:714
+#: elements/widgets/icon-list/icon-list.php:187
+#: elements/widgets/icon-list/icon-list.php:449
+#: elements/widgets/icon/icon.php:120 elements/widgets/icon/icon.php:127
+#: elements/widgets/icon/icon.php:211
+#: elements/widgets/image-scale/image-scale.php:248
+#: elements/widgets/marquee/marquee.php:159
+#: elements/widgets/next-project/next-project.php:96
+#: elements/widgets/play-button/play-button.php:120
+#: elements/widgets/rotate-circle/rotate-circle.php:131
+#: elements/widgets/search/search.php:125
+#: elements/widgets/search/search.php:135
+#: elements/widgets/search/search.php:143
+#: elements/widgets/search/search.php:201
+#: elements/widgets/social-media/social-media.php:143
+#: elements/widgets/social-media/social-media.php:217
+#: elements/widgets/team/team.php:152
+msgid "Icon"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:538
+#: elements/widgets/blog-classic/blog-classic.php:512
+#: elements/widgets/blog-classic/blog-classic.php:543
+#: elements/widgets/button-animate/button-animate.php:844
+#: elements/widgets/button-animate/button-animate.php:965
+#: elements/widgets/button-animate/button-animate.php:1214
+#: elements/widgets/heading/heading.php:491
+#: elements/widgets/icon-list/icon-list.php:432
+#: elements/widgets/icon-list/icon-list.php:555
+#: elements/widgets/play-button/play-button.php:309
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:516
+msgid "Color"
+msgstr ""
+
+#: elements/widgets/about-image/about-image.php:550
+#: elements/widgets/icon-list/icon-list.php:569
+#: elements/widgets/play-button/play-button.php:324
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:527
+msgid "Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:31
+msgid "Infolio Accordion"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:55
+#: elements/widgets/accordion/accordion.php:101
+msgid "Accordion Items"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:61
+msgid "Count Items"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:63
+#: elements/widgets/blog/blog.php:178 elements/widgets/blog/blog.php:204
+#: elements/widgets/blog/blog.php:215
+#: elements/widgets/creative-blog-list/creative-blog-list.php:171
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:118
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:170
+#: elements/widgets/services-slider/services-slider.php:124
+#: elements/widgets/services-slider/services-slider.php:207
+#: elements/widgets/slides/slides.php:169
+#: elements/widgets/testimonials-rating/testimonials-rating.php:125
+#: elements/widgets/testimonials/testimonials.php:153
+#: elements/widgets/testimonials/testimonials.php:215
+#: elements/widgets/work-crus/work-crus.php:181
+msgid "Show"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:64
+#: elements/widgets/blog/blog.php:179 elements/widgets/blog/blog.php:205
+#: elements/widgets/blog/blog.php:216
+#: elements/widgets/creative-blog-list/creative-blog-list.php:172
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:119
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:171
+#: elements/widgets/services-slider/services-slider.php:125
+#: elements/widgets/services-slider/services-slider.php:208
+#: elements/widgets/slides/slides.php:170
+#: elements/widgets/testimonials-rating/testimonials-rating.php:126
+#: elements/widgets/testimonials/testimonials.php:154
+#: elements/widgets/testimonials/testimonials.php:216
+#: elements/widgets/work-crus/work-crus.php:182
+msgid "Hide"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:84
+msgid "Designing Content With AI Power"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:92
+#: elements/widgets/contact-form/contact-form.php:49
+#: elements/widgets/marquee/marquee.php:118
+#: elements/widgets/play-button/play-button.php:113
+#: elements/widgets/rotate-circle/rotate-circle.php:118
+#: elements/widgets/services-card/services-card.php:109
+#: elements/widgets/slides/slides.php:116 elements/widgets/team/team.php:111
+#: elements/widgets/testimonials-rating/testimonials-rating.php:115
+#: elements/widgets/testimonials/testimonials.php:115
+#: elements/widgets/toggle-tabs/toggle-tabs.php:133
+msgid "Content"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:94
+#: elements/widgets/text-editor/text-editor.php:121
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:111
+#: elements/widgets/icon-list/icon-list.php:278
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:279
+#: elements/widgets/progress/progress.php:124
+#: elements/widgets/resume/resume.php:90
+#: elements/widgets/social-media/social-media.php:173
+#: elements/widgets/toggle-tabs/toggle-tabs.php:790
+msgid "Space Between"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:130
+#: elements/widgets/blog-classic/blog-classic.php:192
+#: elements/widgets/latest-posts/latest-posts.php:171
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:230
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:259
+msgid "Title Style"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:137
+#: elements/widgets/blog/blog.php:427
+#: elements/widgets/creative-blog-list/creative-blog-list.php:277
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:343
+#: elements/widgets/team-tabs/team-tabs.php:220
+msgid "Title Padding"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:148
+msgid "Title Container Margin"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:172
+#: elements/widgets/awards-item/awards-item.php:148
+#: elements/widgets/demos-gallery/demos-gallery.php:171
+#: elements/widgets/toggle-tabs/toggle-tabs.php:285
+#: elements/widgets/toggle-tabs/toggle-tabs.php:374
+#: elements/widgets/toggle-tabs/toggle-tabs.php:444
+#: elements/widgets/toggle-tabs/toggle-tabs.php:612
+msgid "Title Typography"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:190
+msgid "Title Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:209
+#: elements/widgets/accordion/accordion.php:312
+#: elements/widgets/contact-form/contact-form.php:135
+#: elements/widgets/contact-form/contact-form.php:187
+#: elements/widgets/contact-form/contact-form.php:317
+#: elements/widgets/contact-form/contact-form.php:397
+#: elements/widgets/icon-list/icon-list.php:532
+#: elements/widgets/images-carousel/images-carousel.php:322
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:392
+msgid "Border Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:232
+#: elements/widgets/toggle-tabs/toggle-tabs.php:658
+msgid "Text Style"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:239
+#: elements/widgets/image/image.php:641
+#: elements/widgets/mailchimp/mailchimp.php:223
+#: elements/widgets/panel-slider/panel-slider.php:230
+#: elements/widgets/play-button/play-button.php:203
+#: elements/widgets/play-button/play-button.php:337
+#: elements/widgets/search/search.php:336
+#: elements/widgets/testimonials/testimonials.php:732
+#: elements/widgets/testimonials/testimonials.php:778
+msgid "Background Color"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:249
+#: elements/widgets/icon-list/icon-list.php:597
+#: elements/widgets/icon-list/icon-list.php:662
+#: elements/widgets/play-button/play-button.php:213
+#: elements/widgets/play-button/play-button.php:347
+#: elements/widgets/testimonials/testimonials.php:744
+#: elements/widgets/testimonials/testimonials.php:790
+msgid "Background Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:260
+#: elements/widgets/testimonials/testimonials.php:393
+msgid "Text Padding"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:273
+#: elements/widgets/text-editor/text-editor.php:286
+#: elements/widgets/toggle-tabs/toggle-tabs.php:666
+msgid "Text Typography"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:281
+#: elements/widgets/breadcrumbs/breadcrumbs.php:402
+#: elements/widgets/button-animate/button-animate.php:391
+#: elements/widgets/button-animate/button-animate.php:664
+#: elements/widgets/demos-gallery/demos-gallery.php:187
+#: elements/widgets/heading/heading.php:334
+#: elements/widgets/heading/heading.php:651
+#: elements/widgets/icon-list/icon-list.php:761
+#: elements/widgets/image-scale/image-scale.php:642
+#: elements/widgets/image/image.php:626
+#: elements/widgets/mailchimp/mailchimp.php:211
+#: elements/widgets/search/search.php:300
+#: elements/widgets/slides/slides.php:265
+#: elements/widgets/text-editor/text-editor.php:223
+msgid "Text Color"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:292
+#: elements/widgets/breadcrumbs/breadcrumbs.php:414
+#: elements/widgets/heading/heading.php:344
+#: elements/widgets/icon-list/icon-list.php:774
+#: elements/widgets/text-editor/text-editor.php:235
+msgid "Text Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:336
+msgid "Icon Style"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:343
+#: elements/widgets/blog-classic/blog-classic.php:313
+#: elements/widgets/heading/heading.php:759
+#: elements/widgets/mailchimp/mailchimp.php:463
+#: elements/widgets/mailchimp/mailchimp.php:776
+#: elements/widgets/rotate-circle/rotate-circle.php:221
+msgid "Icon Size"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:361
+#: elements/widgets/heading/heading.php:724
+#: elements/widgets/mailchimp/mailchimp.php:529
+#: elements/widgets/next-project/next-project.php:255
+#: elements/widgets/pagination/pagination.php:214
+#: elements/widgets/search/search.php:209
+#: elements/widgets/testimonials/testimonials.php:767
+msgid "Icon Color"
+msgstr ""
+
+#: elements/widgets/accordion/accordion.php:372
+#: elements/widgets/heading/heading.php:735
+#: elements/widgets/search/search.php:223
+msgid "Icon Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:54
+msgid "Infolio Asymmetric Portfolio"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:104
+#: elements/widgets/parallax-slider/parallax-slider.php:145
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:234
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:108
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:109
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:104
+#: elements/widgets/portfolio/portfolio.php:110
+#: elements/widgets/showcase-carousel/showcase-carousel.php:159
+#: elements/widgets/work-crus/work-crus.php:235
+#: elements/widgets/work-metro/work-metro.php:109
+msgid "Portfolio Settings."
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:111
+#: elements/widgets/interactive-center/interactive-center.php:115
+#: elements/widgets/parallax-slider/parallax-slider.php:151
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:240
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:114
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:178
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:110
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:150
+#: elements/widgets/portfolio/portfolio.php:117
+#: elements/widgets/showcase-carousel/showcase-carousel.php:165
+#: elements/widgets/showcase-interactive/showcase-interactive.php:127
+#: elements/widgets/work-crus/work-crus.php:241
+#: elements/widgets/work-metro/work-metro.php:127
+msgid "Item to display"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:120
+#: elements/widgets/interactive-center/interactive-center.php:124
+#: elements/widgets/parallax-slider/parallax-slider.php:160
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:249
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:122
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:214
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:118
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:159
+#: elements/widgets/portfolio/portfolio.php:126
+#: elements/widgets/showcase-carousel/showcase-carousel.php:174
+#: elements/widgets/showcase-interactive/showcase-interactive.php:136
+#: elements/widgets/work-crus/work-crus.php:250
+#: elements/widgets/work-metro/work-metro.php:136
+msgid "Sort Portfolio by Portfolio Category"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:132
+#: elements/widgets/interactive-center/interactive-center.php:136
+#: elements/widgets/parallax-slider/parallax-slider.php:172
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:261
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:134
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:226
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:130
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:171
+#: elements/widgets/portfolio/portfolio.php:138
+#: elements/widgets/showcase-carousel/showcase-carousel.php:186
+#: elements/widgets/showcase-interactive/showcase-interactive.php:148
+#: elements/widgets/work-crus/work-crus.php:262
+#: elements/widgets/work-metro/work-metro.php:148
+msgid "Category to Show"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:146
+#: elements/widgets/interactive-center/interactive-center.php:150
+#: elements/widgets/parallax-slider/parallax-slider.php:186
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:275
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:148
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:240
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:144
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:185
+#: elements/widgets/portfolio/portfolio.php:152
+#: elements/widgets/showcase-carousel/showcase-carousel.php:200
+#: elements/widgets/showcase-interactive/showcase-interactive.php:162
+#: elements/widgets/work-crus/work-crus.php:276
+#: elements/widgets/work-metro/work-metro.php:162
+msgid "Sort post by Tags"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:158
+#: elements/widgets/interactive-center/interactive-center.php:162
+#: elements/widgets/parallax-slider/parallax-slider.php:198
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:287
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:160
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:252
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:156
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:197
+#: elements/widgets/portfolio/portfolio.php:164
+#: elements/widgets/post-tags/post-tags.php:57
+#: elements/widgets/showcase-carousel/showcase-carousel.php:212
+#: elements/widgets/showcase-interactive/showcase-interactive.php:174
+#: elements/widgets/work-crus/work-crus.php:288
+#: elements/widgets/work-metro/work-metro.php:174
+msgid "Tags"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:171
+#: elements/widgets/interactive-center/interactive-center.php:175
+#: elements/widgets/parallax-slider/parallax-slider.php:211
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:300
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:173
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:265
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:169
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:210
+#: elements/widgets/portfolio/portfolio.php:177
+#: elements/widgets/showcase-carousel/showcase-carousel.php:115
+#: elements/widgets/showcase-carousel/showcase-carousel.php:225
+#: elements/widgets/showcase-interactive/showcase-interactive.php:187
+#: elements/widgets/work-crus/work-crus.php:301
+#: elements/widgets/work-metro/work-metro.php:187
+msgid "Orders"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:174
+#: elements/widgets/blog-classic/blog-classic.php:97
+#: elements/widgets/blog/blog.php:119
+#: elements/widgets/creative-blog-list/creative-blog-list.php:112
+#: elements/widgets/interactive-center/interactive-center.php:178
+#: elements/widgets/latest-posts/latest-posts.php:97
+#: elements/widgets/parallax-slider/parallax-slider.php:214
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:303
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:176
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:268
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:172
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:213
+#: elements/widgets/portfolio/portfolio.php:180
+#: elements/widgets/showcase-carousel/showcase-carousel.php:228
+#: elements/widgets/showcase-interactive/showcase-interactive.php:190
+#: elements/widgets/work-crus/work-crus.php:304
+#: elements/widgets/work-metro/work-metro.php:190
+msgid "Descending"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:175
+#: elements/widgets/blog-classic/blog-classic.php:98
+#: elements/widgets/blog/blog.php:120
+#: elements/widgets/creative-blog-list/creative-blog-list.php:113
+#: elements/widgets/interactive-center/interactive-center.php:179
+#: elements/widgets/latest-posts/latest-posts.php:98
+#: elements/widgets/parallax-slider/parallax-slider.php:215
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:304
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:177
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:269
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:173
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:214
+#: elements/widgets/portfolio/portfolio.php:181
+#: elements/widgets/showcase-carousel/showcase-carousel.php:229
+#: elements/widgets/showcase-interactive/showcase-interactive.php:191
+#: elements/widgets/work-crus/work-crus.php:305
+#: elements/widgets/work-metro/work-metro.php:191
+msgid "Ascending"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:176
+#: elements/widgets/blog-classic/blog-classic.php:99
+#: elements/widgets/blog/blog.php:121
+#: elements/widgets/creative-blog-list/creative-blog-list.php:114
+#: elements/widgets/interactive-center/interactive-center.php:180
+#: elements/widgets/latest-posts/latest-posts.php:99
+#: elements/widgets/parallax-slider/parallax-slider.php:216
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:305
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:178
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:270
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:174
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:215
+#: elements/widgets/portfolio/portfolio.php:182
+#: elements/widgets/showcase-carousel/showcase-carousel.php:230
+#: elements/widgets/showcase-interactive/showcase-interactive.php:192
+#: elements/widgets/work-crus/work-crus.php:306
+#: elements/widgets/work-metro/work-metro.php:192
+msgid "Random"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:185
+#: elements/widgets/interactive-center/interactive-center.php:189
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:224
+#: elements/widgets/portfolio/portfolio.php:191
+#: elements/widgets/showcase-interactive/showcase-interactive.php:201
+msgid "Show Tags"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:199
+#: elements/widgets/parallax-slider/parallax-slider.php:226
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:344
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:203
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:297
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:202
+#: elements/widgets/portfolio/portfolio.php:205
+#: elements/widgets/showcase-carousel/showcase-carousel.php:240
+#: elements/widgets/work-crus/work-crus.php:345
+msgid "Section Portfolio"
+msgstr ""
+
+#: elements/widgets/asymmetric-portfolio/asymmetric-portfolio.php:237
+#: elements/widgets/blog/blog.php:666
+#: elements/widgets/creative-blog-list/creative-blog-list.php:382
+msgid "Date Opacity"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:29
+msgid "infolio Award item"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:46
+msgid "Awards Settings"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:52
+msgid "Award Title"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:54
+msgid "Award"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:63
+msgid "Platform Title"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:65
+msgid "Platform"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:79
+#: elements/widgets/services-card/services-card.php:164
+msgid "Digital Marketing"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:89
+#: elements/widgets/resume/resume.php:57
+msgid "Date"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:91
+msgid "2023"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:102
+msgid "Second Title"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:104
+msgid "Behance"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:114
+#: elements/widgets/button-animate/button-animate.php:144
+#: elements/widgets/play-button/play-button.php:130
+#: elements/widgets/toggle-tabs/toggle-tabs.php:211
+msgid "Button Link"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:128
+msgid "Items List"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:139
+msgid "Awards Items Setting"
+msgstr ""
+
+#: elements/widgets/awards-item/awards-item.php:157
+msgid "Item Typography"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:33
+msgid "Infolio Blog Classic"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:50
+msgid "Blog List Settings"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:57
+#: elements/widgets/latest-posts/latest-posts.php:57
+msgid "Space Between Posts"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:74
+#: elements/widgets/blog/blog.php:130
+#: elements/widgets/creative-blog-list/creative-blog-list.php:123
+#: elements/widgets/latest-posts/latest-posts.php:74
+msgid "Blog Post to show"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:84
+#: elements/widgets/blog/blog.php:151
+#: elements/widgets/creative-blog-list/creative-blog-list.php:144
+#: elements/widgets/latest-posts/latest-posts.php:84
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:159
+#: elements/widgets/post-categories/post-categories.php:73
+#: elements/widgets/post-categories/post-categories.php:93
+msgid "Category"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:94
+#: elements/widgets/blog/blog.php:116
+#: elements/widgets/creative-blog-list/creative-blog-list.php:109
+#: elements/widgets/latest-posts/latest-posts.php:94
+msgid "Post Order"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:108
+#: elements/widgets/blog/blog.php:164
+#: elements/widgets/creative-blog-list/creative-blog-list.php:157
+#: elements/widgets/latest-posts/latest-posts.php:108
+msgid "Select Tag"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:119
+msgid "Pagination"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:129
+#: elements/widgets/latest-posts/latest-posts.php:119
+#: elements/widgets/services-card/services-card.php:202
+msgid "Read More Button Text"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:137
+#: elements/widgets/blog/blog.php:223
+#: elements/widgets/creative-blog-list/creative-blog-list.php:179
+#: elements/widgets/latest-posts/latest-posts.php:127
+#: elements/widgets/services-slider/services-slider.php:237
+msgid "Read More Icon"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:144
+#: elements/widgets/latest-posts/latest-posts.php:134
+msgid "Comments Text"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:153
+#: elements/widgets/latest-posts/latest-posts.php:143
+msgid "Comments Icon"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:162
+#: elements/widgets/latest-posts/latest-posts.php:152
+msgid "Content Card Style"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:169
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:350
+msgid "Content Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:180
+#: elements/widgets/blog/blog.php:293
+#: elements/widgets/latest-posts/latest-posts.php:159
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:210
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:338
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:220
+msgid "Content Padding"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:221
+#: elements/widgets/latest-posts/latest-posts.php:200
+msgid "Date Style"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:256
+#: elements/widgets/blog/blog.php:654
+#: elements/widgets/creative-blog-list/creative-blog-list.php:370
+msgid "Date Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:267
+msgid "Date Padding"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:279
+msgid "Comment Style"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:330
+msgid "Comment Icon Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:343
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:304
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:333
+msgid "Excerpt Style"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:361
+#: elements/widgets/blog/blog.php:799
+#: elements/widgets/creative-blog-list/creative-blog-list.php:527
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:335
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:404
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:406
+#: elements/widgets/services-card/services-card.php:428
+#: elements/widgets/team-tabs/team-tabs.php:283
+msgid "Read More Button Setting"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:368
+#: elements/widgets/blog/blog.php:807
+#: elements/widgets/contact-form/contact-form.php:236
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:342
+msgid "Button Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:389
+#: elements/widgets/blog/blog.php:840
+#: elements/widgets/creative-blog-list/creative-blog-list.php:566
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:374
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:421
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:423
+#: elements/widgets/services-card/services-card.php:455
+#: elements/widgets/team-tabs/team-tabs.php:300
+msgid "Read More Icon size"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:408
+#: elements/widgets/blog/blog.php:859
+#: elements/widgets/creative-blog-list/creative-blog-list.php:585
+#: elements/widgets/mailchimp/mailchimp.php:763
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:393
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:439
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:442
+#: elements/widgets/services-card/services-card.php:475
+#: elements/widgets/team-tabs/team-tabs.php:319
+msgid "Button Icon Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:423
+msgid "Pagination Style"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:431
+msgid "Pagination Alignment"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:435
+#: elements/widgets/breadcrumbs/breadcrumbs.php:357
+#: elements/widgets/button-animate/button-animate.php:156
+#: elements/widgets/curve-title/curve-title.php:145
+#: elements/widgets/heading/heading.php:202
+#: elements/widgets/icon-list/icon-list.php:303
+#: elements/widgets/icon-list/icon-list.php:708
+#: elements/widgets/icon/icon.php:187
+#: elements/widgets/image-scale/image-scale.php:180
+#: elements/widgets/image-scale/image-scale.php:617
+#: elements/widgets/image/image.php:148 elements/widgets/image/image.php:600
+#: elements/widgets/mailchimp/mailchimp.php:258
+#: elements/widgets/mailchimp/mailchimp.php:385
+#: elements/widgets/next-project/next-project.php:108
+#: elements/widgets/next-project/next-project.php:133
+#: elements/widgets/play-button/play-button.php:228
+#: elements/widgets/testimonials-rating/testimonials-rating.php:253
+#: elements/widgets/testimonials/testimonials.php:361
+#: elements/widgets/text-editor/text-editor.php:198
+msgid "Left"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:439
+#: elements/widgets/breadcrumbs/breadcrumbs.php:361
+#: elements/widgets/button-animate/button-animate.php:160
+#: elements/widgets/curve-title/curve-title.php:149
+#: elements/widgets/heading/heading.php:206
+#: elements/widgets/icon-list/icon-list.php:307
+#: elements/widgets/icon-list/icon-list.php:712
+#: elements/widgets/icon/icon.php:191
+#: elements/widgets/image-scale/image-scale.php:184
+#: elements/widgets/image-scale/image-scale.php:621
+#: elements/widgets/image/image.php:152 elements/widgets/image/image.php:604
+#: elements/widgets/images-carousel/images-carousel.php:151
+#: elements/widgets/mailchimp/mailchimp.php:262
+#: elements/widgets/next-project/next-project.php:112
+#: elements/widgets/play-button/play-button.php:232
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:136
+#: elements/widgets/testimonials-rating/testimonials-rating.php:257
+#: elements/widgets/testimonials/testimonials.php:365
+#: elements/widgets/text-editor/text-editor.php:202
+#: elements/widgets/work-crus/work-crus.php:125
+msgid "Center"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:443
+#: elements/widgets/breadcrumbs/breadcrumbs.php:365
+#: elements/widgets/button-animate/button-animate.php:164
+#: elements/widgets/curve-title/curve-title.php:153
+#: elements/widgets/heading/heading.php:210
+#: elements/widgets/icon-list/icon-list.php:311
+#: elements/widgets/icon-list/icon-list.php:716
+#: elements/widgets/icon/icon.php:195
+#: elements/widgets/image-scale/image-scale.php:188
+#: elements/widgets/image-scale/image-scale.php:625
+#: elements/widgets/image/image.php:156 elements/widgets/image/image.php:608
+#: elements/widgets/mailchimp/mailchimp.php:266
+#: elements/widgets/mailchimp/mailchimp.php:389
+#: elements/widgets/next-project/next-project.php:116
+#: elements/widgets/next-project/next-project.php:137
+#: elements/widgets/play-button/play-button.php:236
+#: elements/widgets/testimonials-rating/testimonials-rating.php:261
+#: elements/widgets/testimonials/testimonials.php:369
+#: elements/widgets/text-editor/text-editor.php:206
+msgid "Right"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:457
+msgid "Pagination Padding"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:469
+msgid "Pagination Margin"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:490
+msgid "Pagination Radius"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:599
+#: elements/widgets/blog/blog.php:990
+#: elements/widgets/creative-blog-list/creative-blog-list.php:665
+msgid "j F Y"
+msgstr ""
+
+#: elements/widgets/blog-classic/blog-classic.php:633
+#: elements/widgets/blog/blog.php:1027
+#: elements/widgets/creative-blog-list/creative-blog-list.php:701
+#: elements/widgets/latest-posts/latest-posts.php:296
+msgid "All Categories"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:50
+msgid "Infolio Blog"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:98
+#: elements/widgets/creative-blog-list/creative-blog-list.php:103
+msgid "Posts Settings."
+msgstr ""
+
+#: elements/widgets/blog/blog.php:104
+msgid "Number Of Blogs To Show In Single Row"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:107
+#: elements/widgets/testimonials/testimonials.php:126
+msgid "2"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:108
+msgid "3"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:139
+#: elements/widgets/creative-blog-list/creative-blog-list.php:132
+msgid "Sort post by Category"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:175
+#: elements/widgets/creative-blog-list/creative-blog-list.php:168
+msgid "Show Category"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:187
+msgid "Image Position Options"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:190
+msgid "Left Side"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:191
+msgid "Up"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:192
+msgid "half-side"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:200
+msgid "Author"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:213 elements/widgets/blog/blog.php:232
+#: elements/widgets/creative-blog-list/creative-blog-list.php:187
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:193
+#: elements/widgets/services-card/services-card.php:204
+msgid "Read More"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:231
+#: elements/widgets/creative-blog-list/creative-blog-list.php:186
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:193
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:192
+msgid "Read More Text"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:243
+#: elements/widgets/creative-blog-list/creative-blog-list.php:196
+msgid "item Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:251
+#: elements/widgets/panel-slider/panel-slider.php:188
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:361
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:232
+msgid "Item Margin"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:263
+msgid "Space Between items"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:281
+#: elements/widgets/creative-blog-list/creative-blog-list.php:204
+#: elements/widgets/marquee/marquee.php:307
+#: elements/widgets/marquee/marquee.php:421
+#: elements/widgets/testimonials-rating/testimonials-rating.php:382
+#: elements/widgets/testimonials/testimonials.php:641
+msgid "Item Padding"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:312
+#: elements/widgets/testimonials-rating/testimonials-rating.php:363
+#: elements/widgets/testimonials/testimonials.php:611
+msgid "Item Border Radius"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:323
+msgid "Item Background"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:333
+msgid "Item Background (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:347
+#: elements/widgets/creative-blog-list/creative-blog-list.php:238
+msgid "Title Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:441
+#: elements/widgets/creative-blog-list/creative-blog-list.php:291
+#: elements/widgets/latest-posts/latest-posts.php:218
+msgid "Category Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:449
+msgid "Category Border"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:469
+msgid "Category Wrapper Margin"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:480
+#: elements/widgets/creative-blog-list/creative-blog-list.php:328
+#: elements/widgets/interactive-center/interactive-center.php:235
+#: elements/widgets/parallax-slider/parallax-slider.php:284
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:401
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:293
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:443
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:322
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:381
+#: elements/widgets/portfolio/portfolio.php:266
+#: elements/widgets/showcase-carousel/showcase-carousel.php:301
+#: elements/widgets/work-crus/work-crus.php:383
+#: elements/widgets/work-metro/work-metro.php:280
+msgid "Category Margin"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:493
+#: elements/widgets/creative-blog-list/creative-blog-list.php:340
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:393
+msgid "Category Padding"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:527
+#: elements/widgets/parallax-slider/parallax-slider.php:264
+#: elements/widgets/portfolio/portfolio.php:245
+#: elements/widgets/showcase-carousel/showcase-carousel.php:280
+msgid "Category Color"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:539
+msgid "Category Wrapper Background"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:550
+msgid "Category Wrapper Background (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:563
+msgid "Shape Color"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:574
+msgid "Shape Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:595
+msgid "Category Hover Color"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:607
+msgid "Category Wrapper Hover Background"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:619
+msgid "Category Hover Background"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:638
+#: elements/widgets/creative-blog-list/creative-blog-list.php:354
+msgid "Date Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:686
+#: elements/widgets/creative-blog-list/creative-blog-list.php:402
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:267
+msgid "Image Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:693
+msgid "Image Padding"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:704
+msgid "Min Height"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:728
+#: elements/widgets/creative-blog-list/creative-blog-list.php:426
+msgid "Author Setting"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:737
+msgid "Author Color"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:756
+#: elements/widgets/creative-blog-list/creative-blog-list.php:449
+msgid "Author Margin"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:768
+#: elements/widgets/creative-blog-list/creative-blog-list.php:460
+msgid "Author Opacity"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:786
+#: elements/widgets/creative-blog-list/creative-blog-list.php:514
+msgid "Author Image Border Radius"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:818
+msgid "Button Content Color"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:918
+#: elements/widgets/creative-blog-list/creative-blog-list.php:641
+msgid "Posted by"
+msgstr ""
+
+#: elements/widgets/blog/blog.php:938 elements/widgets/blog/blog.php:940
+msgid "F j, Y"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:60
+msgid "Infolio Brand"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:115
+msgid "Brand"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:121
+msgid "Select"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:133
+msgid "Icon Background Color"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:149
+msgid "Icon Background Color (Dark)"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:171 elements/widgets/brand/brand.php:180
+#: elements/widgets/brand/brand.php:188 elements/widgets/brand/brand.php:197
+#: elements/widgets/button-animate/button-animate.php:137
+#: elements/widgets/button-animate/button-animate.php:223
+#: elements/widgets/button-animate/button-animate.php:235
+#: elements/widgets/button-animate/button-animate.php:245
+#: elements/widgets/button-animate/button-animate.php:255
+#: elements/widgets/curve-title/curve-title.php:188
+#: elements/widgets/curve-title/curve-title.php:197
+#: elements/widgets/curve-title/curve-title.php:207
+#: elements/widgets/icon-list/icon-list.php:138
+#: elements/widgets/icon-list/icon-list.php:327
+#: elements/widgets/icon-list/icon-list.php:459
+#: elements/widgets/icon/icon.php:440 elements/widgets/marquee/marquee.php:277
+#: elements/widgets/play-button/play-button.php:143
+#: elements/widgets/play-button/play-button.php:152
+#: elements/widgets/rotate-circle/rotate-circle.php:148
+#: elements/widgets/rotate-circle/rotate-circle.php:157
+#: elements/widgets/text-editor/text-editor.php:129
+msgid "Off"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:172 elements/widgets/brand/brand.php:181
+#: elements/widgets/brand/brand.php:189 elements/widgets/brand/brand.php:198
+#: elements/widgets/button-animate/button-animate.php:136
+#: elements/widgets/button-animate/button-animate.php:222
+#: elements/widgets/button-animate/button-animate.php:234
+#: elements/widgets/button-animate/button-animate.php:244
+#: elements/widgets/button-animate/button-animate.php:254
+#: elements/widgets/curve-title/curve-title.php:189
+#: elements/widgets/curve-title/curve-title.php:198
+#: elements/widgets/curve-title/curve-title.php:206
+#: elements/widgets/icon-list/icon-list.php:139
+#: elements/widgets/icon-list/icon-list.php:328
+#: elements/widgets/icon-list/icon-list.php:460
+#: elements/widgets/icon/icon.php:441 elements/widgets/marquee/marquee.php:278
+#: elements/widgets/play-button/play-button.php:144
+#: elements/widgets/play-button/play-button.php:153
+#: elements/widgets/rotate-circle/rotate-circle.php:149
+#: elements/widgets/rotate-circle/rotate-circle.php:158
+#: elements/widgets/text-editor/text-editor.php:130
+msgid "On"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:212
+#: elements/widgets/button-animate/button-animate.php:809
+#: elements/widgets/button-animate/button-animate.php:1121
+#: elements/widgets/icon/icon.php:454
+#: elements/widgets/images-carousel/images-carousel.php:357
+#: elements/widgets/mailchimp/mailchimp.php:301
+#: elements/widgets/mailchimp/mailchimp.php:707
+#: elements/widgets/toggle-tabs/toggle-tabs.php:262
+#: elements/widgets/toggle-tabs/toggle-tabs.php:351
+#: elements/widgets/toggle-tabs/toggle-tabs.php:432
+#: elements/widgets/toggle-tabs/toggle-tabs.php:480
+msgid "Padding"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:224
+msgid "Brand Image"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:245
+msgid "Brand Text"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:252 elements/widgets/brand/brand.php:297
+msgid "Number"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:260
+msgid "Unit"
+msgstr ""
+
+#: elements/widgets/brand/brand.php:277
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:168
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:315
+#: elements/widgets/services-slider/services-slider.php:122
+#: elements/widgets/testimonials/testimonials.php:151
+#: elements/widgets/testimonials/testimonials.php:675
+#: elements/widgets/work-crus/work-crus.php:179
+#: elements/widgets/work-crus/work-crus.php:316
+msgid "Section Heading"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:26
+msgid "Home"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:131
+msgid " "
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:298
+msgid "infolio Breadcrumbs"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:346
+msgid "Breadcrumbs Settings"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:353
+msgid "Button Alignment"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:383
+msgid "Content Style"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:393
+#: elements/widgets/mailchimp/mailchimp.php:188
+msgid "Typography"
+msgstr ""
+
+#: elements/widgets/breadcrumbs/breadcrumbs.php:428
+msgid "Link Color"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:59
+msgid "Infolio Button anim"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:113
+msgid "Button Settings"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:120
+#: elements/widgets/services-slider/services-slider.php:227
+#: elements/widgets/toggle-tabs/toggle-tabs.php:203
+msgid "Button Text"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:134
+msgid "Youtube Popup"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:152
+msgid "Button Text Alignment"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:187
+#: elements/widgets/next-project/next-project.php:150
+msgid "Icon Position"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:191
+#: elements/widgets/next-project/next-project.php:154
+msgid "Before"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:192
+#: elements/widgets/next-project/next-project.php:157
+msgid "After"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:203
+msgid "Icon Spacing"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:220
+msgid "Animated Gradient Backgorund"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:232
+msgid "Button Animation"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:242
+msgid "Button Scale Effect"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:275
+#: elements/widgets/curve-title/curve-title.php:178
+#: elements/widgets/heading/heading.php:235 elements/widgets/icon/icon.php:140
+#: elements/widgets/image-scale/image-scale.php:314
+#: elements/widgets/image/image.php:288
+#: elements/widgets/text-editor/text-editor.php:356
+msgid "View"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:284
+msgid "Button ID"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:290
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#. translators: %1$s Code open tag, %2$s: Code close tag.
+#: elements/widgets/button-animate/button-animate.php:293
+#, php-format
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows %1$sA-z 0-9%2$s & underscore chars "
+"without spaces."
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:307
+#: elements/widgets/button-animate/button-animate.php:1135
+msgid "Button"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:334
+msgid "Button Display Type"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:338
+#: elements/widgets/social-media/social-media.php:99
+#: elements/widgets/toggle-tabs/toggle-tabs.php:321
+#: elements/widgets/toggle-tabs/toggle-tabs.php:400
+msgid "Block"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:339
+#: elements/widgets/social-media/social-media.php:100
+#: elements/widgets/toggle-tabs/toggle-tabs.php:322
+#: elements/widgets/toggle-tabs/toggle-tabs.php:401
+msgid "Inline Block"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:378
+msgid "Text color type"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:408
+#: elements/widgets/button-animate/button-animate.php:675
+msgid "Text Color (Dark)"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:426
+#: elements/widgets/marquee/marquee.php:366
+msgid "Background (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:444
+#: elements/widgets/button-animate/button-animate.php:447
+msgctxt "Background Control"
+msgid "First Color"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:460
+#: elements/widgets/button-animate/button-animate.php:492
+#: inc/elemntor-extras.php:150 inc/elemntor-extras.php:181
+#: inc/elemntor-extras.php:213
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:478
+#: inc/elemntor-extras.php:167 inc/elemntor-extras.php:199
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:510
+#: inc/elemntor-extras.php:231
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:513
+#: inc/elemntor-extras.php:234
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:514
+#: inc/elemntor-extras.php:235
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:528
+#: inc/elemntor-extras.php:249
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:556
+#: elements/widgets/button-animate/button-animate.php:693
+#: elements/widgets/button-animate/button-animate.php:1147
+#: elements/widgets/marquee/marquee.php:356
+msgid "Background"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:594
+msgid "Button Border Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:610
+#: elements/widgets/button-animate/button-animate.php:752
+#: elements/widgets/button-animate/button-animate.php:892
+#: elements/widgets/button-animate/button-animate.php:998
+msgid "Border Gradient Color"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:712
+msgid "Background Color (Dark)"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:736
+msgid "Border Color (Dark)"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:824
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:186
+#: elements/widgets/toggle-tabs/toggle-tabs.php:222
+msgid "Button Icon"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:857
+msgid "Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:873
+#: elements/widgets/button-animate/button-animate.php:979
+msgid "Button Icon Background"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:944
+#: elements/widgets/button-animate/button-animate.php:1063
+#: elements/widgets/images-carousel/images-carousel.php:292
+#: elements/widgets/mailchimp/mailchimp.php:314
+#: elements/widgets/mailchimp/mailchimp.php:694
+#: elements/widgets/marquee/marquee.php:209
+#: elements/widgets/toggle-tabs/toggle-tabs.php:251
+#: elements/widgets/toggle-tabs/toggle-tabs.php:340
+#: elements/widgets/toggle-tabs/toggle-tabs.php:421
+#: elements/widgets/toggle-tabs/toggle-tabs.php:469
+#: elements/widgets/toggle-tabs/toggle-tabs.php:600
+#: elements/widgets/toggle-tabs/toggle-tabs.php:673
+#: elements/widgets/toggle-tabs/toggle-tabs.php:779
+msgid "Margin"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1050
+msgid "Icon Animation"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1054
+#: elements/widgets/image-scale/image-scale.php:266
+#: elements/widgets/image/image.php:172 elements/widgets/image/image.php:203
+#: inc/elemntor-extras.php:43
+msgid "None"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1055
+msgid "Right to Left"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1079
+msgid "Icon Wrapper"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1101
+#: elements/widgets/next-project/next-project.php:236
+#: elements/widgets/pagination/pagination.php:195
+#: elements/widgets/play-button/play-button.php:282
+#: elements/widgets/search/search.php:271
+msgid "Icon size"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1158
+msgid "Drop Shadow"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1166
+msgid "Offset x"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1182
+msgid "Offset y"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1198
+msgid "Blur Radius"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1228
+msgid "Image Style"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1236
+msgid "Image size"
+msgstr ""
+
+#: elements/widgets/button-animate/button-animate.php:1255
+#: elements/widgets/panel-slider/panel-slider.php:285
+msgid "Image Margin"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:34
+msgid "Infolio Contact Form"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:56
+msgid "Select contact form"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:68
+#: elements/widgets/icon-list/icon-list.php:339
+#: elements/widgets/menu/menu.php:146
+#: elements/widgets/next-project/next-project.php:167
+#: elements/widgets/pagination/pagination.php:126
+#: elements/widgets/panel-slider/panel-slider.php:180
+#: elements/widgets/play-button/play-button.php:160
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:128
+#: elements/widgets/resume/resume.php:107
+#: elements/widgets/services-slider/services-slider.php:263
+#: elements/widgets/social-media/social-media.php:166
+#: elements/widgets/work-metro/work-metro.php:115
+msgid "Style"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:75
+msgid "Space Between Inputs"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:86
+msgid "Input Padding"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:115
+#: elements/widgets/contact-form/contact-form.php:169
+msgid "Input Background"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:163
+msgid "Focus"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:219
+#: elements/widgets/play-button/play-button.php:275
+#: elements/widgets/toggle-tabs/toggle-tabs.php:764
+msgid "Button Style"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:247
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:353
+msgid "Button Padding"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:266
+#: elements/widgets/contact-form/contact-form.php:347
+msgid "Button Background"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:276
+#: elements/widgets/contact-form/contact-form.php:357
+msgid "Button Background (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:287
+#: elements/widgets/contact-form/contact-form.php:368
+#: elements/widgets/creative-blog-list/creative-blog-list.php:544
+msgid "Button Text Color"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:297
+#: elements/widgets/contact-form/contact-form.php:378
+msgid "Button Text Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/contact-form/contact-form.php:444
+#: elements/widgets/mailchimp/mailchimp.php:108
+msgid "Form not found"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:55
+msgid "Infolio Creative Blog"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:216
+#: elements/widgets/testimonials-rating/testimonials-rating.php:307
+#: elements/widgets/testimonials/testimonials.php:500
+msgid "Info Margin"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:299
+msgid "Categories Background"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:309
+msgid "Categories Color"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:409
+#: elements/widgets/showcase-interactive/showcase-interactive.php:220
+msgid "Image Overlay Opacity"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:433
+msgid "Author Title"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:477
+#: elements/widgets/testimonials-rating/testimonials-rating.php:170
+#: elements/widgets/testimonials/testimonials.php:260
+msgid "Author Name"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:494
+msgid "Author Name Margin"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:506
+msgid "Author Image"
+msgstr ""
+
+#: elements/widgets/creative-blog-list/creative-blog-list.php:534
+#: elements/widgets/mailchimp/mailchimp.php:641
+#: elements/widgets/services-card/services-card.php:435
+msgid "Button Color"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:60
+#: elements/widgets/curve-title/curve-title.php:118
+msgid "Infolio Curve Title"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:133
+#: elements/widgets/demos-gallery/demos-gallery.php:103
+#: elements/widgets/heading/heading.php:138
+#: elements/widgets/panel-slider/panel-slider.php:147
+msgid "Enter your title"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:134
+#: elements/widgets/heading/heading.php:139
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:141
+#: elements/widgets/heading/heading.php:198
+#: elements/widgets/icon-list/icon-list.php:299
+#: elements/widgets/icon-list/icon-list.php:704
+#: elements/widgets/icon/icon.php:183
+#: elements/widgets/image-scale/image-scale.php:176
+#: elements/widgets/image-scale/image-scale.php:613
+#: elements/widgets/image/image.php:144 elements/widgets/image/image.php:596
+#: elements/widgets/mailchimp/mailchimp.php:254
+#: elements/widgets/next-project/next-project.php:104
+#: elements/widgets/play-button/play-button.php:224
+#: elements/widgets/text-editor/text-editor.php:194
+msgid "Alignment"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:157
+#: elements/widgets/heading/heading.php:214
+#: elements/widgets/image-scale/image-scale.php:629
+#: elements/widgets/image/image.php:612
+#: elements/widgets/play-button/play-button.php:240
+#: elements/widgets/text-editor/text-editor.php:210
+msgid "Justified"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:186
+#: elements/widgets/rotate-circle/rotate-circle.php:146
+msgid "Left Bottom Edge"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:195
+#: elements/widgets/rotate-circle/rotate-circle.php:155
+msgid "Right Top Edge"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:204
+msgid "Scale"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:214
+msgid "Scale X"
+msgstr ""
+
+#: elements/widgets/curve-title/curve-title.php:233
+msgid "Scale Y"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:22
+msgid "infolio Demos Gallery"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:45
+msgid "Filter Controls"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:52
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:196
+msgid "Filters"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:54
+msgid "Enter filter values separated by commas (e.g., filter1, filter2)"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:55
+msgid "Example: dark, light, custom_filter"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:63
+msgid "Demos Gallery"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:71
+msgid "Create a Professional Website!"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:77
+msgid "Main Title"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:79
+msgid "Home Pages."
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:85
+msgid "Styled Title"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:87
+msgid "20+ pre-made"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:94
+msgid "Demo Title"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:104
+#: elements/widgets/panel-slider/panel-slider.php:148
+msgid "Add Text Here"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:110
+msgid "Demo Image"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:117
+msgid "Demo Link"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:124
+msgid "Filter for this Demo"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:126
+msgid "dark"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:127
+msgid "Enter the filter value for this demo (e.g., dark, light, custom_filter)"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:134
+msgid "Demos"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:153
+msgid "Sub Title Typography"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:161
+msgid "Sub Text Color"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:179
+msgid "Styled Title Typography"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:197
+msgid "Filter Buttons Typography"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:206
+msgid "Filter Buttons Color"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:225
+msgid "Demo Title Typography"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:233
+msgid "Demo Title Color"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:243
+msgid "Demo Title Margin"
+msgstr ""
+
+#: elements/widgets/demos-gallery/demos-gallery.php:271
+msgid "All"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:60
+msgid "Infolio Heading"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:123
+msgid "Infolio Title"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:146
+#: elements/widgets/icon-list/icon-list.php:208
+#: elements/widgets/icon/icon.php:172
+#: elements/widgets/image-scale/image-scale.php:262
+#: elements/widgets/image-scale/image-scale.php:276
+#: elements/widgets/image/image.php:199 elements/widgets/image/image.php:213
+#: elements/widgets/images-carousel/images-carousel.php:198
+#: elements/widgets/marquee/marquee.php:151
+#: elements/widgets/services-slider/services-slider.php:217
+#: elements/widgets/team-tabs/team-tabs.php:150
+msgid "Link"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:161
+#: elements/widgets/icon-list/icon-list.php:677
+#: elements/widgets/icon/icon.php:398
+#: elements/widgets/text-editor/text-editor.php:407
+#: elements/widgets/toggle-tabs/toggle-tabs.php:806
+msgid "Size"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:166
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:119
+msgid "Small"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:167
+msgid "Medium"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:168
+msgid "Large"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:169
+msgid "XL"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:170
+msgid "XXL"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:178
+msgid "HTML Tag"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:244
+msgid "Rotate Animation"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:255
+#: elements/widgets/next-project/next-project.php:89
+#: elements/widgets/slides/slides.php:157
+#: elements/widgets/toggle-tabs/toggle-tabs.php:173
+msgid "Background Image"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:273
+msgid "Text No Wrap"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:293
+msgid "Responsive Icon Display"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:362
+msgid "Hover Text Color"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:372
+msgid "Hover Text Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:394
+msgid "Make Break Line Tag Hidden"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:434
+msgid "Opacity (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:460
+msgid "Text Stroke (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:480
+msgid "Blend Mode"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:484
+msgid "Multiply"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:485
+msgid "Screen"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:486
+msgid "Overlay"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:487
+msgid "Darken"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:488
+msgid "Lighten"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:489
+msgid "Color Dodge"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:490
+msgid "Saturation"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:492
+msgid "Difference"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:493
+msgid "Exclusion"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:494
+msgid "Hue"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:495
+msgid "Luminosity"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:506
+msgid "Offset X"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:542
+msgid "Offset Y"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:579
+#: elements/widgets/images-carousel/images-carousel.php:233
+#: elements/widgets/marquee/marquee.php:432
+msgid "Image Width"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:611
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:463
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:371
+#: elements/widgets/showcase-carousel/showcase-carousel.php:335
+msgid "Image Height"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:644
+msgid "Styled Text"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:702
+#: elements/widgets/services-card/services-card.php:415
+msgid "Styled Text Margin"
+msgstr ""
+
+#: elements/widgets/heading/heading.php:748
+#: elements/widgets/next-project/next-project.php:266
+#: elements/widgets/pagination/pagination.php:225
+msgid "Icon Margin"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:65
+msgid "infolio Icon List"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:130
+msgid "Icon List"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:136
+msgid "Hover Animation (Line Before)"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:148
+#: elements/widgets/mailchimp/mailchimp.php:145
+msgid "Layout"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:157
+#: elements/widgets/icon-list/icon-list.php:257
+msgid "Inline"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:176
+#: elements/widgets/icon-list/icon-list.php:177
+msgid "List Item"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:200
+msgid "Icon Class"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:213
+#: elements/widgets/team-tabs/team-tabs.php:152
+msgid "https://your-link.com"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:220
+msgid "Items"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:225
+msgid "List Item #1"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:232
+msgid "List Item #2"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:239
+msgid "List Item #3"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:253
+msgid "Apply Link On"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:256
+msgid "Full Width"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:270
+#: elements/widgets/menu/menu.php:138
+msgid "List"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:325
+msgid "Divider"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:342
+msgid "Solid"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:343
+msgid "Double"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:344
+msgid "Dotted"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:345
+msgid "Dashed"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:361
+msgid "Weight"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:457
+msgid "With Background"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:621
+#: elements/widgets/icon-list/icon-list.php:796
+msgid "Transition ( S )"
+msgstr ""
+
+#: elements/widgets/icon-list/icon-list.php:831
+msgid "Text Indent"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:60
+msgid "Infolio Icon"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:144
+#: elements/widgets/text-editor/text-editor.php:360
+msgid "Stacked"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:145
+#: elements/widgets/text-editor/text-editor.php:361
+msgid "Framed"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:155
+msgid "Shape"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:158
+msgid "Circle"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:159
+msgid "Square"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:228 elements/widgets/icon/icon.php:355
+#: elements/widgets/text-editor/text-editor.php:371
+msgid "Primary Color"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:244
+msgid "Primary Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:271
+msgid "Path Color"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:285
+msgid "Path Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:299
+msgid "Path Stroke Color"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:314
+msgid "Path Stroke Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:329 elements/widgets/icon/icon.php:369
+#: elements/widgets/text-editor/text-editor.php:384
+msgid "Secondary Color"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:437
+msgid "Fit to Size"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:474 elements/widgets/marquee/marquee.php:336
+msgid "Rotate"
+msgstr ""
+
+#: elements/widgets/icon/icon.php:495
+#: elements/widgets/text-editor/text-editor.php:468
+msgid "Border Width"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:59
+msgid "Infolio Image Scale"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:123
+msgid "Image Scale"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:130
+msgid "Container Height"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:201
+#: elements/widgets/image-scale/image-scale.php:604
+#: elements/widgets/image/image.php:169 elements/widgets/image/image.php:585
+msgid "Caption"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:212
+#: elements/widgets/image/image.php:174 elements/widgets/image/image.php:183
+msgid "Custom Caption"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:215
+#: elements/widgets/image/image.php:186
+msgid "Enter your image caption"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:226
+msgid "Video Button"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:236
+msgid "Video Link"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:267
+#: elements/widgets/image/image.php:204
+msgid "Media File"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:268
+#: elements/widgets/image/image.php:205
+msgid "Custom URL"
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:291
+#: elements/widgets/image/image.php:228
+msgid "Lightbox"
+msgstr ""
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: elements/widgets/image-scale/image-scale.php:295
+#: elements/widgets/image/image.php:232
+#, php-format
+msgid "Manage your site’s lightbox settings in the %1$sLightbox panel%2$s."
+msgstr ""
+
+#: elements/widgets/image-scale/image-scale.php:333
+#: elements/widgets/slides/slides.php:122
+msgid "Overlay Opacity"
+msgstr ""
+
+#: elements/widgets/image/image.php:55
+msgid "infolio Image"
+msgstr ""
+
+#: elements/widgets/image/image.php:173
+msgid "Attachment Caption"
+msgstr ""
+
+#: elements/widgets/image/image.php:251
+msgid "Image Moving Animation"
+msgstr ""
+
+#: elements/widgets/image/image.php:260
+msgid "Animation Speed"
+msgstr ""
+
+#: elements/widgets/image/image.php:273
+msgid "Animation Lag"
+msgstr ""
+
+#: elements/widgets/image/image.php:671
+#: elements/widgets/services-card/services-card.php:295
+#: elements/widgets/services-card/services-card.php:353
+msgid "Spacing"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:46
+msgid "Infolio Images Carousel"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:94
+#: elements/widgets/panel-slider/panel-slider.php:94
+msgid "Gallery Images"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:100
+msgid "Swiper Container Overflow Hidden"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:110
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:115
+msgid "Clip Path"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:119
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:146
+#: elements/widgets/text-editor/text-editor.php:429
+#: elements/widgets/work-crus/work-crus.php:135
+msgid "Space"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:130
+#: elements/widgets/images-carousel/images-carousel.php:160
+#: elements/widgets/work-crus/work-crus.php:146
+#: elements/widgets/work-crus/work-crus.php:157
+msgid "Items Per Slide"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:141
+msgid "Auto Play"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:171
+msgid "Change Opacity On Hover"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:213
+#: elements/widgets/marquee/marquee.php:128
+msgid "Images"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:224
+msgid "Image style"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:256
+msgid "Image Border Radius"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:268
+#: elements/widgets/panel-slider/panel-slider.php:241
+msgid "Image height"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:306
+msgid "Container / Slider Style"
+msgstr ""
+
+#: elements/widgets/images-carousel/images-carousel.php:334
+msgid "Container height"
+msgstr ""
+
+#: elements/widgets/interactive-center/interactive-center.php:54
+msgid "Infolio Interactive Center"
+msgstr ""
+
+#: elements/widgets/interactive-center/interactive-center.php:109
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:109
+#: elements/widgets/showcase-interactive/showcase-interactive.php:109
+msgid "Portfolio Tabs Settings."
+msgstr ""
+
+#: elements/widgets/interactive-center/interactive-center.php:201
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:297
+#: elements/widgets/team-tabs/team-tabs.php:175
+msgid "Text Setting"
+msgstr ""
+
+#: elements/widgets/latest-posts/latest-posts.php:33
+msgid "Infolio Latest Posts"
+msgstr ""
+
+#: elements/widgets/latest-posts/latest-posts.php:50
+msgid "Latest Posts Settings"
+msgstr ""
+
+#: elements/widgets/latest-posts/latest-posts.php:269
+#: elements/widgets/slides/slides.php:199
+msgid "/"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:44
+msgid "infolio MailChimp Form"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:129
+msgid "MailChimp form"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:136
+msgid "Select MailChimp form"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:148
+msgid "Button Inside"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:149
+msgid "Button Under"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:160
+msgid "Form Setting"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:168
+msgid "Input height"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:196
+#: elements/widgets/search/search.php:324
+msgid "Placeholder Color"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:235
+msgid "Fields height"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:280
+#: elements/widgets/mailchimp/mailchimp.php:521
+#: elements/widgets/play-button/play-button.php:302
+#: elements/widgets/search/search.php:362
+msgid "Border"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:327
+msgid "Form Group Margin"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:339
+msgid "Border Color"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:351
+msgid "Border Color on Focus"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:373
+msgid "Icon Setting"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:381
+msgid "X Positioning"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:400
+#: elements/widgets/mailchimp/mailchimp.php:422
+msgid "Icon X Position"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:444
+msgid "Icon Y position"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:482
+msgid "Icon Wrapper Width"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:501
+msgid "Icon Wrapper Height"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:542
+msgid "Button Setting"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:550
+msgid "Button Width"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:575
+msgid "Button height"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:597
+msgid "Button X Position"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:619
+msgid "Button Y position"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:655
+#: elements/widgets/toggle-tabs/toggle-tabs.php:772
+msgid "Button Typography"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:664
+#: elements/widgets/mailchimp/mailchimp.php:674
+msgid "Button Backround"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:683
+msgid "Button Hover Animation Color"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:743
+msgid "Button Icon Setting"
+msgstr ""
+
+#: elements/widgets/mailchimp/mailchimp.php:751
+msgid "Button Icon Color"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:55
+msgid "Infolio Marquee"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:124
+msgid "Option"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:144
+msgid "Separator"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:175
+msgid "Item Color"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:187
+msgid "Item Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:221
+msgid "Separator Typography"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:228
+msgid "Margquee Repeater"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:238
+msgid "Curves"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:250
+msgid "Choose Images"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:258
+msgid "Speed"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:275
+msgid "Overflow Hidden"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:284
+msgid "Slide Option"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:287
+msgid "Slide Left"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:288
+msgid "Slide Right"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:299
+#: elements/widgets/marquee/marquee.php:413
+#: elements/widgets/rotate-circle/rotate-circle.php:166
+msgid "Styles"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:379
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:244
+msgid "Item Border"
+msgstr ""
+
+#: elements/widgets/marquee/marquee.php:399
+msgid "Item Border Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:55
+msgid "infolio Menu"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:104
+msgid "Menu to Display"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:113
+msgid "Select Menu"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:124
+msgid "There are no menus in your site."
+msgstr ""
+
+#: elements/widgets/menu/menu.php:124
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: elements/widgets/menu/menu.php:133
+msgid "Menu Options"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:137
+msgid "Rolling Text Animation"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:149
+msgid "Dark"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:150
+msgid "Light"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:161
+msgid "Main Menu"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:185 elements/widgets/menu/menu.php:204
+msgid "Main Menu Color"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:227
+msgid "Navbar Menu Margin"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:238
+msgid "Navbar Menu Padding"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:249
+msgid "Margin Menu Items"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:261
+msgid "Padding Menu Items"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:273
+msgid "Navbar Toggler Margin"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:285
+msgid "Drop Down Items"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:302
+msgid "Drop Down Items Color"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:314
+msgid "Background Drop Down Items Color"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:326
+msgid "Drop Down Items Padding"
+msgstr ""
+
+#: elements/widgets/menu/menu.php:338
+msgid "Drop Down Items Margin"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:29
+msgid "infolio Next Project"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:46
+#: elements/widgets/pagination/pagination.php:48
+msgid "Right Settings"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:52
+msgid "Project Title"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:54
+msgid "OPT Media Agency"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:65
+#: elements/widgets/pagination/pagination.php:81
+msgid "Next Project"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:75
+msgid "Project Link"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:129
+msgid "Content Container Alignment"
+msgstr ""
+
+#: elements/widgets/next-project/next-project.php:205
+#: elements/widgets/pagination/pagination.php:164
+#: elements/widgets/testimonials/testimonials.php:683
+msgid "Sub Title Color"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:30
+msgid "infolio Pagination"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:54
+msgid "All Projects Text"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:56
+msgid "All Projects"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:66
+msgid "All Projects Link"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:79
+msgid "Next Project Text"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:90
+msgid "Prev Project Text"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:92
+msgid "Prev Project"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:101
+msgid "All Projects Icon"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:109
+#: elements/widgets/parallax-slider/parallax-slider.php:115
+#: elements/widgets/showcase-carousel/showcase-carousel.php:127
+msgid "Next Icon"
+msgstr ""
+
+#: elements/widgets/pagination/pagination.php:117
+msgid "Prev Icon"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:46
+msgid "Infolio Panel Slider"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:100
+msgid "Panel"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:103
+msgid "Images Only"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:104
+msgid "Images & Titles"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:114
+msgid "Showcases"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:121
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:131
+msgid "Gallery"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:138
+msgid "Panel Title"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:154
+msgid "Panel Image"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:161
+msgid "Panel Link"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:168
+msgid "Panels"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:200
+msgid "Panel Title Typography"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:209
+msgid "Panel Title Color"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:221
+msgid "Background Text Typography"
+msgstr ""
+
+#: elements/widgets/panel-slider/panel-slider.php:263
+msgid "Image Min height"
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:54
+msgid "Infolio Parallax Slider"
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:109
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:109
+#: elements/widgets/showcase-carousel/showcase-carousel.php:109
+#: elements/widgets/work-crus/work-crus.php:109
+msgid "Portfolio Slider Settings."
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:122
+#: elements/widgets/showcase-carousel/showcase-carousel.php:134
+#: elements/widgets/slides/slides.php:178
+msgid "Next Text"
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:129
+#: elements/widgets/showcase-carousel/showcase-carousel.php:142
+msgid "Previous Icon"
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:136
+#: elements/widgets/showcase-carousel/showcase-carousel.php:149
+msgid "Previous Text"
+msgstr ""
+
+#: elements/widgets/parallax-slider/parallax-slider.php:297
+#: elements/widgets/showcase-carousel/showcase-carousel.php:315
+msgid "Swiper Controls"
+msgstr ""
+
+#: elements/widgets/play-button/play-button.php:58
+msgid "Infolio Play Button"
+msgstr ""
+
+#: elements/widgets/play-button/play-button.php:141
+msgid "Left Top Edge"
+msgstr ""
+
+#: elements/widgets/play-button/play-button.php:150
+msgid "Right Bottom Edge"
+msgstr ""
+
+#: elements/widgets/play-button/play-button.php:253
+msgid "Line Height"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:54
+msgid "Infolio Portfolio Carsouel"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:116
+msgid "Slides starting sliders from the beginning of the section."
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:126
+#: elements/widgets/work-crus/work-crus.php:115
+msgid "Loop"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:157
+#: elements/widgets/work-crus/work-crus.php:168
+msgid "Different Width"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:197
+#: elements/widgets/services-slider/services-slider.php:151
+#: elements/widgets/testimonials/testimonials.php:187
+#: elements/widgets/work-crus/work-crus.php:208
+msgid "Light Weight Title"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:206
+#: elements/widgets/services-slider/services-slider.php:160
+#: elements/widgets/testimonials-rating/testimonials-rating.php:136
+#: elements/widgets/testimonials/testimonials.php:196
+#: elements/widgets/testimonials/testimonials.php:225
+#: elements/widgets/work-crus/work-crus.php:217
+msgid "Right Icon"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:214
+#: elements/widgets/services-slider/services-slider.php:168
+#: elements/widgets/testimonials-rating/testimonials-rating.php:144
+#: elements/widgets/testimonials/testimonials.php:204
+#: elements/widgets/testimonials/testimonials.php:233
+#: elements/widgets/work-crus/work-crus.php:225
+msgid "Left Icon"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:352
+msgid "Content Border"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:412
+msgid "Read More Icon Width"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:432
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:456
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:364
+#: elements/widgets/showcase-carousel/showcase-carousel.php:327
+#: elements/widgets/work-crus/work-crus.php:396
+#: elements/widgets/work-metro/work-metro.php:293
+msgid "Section Image"
+msgstr ""
+
+#: elements/widgets/portfolio-carsouel/portfolio-carsouel.php:439
+#: elements/widgets/work-crus/work-crus.php:403
+#: elements/widgets/work-metro/work-metro.php:300
+msgid "Container Image Height"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:59
+msgid "Infolio Portfolio Fixed"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:194
+msgid "Explore More"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:223
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:405
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:252
+#: elements/widgets/work-metro/work-metro.php:231
+msgid "Section Title & Category"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:258
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:287
+msgid "Category Style"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:266
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:295
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:363
+msgid "Category Opacity"
+msgstr ""
+
+#: elements/widgets/portfolio-fixed/portfolio-fixed.php:322
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:351
+msgid "Excerpt Margin"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:54
+msgid "Infolio Portfolio Gallery"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:115
+msgid "Row Margin"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:120
+msgid "Standard"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:132
+msgid "Masonry"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:133
+msgid "Clean"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:134
+msgid "Same Column Size"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:142
+msgid "How To Show Content"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:146
+msgid "On Hover"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:147
+msgid "Under Image"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:155
+msgid "Choose Show Tag / Category"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:158
+msgid "Tag"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:186
+msgid "Blur Effect"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:205
+msgid "All Text"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:304
+msgid "Content Background Color"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:315
+msgid "Content Background Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:327
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:209
+msgid "Content Border Radius"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:372
+msgid "Column Padding"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:384
+msgid "Column Border"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:496
+msgid "Section Filter"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:504
+msgid "Filter Section Margin"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:541
+msgid "Filter Title"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:552
+msgid "Filter Link"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:562
+msgid "Link Margin"
+msgstr ""
+
+#: elements/widgets/portfolio-gallery/portfolio-gallery.php:635
+msgid "Filter By :"
+msgstr ""
+
+#: elements/widgets/portfolio-sticky/portfolio-sticky.php:54
+msgid "Infolio Portfolio Sticky"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:54
+msgid "Infolio Portfolio Tabs"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:116
+msgid "Gap Between Text and Image Column"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:127
+msgid "Align Image Center"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:138
+msgid "Rotate Image Animation"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:236
+#: elements/widgets/services-slider/services-slider.php:205
+msgid "Read More Button"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:249
+msgid "Click me"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:257
+#: elements/widgets/team-tabs/team-tabs.php:158
+msgid "Choose Icon"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:274
+msgid "Image Position"
+msgstr ""
+
+#: elements/widgets/portfolio-tabs/portfolio-tabs.php:304
+#: elements/widgets/team-tabs/team-tabs.php:182
+msgid "Space Between Text Section"
+msgstr ""
+
+#: elements/widgets/portfolio/portfolio.php:54
+msgid "Infolio Portfolio"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:21
+msgid "infolio Post Categories"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:38
+msgid "Post Categories Settings"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:44
+msgid "Space Between Categories"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:60
+msgid "Specific Categories"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:61
+msgid "By Default Widget Displays All Categories"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:100
+msgid "Category Typography"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:108
+msgid "Counter"
+msgstr ""
+
+#: elements/widgets/post-categories/post-categories.php:116
+msgid "Count Typography"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:21
+msgid "infolio Post tags"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:38
+msgid "Post tags Settings"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:44
+msgid "Specific Tags"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:45
+msgid "By Default Widget Displays All Tags"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:78
+msgid "Tag Typography"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:87
+msgid "Tag Margin"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:98
+msgid "Tag Padding"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:127
+msgid "Tag Color"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:137
+msgid "Tag Background Color"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:155
+msgid "Tag Hover Color"
+msgstr ""
+
+#: elements/widgets/post-tags/post-tags.php:165
+msgid "Tag Hover Background Color"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:21
+msgid "Infolio Progress"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:43
+msgid "Progress Settings"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:50
+msgid "Progress Value Option"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:53
+msgid "Above Bar"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:54
+msgid "After Bar"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:55
+msgid "Hidden"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:65
+msgid "Skill Name"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:67
+#: elements/widgets/progress/progress.php:87
+msgid "UI / UX DESIGN"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:73
+msgid "Progress Value"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:82
+msgid "progress Items"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:88
+msgid "90"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:98
+msgid "Style Section"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:106
+msgid "Skill Typography"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:114
+#: elements/widgets/progress/progress.php:141
+msgid "Skill Color"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:154
+msgid "Value Typography"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:163
+msgid "Progress Height"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:181
+msgid "Progress Bar Background Color"
+msgstr ""
+
+#: elements/widgets/progress/progress.php:191
+msgid "Progress Bar Color"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:34
+msgid "Infolio Resume"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:46 elements/widgets/resume/resume.php:52
+msgid "Resume Items"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:59
+msgid "2018 - Present"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:66
+msgid "Art Director"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:71
+msgid "Subtitle"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:73
+msgid "[ at Ui-Themez ]"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:78
+#: elements/widgets/services-card/services-card.php:390
+#: elements/widgets/toggle-tabs/toggle-tabs.php:155
+msgid "Description"
+msgstr ""
+
+#: elements/widgets/resume/resume.php:80
+msgid ""
+"Crafting captivating digital experiences that put users at the heart of the "
+"design. Elevate your product to increased."
+msgstr ""
+
+#: elements/widgets/resume/resume.php:168
+msgid "Description Margin"
+msgstr ""
+
+#: elements/widgets/rotate-circle/rotate-circle.php:55
+msgid "Infolio Rotate Circle"
+msgstr ""
+
+#: elements/widgets/rotate-circle/rotate-circle.php:138
+msgid "URL"
+msgstr ""
+
+#: elements/widgets/rotate-circle/rotate-circle.php:140
+msgid "Enter URL"
+msgstr ""
+
+#: elements/widgets/rotate-circle/rotate-circle.php:173
+msgid "Circle Size"
+msgstr ""
+
+#: elements/widgets/rotate-circle/rotate-circle.php:187
+msgid "Text Opacity"
+msgstr ""
+
+#: elements/widgets/search/search.php:66
+msgid "infolio Search"
+msgstr ""
+
+#: elements/widgets/search/search.php:131
+msgid "Search Form Style"
+msgstr ""
+
+#: elements/widgets/search/search.php:134
+#: elements/widgets/search/search.php:292
+msgid "Field"
+msgstr ""
+
+#: elements/widgets/search/search.php:155
+msgid "Open Icon"
+msgstr ""
+
+#: elements/widgets/search/search.php:168
+msgid "Close Icon"
+msgstr ""
+
+#: elements/widgets/search/search.php:182
+msgid "Place Holder Text"
+msgstr ""
+
+#: elements/widgets/search/search.php:184
+msgid "Search"
+msgstr ""
+
+#: elements/widgets/search/search.php:193
+msgid "Field Setting"
+msgstr ""
+
+#: elements/widgets/search/search.php:244
+msgid "Close/Open Icon Color"
+msgstr ""
+
+#: elements/widgets/search/search.php:256
+msgid "Close/Open Icon Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/search/search.php:348
+msgid "padding"
+msgstr ""
+
+#: elements/widgets/search/search.php:370
+msgid "Focus Border Color"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:60
+msgid "infolio Services Card"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:116
+msgid "Top Read More Animation"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:127
+msgid "Animations"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:131
+msgid "Position Absolute"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:132
+msgid "Display On Hover"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:141
+msgid "Description Animation"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:162
+#: elements/widgets/services-card/services-card.php:346
+#: elements/widgets/toggle-tabs/toggle-tabs.php:140
+msgid "Heading"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:172
+msgid ""
+"Live workshop where we define the main problems and challenges before "
+"building."
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:178
+msgid "Read More Link"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:192
+msgid "Read More Image"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:211
+msgid "Card"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:218
+msgid "Card Padding"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:229
+msgid "Card Background"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:239
+msgid "Card Background (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/services-card/services-card.php:405
+msgid "Description Color"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:61
+msgid "Infolio Services Slider"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:116
+msgid "Services Content"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:178
+msgid "Service Icon"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:189
+msgid "Service Title"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:197
+msgid "Service Description"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:251
+msgid "Services Repeater"
+msgstr ""
+
+#: elements/widgets/services-slider/services-slider.php:290
+msgid "Section Heading Style"
+msgstr ""
+
+#: elements/widgets/showcase-carousel/showcase-carousel.php:54
+msgid "Infolio Showcase Carousel"
+msgstr ""
+
+#: elements/widgets/showcase-carousel/showcase-carousel.php:118
+msgid "Carousel"
+msgstr ""
+
+#: elements/widgets/showcase-carousel/showcase-carousel.php:119
+msgid "Half Slider"
+msgstr ""
+
+#: elements/widgets/showcase-carousel/showcase-carousel.php:135
+msgid "Next Slide"
+msgstr ""
+
+#: elements/widgets/showcase-carousel/showcase-carousel.php:150
+msgid "Prev Slide"
+msgstr ""
+
+#: elements/widgets/showcase-interactive/showcase-interactive.php:54
+msgid "Infolio Showcase Interactive"
+msgstr ""
+
+#: elements/widgets/showcase-interactive/showcase-interactive.php:115
+#: elements/widgets/toggle-tabs/toggle-tabs.php:318
+#: elements/widgets/toggle-tabs/toggle-tabs.php:397
+msgid "Display"
+msgstr ""
+
+#: elements/widgets/showcase-interactive/showcase-interactive.php:118
+msgid "Full"
+msgstr ""
+
+#: elements/widgets/showcase-interactive/showcase-interactive.php:119
+msgid "Vertical"
+msgstr ""
+
+#: elements/widgets/showcase-interactive/showcase-interactive.php:213
+msgid "Slider Setting"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:61
+msgid "infolio Slides"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:141
+#: elements/widgets/slides/slides.php:211
+#: elements/widgets/slides/slides.php:215
+msgid "Minimalest Architectures"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:150
+#: elements/widgets/slides/slides.php:212
+#: elements/widgets/slides/slides.php:216
+msgid ""
+"We developed strong relationships with contractors and specialist companies"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:167
+msgid "Slider Controls"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:181
+msgid "Next"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:187
+msgid "Prev Text"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:190
+msgid "Prev"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:196
+msgid "Seperator"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:206
+msgid "Slides"
+msgstr ""
+
+#: elements/widgets/slides/slides.php:227
+msgid "Text Styles"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:33
+msgid "Infolio Social Media"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:55
+msgid "Social Media Settings"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:61
+msgid "Icon Responsive"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:62
+msgid "Make Icon Display None"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:73
+msgid "Wrap Items"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:95
+msgid "Link Display Type"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:110
+msgid "Items Alignment"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:113
+#: elements/widgets/text-editor/text-editor.php:143
+msgid "Columns"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:114
+msgid "Rows"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:123
+msgid "Social Text"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:133
+#: elements/widgets/team/team.php:160
+msgid "Social Link"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:155
+msgid "Social Media List"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:200
+msgid "Space Between Icon and text"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:235
+msgid "Icon Padding"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:253
+msgid "Border Color ( Dark Mode )"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:286
+#: elements/widgets/social-media/social-media.php:323
+msgid "Text/Icon Color"
+msgstr ""
+
+#: elements/widgets/social-media/social-media.php:298
+msgid "Text/Icon Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:54
+msgid "Infolio Team Tabs"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:109
+msgid "team Tabs Settings."
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:126
+msgid "Member Name"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:128
+#: elements/widgets/team/team.php:121
+msgid "Robert De Niro"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:134
+msgid "Member Position"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:136
+msgid "WEB DESIGNER"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:144
+msgid "VIEW MORE"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:165
+msgid "Team List"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:240
+#: elements/widgets/testimonials-rating/testimonials-rating.php:337
+#: elements/widgets/testimonials/testimonials.php:564
+msgid "Position Opacity"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:258
+msgid "Position Margin"
+msgstr ""
+
+#: elements/widgets/team-tabs/team-tabs.php:270
+msgid "Position Padding"
+msgstr ""
+
+#: elements/widgets/team/team.php:61
+msgid "Infolio Team"
+msgstr ""
+
+#: elements/widgets/team/team.php:118
+msgid "Name"
+msgstr ""
+
+#: elements/widgets/team/team.php:128
+#: elements/widgets/testimonials-rating/testimonials-rating.php:189
+#: elements/widgets/testimonials/testimonials.php:269
+msgid "Position"
+msgstr ""
+
+#: elements/widgets/team/team.php:131
+msgid "Web Developer"
+msgstr ""
+
+#: elements/widgets/team/team.php:162
+msgid "https://your-social-link.com"
+msgstr ""
+
+#: elements/widgets/team/team.php:170
+msgid "Social Icons List"
+msgstr ""
+
+#: elements/widgets/team/team.php:187
+msgid "Team Member Name Typography"
+msgstr ""
+
+#: elements/widgets/team/team.php:195
+msgid "Team Member Name Color"
+msgstr ""
+
+#: elements/widgets/team/team.php:206
+msgid "Team Member Position Color"
+msgstr ""
+
+#: elements/widgets/team/team.php:217
+msgid "Team Member Position Typography"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:61
+msgid "infolio Testimonials Rating"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:123
+#: elements/widgets/testimonials/testimonials.php:213
+msgid "Swiper Controls "
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:152
+#: elements/widgets/testimonials/testimonials.php:290
+msgid "Stars Icon"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:161
+#: elements/widgets/testimonials/testimonials.php:251
+msgid "Quote"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:162
+#: elements/widgets/testimonials/testimonials.php:252
+msgid ""
+"I have been hiring people in this space for a number of years and I have "
+"never seen this level of professionalism. It really feels like you are "
+"working with a team that can get the job done."
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:171
+#: elements/widgets/testimonials/testimonials.php:261
+msgid "Adam Beckley"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:178
+#: elements/widgets/testimonials/testimonials.php:297
+#: elements/widgets/testimonials/testimonials.php:760
+msgid "Rating"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:190
+#: elements/widgets/testimonials/testimonials.php:270
+msgid "Founder & CEO"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:197
+#: elements/widgets/testimonials/testimonials.php:277
+msgid "Author Photo"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:211
+#: elements/widgets/testimonials/testimonials.php:308
+msgid "Sliders"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:216
+#: elements/widgets/testimonials-rating/testimonials-rating.php:220
+#: elements/widgets/testimonials/testimonials.php:313
+#: elements/widgets/testimonials/testimonials.php:317
+msgid "adrian parody"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:217
+#: elements/widgets/testimonials-rating/testimonials-rating.php:221
+#: elements/widgets/testimonials/testimonials.php:314
+#: elements/widgets/testimonials/testimonials.php:318
+msgid "Co-Founder"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:240
+#: elements/widgets/testimonials/testimonials.php:348
+msgid "Quote Typography"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:249
+#: elements/widgets/testimonials/testimonials.php:357
+msgid "Quote Align"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:274
+#: elements/widgets/testimonials/testimonials.php:382
+msgid "Quote Margin"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:295
+#: elements/widgets/testimonials/testimonials.php:488
+msgid "Info Padding"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:319
+#: elements/widgets/testimonials/testimonials.php:546
+msgid "Client name Typography"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:328
+#: elements/widgets/testimonials/testimonials.php:555
+msgid "Client Position Typography"
+msgstr ""
+
+#: elements/widgets/testimonials-rating/testimonials-rating.php:393
+msgid "Content Container Margin"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:61
+msgid "infolio Testimonials"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:122
+msgid "number of testimonials cards"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:125
+msgid "1"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:135
+msgid "Quote Position Options"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:138
+msgid "Behind Testimonial Text"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:139
+msgid "Down"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:141
+msgid "Top left"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:160
+msgid "Curved Image"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:162
+msgid "yes"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:163
+msgid "no"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:243
+msgid "Quote Sub Title (Optional)"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:337
+msgid "Quote Color"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:404
+msgid "Quote Sub Title Border Radius"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:415
+msgid "Quote Sub Title Color"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:425
+msgid "Quote Sub Title Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:436
+msgid "Quote Sub Title Typography"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:445
+msgid "Quote Sub Title Margin"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:457
+msgid "Quote Sub Title Padding"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:512
+msgid "Client Name Color"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:523
+msgid "Client Position Color"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:534
+msgid "Client Position Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:590
+msgid "Item Background Color"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:600
+msgid "Item Background Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:630
+msgid "Item Border Color (Dark Mode)"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:652
+msgid "Swiper Slide Padding"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:663
+msgid "Swiper Controls Bottom Position"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:724
+msgid "Section Curved Image"
+msgstr ""
+
+#: elements/widgets/testimonials/testimonials.php:805
+msgid "Space Between Stars"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:53
+msgid "infolio Text Editor"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:112
+#: elements/widgets/text-editor/text-editor.php:186
+msgid "Text Editor"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:127
+#: elements/widgets/text-editor/text-editor.php:345
+msgid "Drop Cap"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:156
+msgid "Columns Gap"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:262
+msgid "Links Color"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:274
+msgid "Links Color Hover"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:295
+msgid "Links Typography"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:304
+msgid "Stroke Width"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:315
+msgid "Stroke Color"
+msgstr ""
+
+#: elements/widgets/text-editor/text-editor.php:326
+msgid "Links Hover Typography"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:67
+msgid "infolio Toggle Tabs"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:165
+msgid "Tab Title"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:184
+msgid "Icon Image"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:231
+msgid "Tabs Repeater"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:244
+msgid "Sub Heading Styles"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:292
+msgid "Heading Color"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:333
+msgid "Heading Styles"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:414
+msgid "Description Styles"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:461
+msgid "Card Styles"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:592
+msgid "Title Styles"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:619
+msgid "Number Margin"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:632
+msgid "Number Typography"
+msgstr ""
+
+#: elements/widgets/toggle-tabs/toggle-tabs.php:686
+msgid "Image Styles"
+msgstr ""
+
+#: elements/widgets/work-crus/work-crus.php:54
+msgid "Infolio Work Carsouel"
+msgstr ""
+
+#: elements/widgets/work-metro/work-metro.php:54
+msgid "Infolio Work Metro"
+msgstr ""
+
+#: elements/widgets/work-metro/work-metro.php:118
+msgid "Caption On Cursor Hover"
+msgstr ""
+
+#: elements/widgets/work-metro/work-metro.php:119
+msgid "Caption Under Image"
+msgstr ""
+
+#: elements/widgets/work-metro/work-metro.php:202
+msgid "Section Cursor Hover"
+msgstr ""
+
+#: elements/widgets/work-metro/work-metro.php:238
+msgid "Content Section Margin"
+msgstr ""
+
+#: inc/elemntor-extras.php:21
+msgid "Infolio Sticky Settings"
+msgstr ""
+
+#: inc/elemntor-extras.php:40
+msgid "Sticky"
+msgstr ""
+
+#: inc/elemntor-extras.php:44
+msgid "Top"
+msgstr ""
+
+#: inc/elemntor-extras.php:56
+msgid "Background Scroll"
+msgstr ""
+
+#: inc/elemntor-extras.php:86
+msgid "Scroll Shadow"
+msgstr ""
+
+#: inc/elemntor-extras.php:95
+msgid "Offset"
+msgstr ""
+
+#: inc/elemntor-extras.php:124
+msgid "Enable Gradient (3rd)"
+msgstr ""
+
+#: inc/elemntor-extras.php:136
+msgctxt "Background Control"
+msgid "Gradient Color"
+msgstr ""
+
+#: inc/elemntor-extras.php:139
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr ""
+
+#: infolio_plugin.php:53
+msgid ""
+"Infolio Plugin is not working because you are using an old version of "
+"Elementor."
+msgstr ""
+
+#: infolio_plugin.php:54
+msgid "Update Elementor Now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Infolio Theme Addons"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themeforest.net/user/themescamp/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This is plugin bundle for Infolio WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "themesCamp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/themescamp"
+msgstr ""

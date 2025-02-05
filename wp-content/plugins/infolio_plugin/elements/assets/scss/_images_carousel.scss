@@ -1,0 +1,55 @@
+.infolio-images-carousel{
+  &.clip-path{
+    clip-path: inset(-100vw -100vw -100vw 0);
+  }
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: visible;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    &.o-hidden{
+      overflow: hidden;
+    }
+  }
+  .change-opacity{
+    .icon-image{
+      opacity: .8;
+      &:hover{
+        opacity:1;
+      }
+    }
+  }
+  .icon-image{
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.infolio-images-carousel-center{
+  width: 130%;
+  margin-left: -15%;
+  .swiper-container {
+    overflow: visible;
+  }
+  .change-opacity{
+    .icon-image{
+      opacity: .8;
+      &:hover{
+        opacity:1;
+      }
+    }
+  }
+  .icon-image{
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+}
